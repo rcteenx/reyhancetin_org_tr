@@ -1,0 +1,71 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+/* Css Base for this project */
+@layer base {
+  body {
+    @apply text-sm md:text-base font-base text-slate;
+  }
+  h1 {
+    @apply my-6 leading-tight tracking-normal text-2xl font-bold md:text-3xl;
+  }
+  h2 {
+    @apply text-xl font-bold md:text-2xl my-4;
+  }
+  h3 {
+    @apply text-lg font-bold md:text-xl my-2;
+  }
+  h4,
+  h5,
+  h6 {
+    @apply my-1;
+  }
+  p {
+    @apply text-base my-1;
+  }
+
+  article h2 {
+    @apply text-blue-900;
+  }
+  article h3 {
+    @apply text-blue-800;
+  }
+}
+
+@layer components {
+  .btn-hero {
+    @apply flex justify-center items-center gap-2 px-8 py-2 md:px-12 md:py-4 border md:text-lg leading-none rounded-full border-primary;
+  }
+  .input {
+    @apply sm:flex-1 max-sm:w-full text-base leading-normal text-slate-gray pl-5 max-sm:p-5 outline-none sm:border-none border max-sm:border-slate-gray max-sm:rounded-full;
+  }
+}
+
+@layer utilities {
+  .container-p {
+    @apply px-4 md:px-8 lg:px-12;
+  }
+
+  .padding {
+    @apply sm:px-16 px-8 sm:py-24 py-12;
+  }
+
+  .info-text {
+    @apply text-slate-gray text-lg leading-8;
+  }
+}
+
+.box-shadow {
+  @media screen and (min-width: 1024px) {
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2),
+      0 4px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+}

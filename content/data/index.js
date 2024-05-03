@@ -4,23 +4,10 @@ export const contHero = {
   h1a: "YENİDEN TOPLANIYOR!",
   h1b: "Hazır mısınız?",
   // x: "Davetler başladı",
-  desc: "Bilinç ve farkındalık çalışmalarımız seminer, workshop, grup çalışmaları ve sohbetlerle kendimizi tanıma çalışmaları başlıyor.",
+  desc: "Bilinç ve farkındalık konulu sohbet, meditasyon ve grup çalışmalarıyla kendimizi keşfetme yolculuğumuz tekrar çevrim içi.",
   btn1: "Whatsapp",
   btn2: "Bilgi",
   quote: "Kendimizi ne kadar anlıyor ve gerçekliğimizi yaşayabiliyoruz?",
-};
-
-export const contBioHero = {
-  coral1: "Front-End Web Developer",
-  coral2: "& E-commerce Consultant",
-  fline: "Front-End Developer",
-  span: "TOOL BOX",
-  desc: "Hedefler doğrultusunda bilinçli olarak yapılandırılmamış web sayfaları, dijital dünyada fırsat kayıplarına neden oluyor",
-  btn1: "Bize Ulaşın",
-  btn2: "Bilgi Al",
-  quoteTitle: "<h1>Hello World!</h1>",
-  quote:
-    "This is a front-end web developer from Turkey. Thanks to modern frameworks such as Next JS and Tailwind CSS, it is fun & fast to build & maintain web applications. Let's build something together.",
 };
 
 export const arkadasList = [
@@ -48,6 +35,45 @@ export const arkadasList = [
     id: 5,
     title: "Bahar",
     link: "bahar",
+  },
+];
+
+export const meetings = [
+  {
+    id: 1,
+    title: "Farkındalık Sohbeti",
+    time: "Pazar 21:30",
+    link: "sohbet",
+    specs: [
+      "Bilgi Sohbeti",
+      "Yaratılış Işını",
+      "Objektif Dünya",
+      "Metafizik Deneyimler",
+    ],
+  },
+  {
+    id: 2,
+    title: "Meditasyon",
+    time: "Salı 21:30",
+    link: "meditasyon",
+    specs: [
+      "Metafizik Pratikler",
+      "Bilinç ve Fardakınlık Meditasyonu",
+      "Saf Farkındalık",
+      "Uyanış",
+    ],
+  },
+  {
+    id: 3,
+    title: "Grup Çalışması",
+    time: "Perşembe 21:00",
+    link: "grup",
+    specs: [
+      "Dünyevi Pratikler",
+      "Destek Çemberi",
+      "Kendini Anlama",
+      "H3 Işığı",
+    ],
   },
 ];
 

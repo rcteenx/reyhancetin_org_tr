@@ -34,17 +34,14 @@ export default function ReyhanPage() {
           <br />
           Pandemiyle (2020) beraber <strong>vazgeçme</strong> dönemi başladı.
         </p>
-        <p>
-          Halen Çanakkale'nin Biga ilçesinde ikamet ediyor.
-          <br />
-          Evli ve 3 çocuk babası.
-        </p>
+        <p>Halen Çanakkale'nin Biga ilçesinde ikamet ediyor.</p>
+        <p>Evli ve 3 çocuk babası.</p>
       </PageContent>
 
       <section className="bg-[#f7f7f7] px-4 py-16 md:py-24">
         <div className="container-p">
           <h2 className="text-2xl md:text-4xl font-bold text-center">
-            EZOTERİK REYHANLAR
+            EZOTERİK BENLİKLER
           </h2>
           <p className="text-center text-sm ">
             Bir "ben" vardır bende, benden içeru<sup>*</sup>
@@ -52,7 +49,7 @@ export default function ReyhanPage() {
           <div className="flex justify-center">
             <div className="flex flex-col md:flex-row space-x-0 md:space-x-4">
               <div className=" my-4 p-8 w-96 text-center max-w-md bg-white border">
-                <h3>H12 - REYHAN</h3>
+                <h3>BİLİNÇLİ REYHAN (H12)</h3>
                 <ul className="px-4 text-left list-disc">
                   <li>Gerçek Reyhan</li>
                   <li>H12 kaderi</li>
@@ -62,10 +59,10 @@ export default function ReyhanPage() {
                 </ul>
               </div>
               <div className=" my-4 p-8 w-96 text-center max-w-md bg-white border">
-                <h3>H6 - REYHAN</h3>
+                <h3>ÖZ-BENLİK (H6)</h3>
                 <ul className="px-4 text-left list-disc">
-                  <li>Reyhan ötesi</li>
-                  <li>Kaderin üstünde</li>
+                  <li>Olası tüm Reyhanlar</li>
+                  <li>Kaderlerin üzerinde </li>
                   <li>Bilemeyen</li>
                   <li>Sessiz</li>
                   <li>Dış etkilerle hareket eden</li>
@@ -90,16 +87,22 @@ export default function ReyhanPage() {
                 Elif'in Babası
               </li>
               <li className=" w-64 border px-12 py-8 text-center transition ease-in hover:bg-gray-100">
-                İnci'in Babası
+                İnci'nin Babası
               </li>
               <li className=" w-64 border px-12 py-8 text-center transition ease-in hover:bg-gray-100">
-                Kaan'in Babası
+                Kaan'ın Babası
+              </li>
+              <li className=" w-64 border px-12 py-8 text-center transition ease-in hover:bg-gray-100">
+                Babasının Oğlu
               </li>
               <li className=" w-64 border px-12 py-8 text-center transition ease-in hover:bg-gray-100">
                 Annesinin Oğlu
               </li>
               <li className=" w-64 border px-12 py-8 text-center transition ease-in hover:bg-gray-100">
                 Kardeşinin Abisi
+              </li>
+              <li className=" w-64 border px-12 py-8 text-center transition ease-in hover:bg-gray-100">
+                Dayısının Yeğeni
               </li>
               <li className=" w-64 border px-12 py-8 text-center transition ease-in hover:bg-gray-100">
                 Eski Koca
@@ -118,6 +121,9 @@ export default function ReyhanPage() {
               </li>
               <li className=" w-64 border px-12 py-8 text-center transition ease-in hover:bg-gray-100">
                 Beşiktaşlı
+              </li>
+              <li className=" w-64 border px-12 py-8 text-center transition ease-in hover:bg-gray-100">
+                Liberal
               </li>
             </ul>
           </div>

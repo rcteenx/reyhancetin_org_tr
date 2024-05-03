@@ -6,7 +6,7 @@ export default function FelsefePage() {
   return (
     <>
       <PageTitle>Ezoretik Felsefe Araştırma Ve Uygulama</PageTitle>
-      <PageImage bgImage="fMerhaba">Nerdesin</PageImage>
+      <PageImage bgImage="fMerhaba">Nerdesin*</PageImage>
       <PageContent h2Title="Neden Ezoterik Felsefe?">
         <p>
           Bildiğimiz haliyle insan, henüz tamamlanmamış bir varlık. Dahası, pek
@@ -59,7 +59,7 @@ export default function FelsefePage() {
 
       <section className="bg-[#f7f7f7] px-4 py-16 md:py-24">
         <h2 className="text-2xl md:text-4xl font-bold text-center">
-          TOPLULUK YAPILARI
+          TOPLULUK ETKİNLİKLERİ
         </h2>
         <p className="text-center text-sm ">
           Her insanın fiziksel varoluşunun üzerinde, başka benlikler var.
@@ -74,7 +74,7 @@ export default function FelsefePage() {
               </ul>
             </div>
             <div className=" my-4 p-8 w-96 text-center max-w-md bg-white border">
-              <h3>H6 - DOST SOHBETİ</h3>
+              <h3>H6 - DOST MECLİSİ</h3>
               <ul className="px-4 text-left list-disc">
                 <li>Birlikte Sohbet</li>
                 <li>Serbest Paylaşım</li>

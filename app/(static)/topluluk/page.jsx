@@ -59,21 +59,53 @@ export default function ToplulukPage() {
       </section>
 
       <section className="bg-white px-4 py-8 md:py-12  text-center">
-        <h2 className="text-2xl md:text-4xl font-bold ">Misyonumuz</h2>
+        <h2 className="text-2xl md:text-4xl font-bold ">İşte Hikayemiz</h2>
 
-        <p className="m-4">
-          We are a design-oriented team that cares deeply about nature,
-          innovation, and masterful execution.
-        </p>
+        <ul>
+          <li>
+            Hepimiz, saf farkındalığın kaynağı olan “öz benliği” sayesinde
+            bilinçli bir varlık olarak ortaya çıktık.
+          </li>
+          <li>
+            Çalışmalarımız; bedenin, duyguların, zihnin ötesine, önce bilince ve
+            sonra da saf farkındalığa bir yolculuk.
+          </li>
+        </ul>
       </section>
 
       <section className="bg-slate2 px-4 py-8 md:py-12  text-center text-white">
-        <h2 className="text-2xl md:text-4xl font-bold ">Değerlerimiz</h2>
+        <h2 className="text-2xl md:text-4xl font-bold ">Misyonumuz</h2>
 
-        <p className="m-4">
-          We are a design-oriented team that cares deeply about nature,
-          innovation, and masterful execution.
+        <ul>
+          <li>Öz benliklerimizin birbirine kavuşması.</li>
+        </ul>
+      </section>
+
+      <section className="bg-[#f7f7f7] px-4 py-16 md:py-24">
+        <h2 className="text-2xl md:text-4xl font-bold text-center">
+          TOPLULUK ETKİNLİKLERİ
+        </h2>
+        <p className="text-center text-sm ">
+          Her insanın fiziksel varoluşunun üzerinde, başka benlikler var.
         </p>
+        <div className="flex justify-center">
+          <div className="flex flex-col md:flex-row space-x-0 md:space-x-4">
+            <div className=" my-4 p-8 w-96 text-center max-w-md bg-white border">
+              <h3>H12 - ÇALIŞMA GRUBU</h3>
+              <ul className="px-4 text-left list-disc">
+                <li>Bilinç Çalışmaları</li>
+                <li>Kişisel Gözlem Paylaşımı</li>
+              </ul>
+            </div>
+            <div className=" my-4 p-8 w-96 text-center max-w-md bg-white border">
+              <h3>H6 - DOST MECLİSİ</h3>
+              <ul className="px-4 text-left list-disc">
+                <li>Birlikte Sohbet</li>
+                <li>Serbest Paylaşım</li>
+              </ul>
+            </div>
+          </div>
+        </div>
       </section>
 
       <SubPages subPage={StaticPages[2]} />

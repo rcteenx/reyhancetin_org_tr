@@ -19,14 +19,14 @@ export default function ReyhanPage() {
         </p>
         <p>
           Pandemi dönemi pek çok çalışmayı durdurmama sebep oldu. Sessizlik
-          dönemine ve kendim sandığım bilinçten vazgeçmeye yol açtı.
+          dönemine ve kendim sandığım bilincin ötesine kapı açtı.
         </p>
         <p>
           Şimdi kendimizi bulabileceğimiz ve kendimiz olabileceğimiz bir alan
           oluşturuyoruz. Sadece "<strong>çalışma</strong>" değil; aynı zamanda
           sevgi, anlayış, şefkat, muhabbet ve arkadaşlık için.
         </p>
-        <p>Sevgilerle.</p>
+        <p>Sevgilerle...</p>
       </PageContent>
 
       <SubPages subPage={StaticPages[0]} />

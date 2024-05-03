@@ -34,7 +34,7 @@ export default function ReyhanPage() {
       <section className="px-4 py-12 md:py-24">
         <div className="container-p">
           <h2 className="text-2xl md:text-4xl font-bold text-center">
-            ARKADAŞLAR LİSTESİ
+            KULÜP ÜYE ADAYLARI
           </h2>
           <div className="mt-12">
             <ul className="flex flex-wrap justify-center  gap-4">

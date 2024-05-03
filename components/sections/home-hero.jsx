@@ -10,29 +10,30 @@ const Hero = () => {
     >
       <div className="xl:w-1/2 xl:pr-2 text-center xl:text-left">
         <h2 className="mb-4 font-medium text-center lg:text-left md:text-lg lg:text-3xl text-primary">
-          {contHero.coral1}
+          {contHero.h2a}
           <br />
           <span className="font-normal text-xs md:text-sm lg:text-xl">
-            {contHero.coral2}
+            {contHero.h2b}
           </span>
         </h2>
         <hr className="md:hidden" />
         <h1 className="text-3xl sm:text-4xl md:text-6xl lg:text-7xl font-bold ">
           <span className="xl:bg-white xl:whitespace-nowrap relative z-10 xl:pr-12 rounded-full">
-            {contHero.fline}
+            {contHero.h1a}
           </span>
           <br />
           <span className="text-primary inline-block xl:my-4">
-            {contHero.span}
+            {contHero.h1b}
           </span>
         </h1>
-        <p className="text-xs md:text-lg text-slate-gray leading-4 ">
-          {contHero.desc1}
-          <br />
-          {contHero.desc2}
+        <p className="px-8 md:px-0 text-xs md:text-lg text-slate-gray leading-4 ">
+          {contHero.desc}
         </p>
         <div className="flex my-8 flex-row space-x-4 justify-center xl:justify-start">
-          <a href="#footer" className="btn-hero bg-primary text-white">
+          <a
+            href="https://wa.me/905443087402"
+            className="btn-hero bg-primary text-white"
+          >
             {contHero.btn1}
             <IconComponent name="arrowright" size={18} color="white" />
           </a>

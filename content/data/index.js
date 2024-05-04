@@ -41,39 +41,24 @@ export const arkadasList = [
 export const meetings = [
   {
     id: 1,
-    title: "Farkındalık Sohbeti",
+    title: "Sohbet",
     time: "Pazar 21:30",
     link: "sohbet",
-    specs: [
-      "Bilgi Sohbeti",
-      "Yaratılış Işını",
-      "Objektif Dünya",
-      "Metafizik Deneyimler",
-    ],
+    specs: ["Temel Bilgiler", "Ezoterik Kavramlar", "Kendimizi Bulma"],
   },
   {
     id: 2,
     title: "Meditasyon",
     time: "Salı 21:30",
     link: "meditasyon",
-    specs: [
-      "Metafizik Pratikler",
-      "Bilinç ve Fardakınlık Meditasyonu",
-      "Saf Farkındalık",
-      "Uyanış",
-    ],
+    specs: ["Metafizik Pratikler", "Saf Farkındalık", "Kendimiz Olma"],
   },
   {
     id: 3,
     title: "Grup Çalışması",
     time: "Perşembe 21:00",
     link: "grup",
-    specs: [
-      "Dünyevi Pratikler",
-      "Destek Çemberi",
-      "Kendini Anlama",
-      "H3 Işığı",
-    ],
+    specs: ["Gözlem Paylaşımı", "Destek Çemberi", "Kendimizi Çalışma"],
   },
 ];
 

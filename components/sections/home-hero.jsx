@@ -31,7 +31,7 @@ const Hero = () => {
         </p>
         <div className="flex my-8 flex-row space-x-4 justify-center xl:justify-start">
           <a
-            href="https://wa.me/905443087402?text=seminer%20bilgisi"
+            href="https://wa.me/905443087402"
             className="btn-hero bg-primary text-white"
           >
             {contHero.btn1}

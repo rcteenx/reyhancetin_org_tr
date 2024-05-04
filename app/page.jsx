@@ -21,7 +21,7 @@ export default function Home() {
           <h2 className="text-2xl md:text-4xl font-bold text-center">
             İLERİ ÇALIŞMALAR
           </h2>
-          <p className="text-center text-sm ">
+          <p className="my-4 text-center text-sm ">
             Daha önce grup çalışmalarımıza katılmış ve yol almış arkadaşlar
             için.
           </p>

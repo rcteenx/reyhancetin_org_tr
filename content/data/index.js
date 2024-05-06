@@ -72,7 +72,7 @@ export const meetings = [
   {
     id: 3,
     title: "Grup Çalışması",
-    fulltitle: "Ezoterik Felsefe Araştırma ve Uygulama Grup Çalışması",
+    fulltitle: "Olağan Hayatımızda Çalışma: Gözlem Paylaşımı",
     time: "Perşembe 21:00",
     link: "grup",
     specs: [

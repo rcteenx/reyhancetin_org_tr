@@ -1,8 +1,10 @@
 import smd from "@/content/data/siteMetaData";
 import PageTitle from "@/components/templates/pageTitle";
+import { rVideo } from "@/public/assets/images";
 import Hero from "@/components/sections/home-hero";
 
-import { meetings } from "@/content/data";
+import { conditions, meetings } from "@/content/data";
+import ImageList from "@/components/ui/image-list";
 import Cards from "@/components/ui/cards";
 
 export async function generateMetadata() {
@@ -15,7 +17,6 @@ export default function Home() {
   return (
     <>
       <Hero />
-
       <div className="bg-slate py-16 text-white">
         <div className=" container mx-auto">
           <h2 className="text-2xl md:text-4xl text-center">
@@ -54,18 +55,8 @@ export default function Home() {
         </div>
       </div>
 
-      <section className="bg-[#f7f7f7] px-4 py-16 md:py-24">
-        <div className="container-p">
-          <h2 className="text-2xl md:text-4xl font-bold text-center">
-            DÜZENLİ ÇALIŞMALAR
-          </h2>
-          <p className="my-4 text-center text-sm ">
-            Düzenli çalışmalarımıza, öncelikle temel niteliğinde olan
-            "workshop"a katılan ve başarılı olanlar devam edebilir.
-          </p>
-          <Cards meetings={meetings} />
-        </div>
-      </section>
+      <ImageList con={conditions} />
+      <Cards meetings={meetings} />
     </>
   );
 }

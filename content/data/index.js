@@ -3,40 +3,30 @@ export const contHero = {
   h2b: "Ezoterik Felsefe Araştırma ve Uygulama Topluluğu",
   h1a: "YENİDEN TOPLANIYOR!",
   h1b: "Hazır mısınız?",
-  // x: "Davetler başladı",
   desc: "Bilinç ve farkındalık konulu sohbet, meditasyon ve grup çalışmalarıyla kendimizi keşfetme yolculuğumuz tekrar çevrim içi.",
   btn1: "Whatsapp",
   btn2: "Bilgi",
   quote: "Kendimizi ne kadar anlıyor ve gerçekliğimizi yaşayabiliyoruz?",
 };
 
-export const arkadasList = [
-  {
-    id: 1,
-    title: "Serkan",
-    link: "serkan",
-  },
-  {
-    id: 2,
-    title: "Aslı",
-    link: "aslı",
-  },
-  {
-    id: 3,
-    title: "Veysel",
-    link: "aslı",
-  },
-  {
-    id: 4,
-    title: "Tuğba",
-    link: "tugba",
-  },
-  {
-    id: 5,
-    title: "Bahar",
-    link: "bahar",
-  },
-];
+export const conditions = {
+  h2: "Sürekli Çalışmalarımıza Katılım Koşulları",
+  p: "Çalışmalar ortak bir dil, belli bir varlık seviyesi ve deneyim gerektirdiği için, belli koşulları sağlayanların dahil olması gerekiyor",
+  items: [
+    {
+      title: "Ortak Dil",
+      info: "Katılımcıların kelimelerle anlaşabilmek için, kelimelerin işaret ettiği kavramlar konusunda az çok aynı anlayışta olması gerekiyor. Bu bağlamda hepimiz ortak bir terminolojiyi öğreniyor ve çalışmalarda kullanıyoruz.",
+    },
+    {
+      title: "Varlık Seviyesi",
+      info: "Bilgi, ancak uygun bir varlık seviyesi ile deneyimlenince anlayışa dönüşebiliyor. Bu bağlamda, katılımcıların hem hayatsal hem de bilinç/farkındalık alanında belli bir varlık kazanmış olması gerekiyor.",
+    },
+    {
+      title: "Deneyim",
+      info: "Bu çalışmalar kişilerin hayatla ilgili deneyimlerinin sorgulanmasına ve çalışılmasına dayanıyor. Bu bağlamda, katılımcıların belli bir yaş ve buna bağlı kazanılan deneyimlere sahip olması bekleniyor.",
+    },
+  ],
+};
 
 export const meetings = [
   {
@@ -91,10 +81,7 @@ export const StaticPages = [
     id: 1,
     title: "Reyhan",
     link: "reyhan",
-    pages: [
-      { id: 1, title: "reyhan kim?", link: "kimim" },
-      { id: 2, title: "arkadaslar", link: "arkadaslar" },
-    ],
+    pages: [{ id: 1, title: "reyhan kim?", link: "kimim" }],
   },
   {
     id: 2,
@@ -109,13 +96,11 @@ export const StaticPages = [
   },
   {
     id: 3,
-    title: "Topluluk",
-    link: "topluluk",
+    title: "Çalışmalar",
+    link: "calismalar",
     pages: [
-      { id: 1, title: "davet", link: "davet" },
-      { id: 2, title: "yapı", link: "yapi" },
-      { id: 3, title: "çalışmalar", link: "calismalar" },
-      { id: 4, title: "sss", link: "sss" },
+      { id: 1, title: "giriş atölyeleri", link: "giris" },
+      { id: 2, title: "sürekli çalışmalar", link: "surekli" },
     ],
   },
   {
@@ -137,25 +122,11 @@ export const socialMedia = [
   {
     svgIcon: "instagram",
     alt: "instagram logo",
-    link: "https://www.instagram.com/reyhancetinx",
+    link: "https://www.instagram.com/reyhancetinve",
   },
   {
     svgIcon: "facebook",
     alt: "facebook logo",
-    link: "https://www.facebook.com/reyhancetinx",
+    link: "https://www.facebook.com/reyhancetinve",
   },
-];
-
-export const skillBar = [
-  { id: 1, label: "Javascript - React & Next", percent: "85" },
-  { id: 1, label: "Tailwind CSS", percent: "90" },
-  { id: 1, label: "HTML & CSS", percent: "95" },
-  { id: 1, label: "Semantic Web & SEO", percent: "90" },
-  { id: 1, label: "UI & UX Design", percent: "80" },
-  { id: 1, label: "Business Logic", percent: "95" },
-  { id: 1, label: "Algorithmic & Critical Thinking", percent: "90" },
-  { id: 1, label: "Problem Solving & Communication", percent: "85" },
-  { id: 1, label: "Time Management & Teamwork", percent: "80" },
-  { id: 1, label: "Turkish", percent: "100" },
-  { id: 1, label: "English", percent: "90" },
 ];

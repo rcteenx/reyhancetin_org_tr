@@ -3,13 +3,20 @@ import PageTitle from "@/components/templates/pageTitle";
 import { rVideo } from "@/public/assets/images";
 import Hero from "@/components/sections/home-hero";
 
-import { barInfo, conditions, meetingTitle, meetingList } from "@/content/data";
+import {
+  barInfo,
+  conditions,
+  meetingTitle,
+  meetingList,
+  socialMedia,
+} from "@/content/data";
 import Bar from "@/components/ui/bar";
 import ImageList from "@/components/ui/image-list";
 import CardList from "@/components/ui/cards";
 import Seperator from "@/components/ui/seperator";
 import InfoPage from "@/components/ui/info-page";
 import Faq from "@/components/ui/x_faq";
+import Contact from "@/components/ui/contact";
 
 export async function generateMetadata() {
   return {
@@ -27,8 +34,10 @@ export default function Home() {
       <InfoPage />
 
       <CardList cardTitle={meetingTitle} cardList={meetingList} />
-      <Faq />
+      {/* <Faq /> */}
       <Seperator />
+
+      <Contact items={socialMedia} />
     </>
   );
 }

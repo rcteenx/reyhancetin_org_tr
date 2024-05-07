@@ -32,17 +32,17 @@ const Hero = () => {
         <div className="flex my-8 flex-row space-x-4 justify-center xl:justify-start">
           <a
             href="https://wa.me/905443087402"
-            className="btn-hero bg-primary text-white"
+            className="btn-hero bg-slate text-white"
           >
             {contHero.btn1}
             <IconComponent name="arrowright" size={18} color="white" />
           </a>
           <a
             href="https://rcteenx.com/cv/index.html"
-            className="btn-hero bg-white text-primary hover:border-b"
+            className="btn-hero bg-white text-slate border-slate"
           >
             <div className="bg-primary rounded-full p-1 mr-2">
-              <IconComponent name="regfilealt" size={18} color="white" />
+              <IconComponent name="regfilealt" size={18} fill="#ffffff" />
             </div>
             {contHero.btn2}
           </a>

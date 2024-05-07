@@ -4,7 +4,7 @@ export const contHero = {
   h1a: "YENİDEN TOPLANIYOR!",
   h1b: "Hazır mısınız?",
   desc: "Bilinç ve farkındalık konulu sohbet, meditasyon ve grup çalışmalarıyla kendimizi keşfetme yolculuğumuz tekrar çevrim içi.",
-  btn1: "Whatsapp",
+  btn1: "Mesaj Gönder",
   btn2: "Bilgi",
   quote: "Kendimizi ne kadar anlıyor ve gerçekliğimizi yaşayabiliyoruz?",
 };
@@ -147,13 +147,15 @@ export const StaticPages = [
 
 export const socialMedia = [
   {
-    svgIcon: "instagram",
-    alt: "instagram logo",
-    link: "https://www.instagram.com/reyhancetinve",
-  },
-  {
+    id: 1,
     svgIcon: "facebook",
     alt: "facebook logo",
     link: "https://www.facebook.com/reyhancetinve",
+  },
+  {
+    id: 2,
+    svgIcon: "instagram",
+    alt: "instagram logo",
+    link: "https://www.instagram.com/reyhancetinve",
   },
 ];

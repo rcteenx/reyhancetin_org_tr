@@ -42,7 +42,7 @@
 
 @layer components {
   .btn-hero {
-    @apply flex justify-center items-center gap-2 px-8 py-2 md:px-12 md:py-4 border md:text-lg leading-none rounded-full border-primary;
+    @apply flex justify-center items-center gap-2 px-8 py-2 md:px-12 md:py-4 border border-slate md:text-lg leading-none rounded-full;
   }
   .input {
     @apply sm:flex-1 max-sm:w-full text-base leading-normal text-slate-gray pl-5 max-sm:p-5 outline-none sm:border-none border max-sm:border-slate-gray max-sm:rounded-full;

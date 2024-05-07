@@ -19,8 +19,8 @@ import {
 
 const iconTypes = {
   facebook: FaFacebook,
-  github: FaGithub,
   instagram: FaInstagram,
+  github: FaGithub,
   linkedin: FaLinkedin,
   arrowright: FaArrowRight,
   regfilealt: FaRegFileAlt,

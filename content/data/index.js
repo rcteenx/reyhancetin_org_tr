@@ -9,6 +9,28 @@ export const contHero = {
   quote: "Kendimizi ne kadar anlıyor ve gerçekliğimizi yaşayabiliyoruz?",
 };
 
+export const barInfo = {
+  h2: "Hayatın İçinde Bilinç ve Farkındalık Çalışmaları",
+  items: [
+    {
+      title: "Çalışma",
+      info: "25 yıl",
+    },
+    {
+      title: "Katılımcı",
+      info: "10.000",
+    },
+    {
+      title: "Seminer",
+      info: "1.000",
+    },
+    {
+      title: "Grup Çalışması",
+      info: "100",
+    },
+  ],
+};
+
 export const conditions = {
   h2: "Sürekli Çalışmalarımıza Katılım Koşulları",
   p: "Çalışmalar ortak bir dil, belli bir varlık seviyesi ve deneyim gerektirdiği için, belli koşulları sağlayanların dahil olması gerekiyor",
@@ -28,7 +50,12 @@ export const conditions = {
   ],
 };
 
-export const meetings = [
+export const meetingTitle = {
+  h2: "HAFTALIK SÜREKLİ ÇALIŞMALAR",
+  p: 'Düzenli çalışmalarımıza, öncelikle temel niteliğinde olan "workshop"a katılan ve başarılı olanlar devam edebilir.',
+};
+
+export const meetingList = [
   {
     id: 1,
     title: "Sohbet",

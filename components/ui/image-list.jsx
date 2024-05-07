@@ -1,6 +1,4 @@
-import { rVideo } from "@/public/assets/images";
-
-export default function ImageList({ con }) {
+export default function ImageList({ img, con }) {
   return (
     <div id="info" className="bg-white py-10">
       <div className="container mx-auto">
@@ -11,7 +9,7 @@ export default function ImageList({ con }) {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 mt-8 items-center">
           <div className="overflow-hidden rounded-3xl hidden lg:block">
             <img
-              src={rVideo.src}
+              src={img.src}
               alt="img colletion"
               width="w-full"
               height={400}

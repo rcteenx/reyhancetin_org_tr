@@ -9,7 +9,7 @@ const imageStyles = cva(
         default: "bg-rMerhaba",
         rMerhaba: "bg-rMerhaba",
         fMerhaba: "bg-fMerhaba",
-        tMerhaba: "bg-tMerhaba",
+        cMerhaba: "bg-cMerhaba",
         iMerhaba: "bg-iMerhaba",
       },
     },

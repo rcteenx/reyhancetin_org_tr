@@ -9,7 +9,7 @@ export default function ToplulukPage() {
   return (
     <>
       <PageTitle>Reyhan Çetin Arkadaş Topluluğu</PageTitle>
-      <PageImage bgImage="tMerhaba">Seni Bekliyoruz</PageImage>
+      <PageImage bgImage="cMerhaba">Seni Bekliyoruz</PageImage>
       <PageContent h2Title="Arkadaş Topluluğu">
         <p>Reyhan Çetin ve arkadaşları</p>
         <p>

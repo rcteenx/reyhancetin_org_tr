@@ -18,8 +18,9 @@ export default function ReyhanPage() {
           Binlerce katılımcıya seminer verdim ve yüzlerce çalışmayı yönettim.
         </p>
         <p>
-          Pandemi dönemi pek çok çalışmayı durdurmama sebep oldu. Sessizlik
-          dönemine ve kendim sandığım bilincin ötesine kapı açtı.
+          Pandemi dönemi pek çok çalışmayı durdurmama sebep oldu. Sessizlik ve
+          uyku dönemi, kendim sandığım bilincin ötesine saf farkındalık ve
+          ötesine yeni kapılar açıldı.
         </p>
         <p>
           Şimdi kendimizi bulabileceğimiz ve kendimiz olabileceğimiz bir alan

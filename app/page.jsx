@@ -9,7 +9,7 @@ import {
   conditions,
   socialMedia,
 } from "@/content/data";
-import { rVideo } from "@/public/assets/images";
+import { rcHero, rVideo } from "@/public/assets/images";
 
 import Hero from "@/components/sections/home/1-hero";
 import InfoBar from "@/components/sections/home/2-info-bar";
@@ -37,7 +37,7 @@ export default function Home() {
       <InfoBar info={barInfo} />
 
       <WhatWeGain img={rVideo} gain={whatwegain} />
-      <WhyWeNeed img={rVideo} need={whyweneed} />
+      <WhyWeNeed need={whyweneed} />
       <WeeklyMeetings title={meetingTitle} meetingList={meetingList} />
 
       <AttendenceContitions img={rVideo} con={conditions} />

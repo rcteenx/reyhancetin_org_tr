@@ -1,4 +1,4 @@
-export default function WhyWeNeed({ img, need }) {
+export default function WhyWeNeed({ need }) {
   return (
     <div id="info" className="px-4 pb-8 border-b shadow-lg">
       <div className="container mx-auto p-4 border-2 border-slate rounded-2xl">

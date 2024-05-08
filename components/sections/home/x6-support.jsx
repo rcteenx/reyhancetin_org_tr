@@ -1,4 +1,4 @@
-export default function Seperator() {
+export default function Support() {
   return (
     <section className="py-[60px] px-5 sm:px-0 bg-purple-300 bg-livechat1 bg-center bg-cover bg-no-repeat relative  ">
       <div className="container mx-auto relative z-10 text-white">

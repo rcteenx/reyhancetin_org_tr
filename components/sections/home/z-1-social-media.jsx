@@ -1,22 +1,23 @@
 import IconComponent from "@/components/ui/icons/icons";
 
-export default function Contact({ items }) {
+export default function SocialMedia({ items }) {
   return (
-    <section className="container mx-auto my-24">
-      <div className="text-center text-2xl lg:text-4xl">
-        Birlikte yol almak için{" "}
-        <span className="font-bold">"sosyal medya"dayız!</span>
+    <section className="container mx-auto my-16 lg:my-24">
+      <div className="px-8">
+        <div className="text-center text-2xl lg:text-4xl">
+          İçsel yolculuğumuzu paylaşmak için
+          <span className="font-bold">"sosyal medya"dayız!</span>
+        </div>
+        <div className="text-center mt-4 text-base md:text-xl">
+          Karşılıklı etkileşim için sosyal medya sayfalarımıza bekliyoruz.
+        </div>
       </div>
-      <div className="text-center mt-4 text-base md:text-xl">
-        Karşılıklı etkileşim ve paylaşım için sosyal medya sayfalarımıza
-        bekliyoruz
-      </div>
-      <div className="grid sm:grid-cols-2 gap-10 mt-8 max-w-4xl mx-auto px-8">
+      <div className="grid grid-cols-2 gap-8 mt-8 max-w-4xl mx-auto px-8">
         {items.map((i) => (
           <div key={i.id}>
             <a
               href={i.link}
-              className="group live-help-button flex sm:block items-center justify-center gap-8 hover:bg-white p-10 hover:shadow-[3px_4px_20px_0_rgba(0,0,0,.15)] rounded transition-all text-center"
+              className="group flex sm:block items-center justify-center gap-8 hover:bg-white p-10 hover:shadow-[3px_4px_20px_0_rgba(0,0,0,.15)] rounded transition-all text-center"
               target="_blank"
             >
               <div className="flex justify-center h-14 items-center">
@@ -25,6 +26,7 @@ export default function Contact({ items }) {
                   size={96}
                   color="#333366"
                   alt={i.alt}
+                  title={i.alt}
                 />
               </div>
             </a>

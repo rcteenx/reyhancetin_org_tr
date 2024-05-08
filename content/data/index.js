@@ -3,8 +3,8 @@ export const contHero = {
   h2b: "Ezoterik Felsefe Araştırma ve Uygulama Topluluğu",
   h1a: "YENİDEN TOPLANIYOR!",
   h1b: "Hazır mısınız?",
-  desc: "Bilinç ve farkındalık konulu sohbet, meditasyon ve grup çalışmalarıyla kendimizi keşfetme yolculuğumuz tekrar çevrim içi.",
-  btn1: "Mesaj Gönder",
+  desc: "Bilinç ve farkındalık konulu sohbet, meditasyon ve grup çalışmalarımızla içsel yolculuğumuz tekrar çevrim içi.",
+  btn1: "Katıl",
   btn2: "Bilgi",
   quote: "Kendimizi ne kadar anlıyor ve gerçekliğimizi yaşayabiliyoruz?",
 };
@@ -31,27 +31,34 @@ export const barInfo = {
   ],
 };
 
-export const conditions = {
-  h2: "Sürekli Çalışmalarımıza Katılım Koşulları",
-  p: "Çalışmalar ortak bir dil, belli bir varlık seviyesi ve deneyim gerektirdiği için, belli koşulları sağlayanların dahil olması gerekiyor",
+export const whyweneed = {
+  h2: "Neden Kendimizi Tanımaya ve İçsel Yolculuğa İhtiyacımız var?",
+  p: "Pek çok kişi için böyle bir ihtiyaç yok: Ancak, pek az kişi, bambaşka sebeplerle ve doğal olarak kendi üzerlerinde çalışmaya başlıyor. ",
+  p2: "Bu çalışma daveti, zaten kendisine doğru içsel bir yolculuğa başlamış olanlar için.",
+};
+
+export const whatwegain = {
+  h2: "Birlikte Yaptığımız Çalışmalar Ne Kazandırıyor",
+  p: "Pek çok kişi için böyle bir ihtiyaç yok: Ancak, pek az kişi, bambaşka sebeplerle ve doğal olarak kendi üzerlerinde çalışmaya başlıyor. ",
+  p2: "Bu çalışma daveti, zaten kendisine doğru içsel bir yolculuğa başlamış olanlar için.",
   items: [
     {
-      title: "Ortak Dil",
-      info: "Katılımcıların kelimelerle anlaşabilmek için, kelimelerin işaret ettiği kavramlar konusunda az çok aynı anlayışta olması gerekiyor. Bu bağlamda hepimiz ortak bir terminolojiyi öğreniyor ve çalışmalarda kullanıyoruz.",
+      title: "Bilinç",
+      info: "Kendimizi bilinçli varlıklar olarak görüyoruz, ama bilincimizin farkında mıyız? Bilinç bir anlamda rastgele içimizde beliriyor. Bilincinizi fark etmeyi ve bunu farkındalıkla yönetmeyi istemez misiniz?",
     },
     {
-      title: "Varlık Seviyesi",
-      info: "Bilgi, ancak uygun bir varlık seviyesi ile deneyimlenince anlayışa dönüşebiliyor. Bu bağlamda, katılımcıların hem hayatsal hem de bilinç/farkındalık alanında belli bir varlık kazanmış olması gerekiyor.",
+      title: "Farkındalık",
+      info: "Saf farkındalık, tüm duyu, duygu ve düşüncelerin ötesinde asıl varlığımızın bulunduğu bir alan. Ancak bize yüklenen tanımlar ve programlar nedeniyle kendimizden oldukça uzakta yaşıyoruz.",
     },
     {
-      title: "Deneyim",
-      info: "Bu çalışmalar kişilerin hayatla ilgili deneyimlerinin sorgulanmasına ve çalışılmasına dayanıyor. Bu bağlamda, katılımcıların belli bir yaş ve buna bağlı kazanılan deneyimlere sahip olması bekleniyor.",
+      title: "Kendini Tanıma ve Kendin Olma",
+      info: "Tüm arayış çalışmaları, insanın kendisini sorgulamaya başlamasına dayanıyor. Böyle bir sorgulama ateşi başladıysa, kendinizi bulana kadar devam edecek bir yangına dönüşüyor.",
     },
   ],
 };
 
 export const meetingTitle = {
-  h2: "HAFTALIK SÜREKLİ ÇALIŞMALAR",
+  h2: "HAFTALIK TOPLANTILAR",
   p: 'Düzenli çalışmalarımıza, öncelikle temel niteliğinde olan "workshop"a katılan ve başarılı olanlar devam edebilir.',
 };
 
@@ -103,6 +110,25 @@ export const meetingList = [
   },
 ];
 
+export const conditions = {
+  h2: "Haftalık Düzenli Çalışmalarımıza Katılım Koşulları",
+  p: "Çalışmaların gerektirdiği ortak bir dil, belli bir varlık seviyesi ve deneyimin sağlayanması için atölye çalışmalarımıza davet ediyoruz.",
+  items: [
+    {
+      title: "Ortak Dil",
+      info: "Katılımcıların kelimelerle anlaşabilmek için, kelimelerin işaret ettiği kavramlar konusunda az çok aynı anlayışta olması gerekiyor. Bu bağlamda hepimiz ortak bir terminolojiyi öğreniyor ve çalışmalarda kullanıyoruz.",
+    },
+    {
+      title: "Varlık Seviyesi",
+      info: "Bilgi, ancak uygun bir varlık seviyesi ile deneyimlenince anlayışa dönüşebiliyor. Bu bağlamda, katılımcıların hem hayatsal hem de bilinç/farkındalık alanında belli bir varlık kazanmış olması gerekiyor.",
+    },
+    {
+      title: "Deneyim",
+      info: "Bu çalışmalar kişilerin hayatla ilgili deneyimlerinin sorgulanmasına ve çalışılmasına dayanıyor. Bu bağlamda, katılımcıların belli bir yaş ve buna bağlı kazanılan deneyimlere sahip olması bekleniyor.",
+    },
+  ],
+};
+
 export const StaticPages = [
   {
     id: 1,
@@ -150,12 +176,14 @@ export const socialMedia = [
     id: 1,
     svgIcon: "facebook",
     alt: "facebook logo",
+    title: "facebook sayfamıza bekleriz",
     link: "https://www.facebook.com/reyhancetinve",
   },
   {
     id: 2,
     svgIcon: "instagram",
     alt: "instagram logo",
+    title: "instagram sayfamıza bekleriz",
     link: "https://www.instagram.com/reyhancetinve",
   },
 ];

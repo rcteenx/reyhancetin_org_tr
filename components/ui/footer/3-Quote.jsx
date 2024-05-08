@@ -1,9 +1,9 @@
 import { socialMedia } from "@/content/data";
 import IconComponent from "@/components/ui/icons/icons";
 
-export default function FooterSocial() {
+export default function FooterQuote() {
   return (
-    <div className="flex flex-col md:flex-row  justify-between items-start">
+    <div className="flex flex-col md:flex-row  justify-between items-end">
       {/* <div className="flex items-center gap-5 mt-4">
         {socialMedia.map((icon) => (
           <div
@@ -17,7 +17,8 @@ export default function FooterSocial() {
         ))}
       </div> */}
       <p className="text-left text-sm text-white-400">
-        Kendimizi deneyimleyebileceğiniz bir alan!
+        Kendimizi deneyimleyebileceğiniz ve kendimiz olabileceğimiz bir alan
+        açıyoruz.
       </p>
     </div>
   );

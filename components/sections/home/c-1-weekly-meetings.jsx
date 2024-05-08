@@ -1,25 +1,25 @@
-export default function CardList({ cardTitle, cardList }) {
+export default function WeeklyMeetings({ title, meetingList }) {
   return (
     <section className="bg-[#f7f7f7] px-4 py-16">
       <div className="container-p">
         <h2 className="text-2xl md:text-4xl font-bold text-center">
-          {cardTitle.h2}
+          {title.h2}
         </h2>
-        <p className="my-4 text-center text-sm ">{cardTitle.p}</p>
+        <p className="my-4 text-center text-sm ">{title.p}</p>
         <div className="flex justify-center">
           <div className="flex flex-col md:flex-row space-y-4 md:space-y-0 space-x-0 md:space-x-4 w-full justify-center">
-            {cardList.map((c) => (
+            {meetingList.map((m) => (
               <div
-                key={c.id}
+                key={m.id}
                 className="p-8 md:w-96 bg-white border border-purple-300 rounded-lg shadow hover:bg-purple-300"
               >
                 <div className="flex justify-between">
-                  <h3 className="text-xl font-bold">{c.title}</h3>
-                  <h5 className="mt1 text-xs">{c.time}</h5>
+                  <h3 className="text-xl font-bold">{m.title}</h3>
+                  <h5 className="mt1 text-xs">{m.time}</h5>
                 </div>
-                <p className="text-xs">{c.fulltitle}</p>
+                <p className="text-xs">{m.fulltitle}</p>
                 <ul className="px-4 my-3 text-left list-disc">
-                  {c.specs.map((s, index) => (
+                  {m.specs.map((s, index) => (
                     <li key={index} className="text-sm">
                       {s}
                     </li>

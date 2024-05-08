@@ -3,7 +3,7 @@ import Link from "next/link";
 import PageTitle from "@/components/templates/pageTitle";
 import PageImage from "@/components/templates/pageImage";
 import PageContent from "@/components/templates/pageContent";
-import SubPages from "@/components/sections/sub-menu";
+import SubPages from "@/components/sections/common/sub-pages";
 import { StaticPages } from "@/content/data";
 
 export default function ReyhanPage() {

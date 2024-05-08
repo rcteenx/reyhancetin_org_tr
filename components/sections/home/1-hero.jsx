@@ -1,8 +1,6 @@
-import { contHero, statistics } from "@/content/data";
-import { rVideo } from "@/public/assets/images";
+import { contHero } from "@/content/data";
 import IconComponent from "@/components/ui/icons/icons";
-
-const Hero = () => {
+const Hero = ({ rVideo }) => {
   return (
     <section
       id="hero"
@@ -37,14 +35,9 @@ const Hero = () => {
             {contHero.btn1}
             <IconComponent name="arrowright" size={18} color="white" />
           </a>
-          <a
-            href="https://rcteenx.com/cv/index.html"
-            className="btn-hero bg-white text-slate border-slate"
-          >
-            <div className="bg-primary rounded-full p-1 mr-2">
-              <IconComponent name="regfilealt" size={18} fill="#ffffff" />
-            </div>
-            {contHero.btn2}
+          <a href="#" className="btn-hero border-0">
+            {/* className="pb-2 border-b-2 border-slate" */}
+            <span>{contHero.btn2}</span>
           </a>
         </div>
       </div>

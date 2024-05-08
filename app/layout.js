@@ -5,7 +5,7 @@ import { Poppins } from "next/font/google";
 import smd from "@/content/data/siteMetaData";
 
 import Header from "@/components/ui/header";
-import Footer from "@/components/ui/footer";
+import Footer from "@/components/ui/footer/0-index";
 
 const base = Poppins({
   subsets: ["latin"],

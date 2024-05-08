@@ -142,9 +142,9 @@ export const StaticPages = [
     link: "felsefe",
     pages: [
       { id: 1, title: "ezoterizm", link: "ezoterizm" },
-      { id: 2, title: "felsefe", link: "felsefe" },
-      { id: 3, title: "çalışmalar", link: "calismalar" },
-      { id: 4, title: "sss", link: "sss" },
+      { id: 2, title: "wiki", link: "wiki" },
+      // { id: 3, title: "çalışmalar", link: "calismalar" },
+      // { id: 4, title: "sss", link: "sss" },
     ],
   },
   {
@@ -185,5 +185,116 @@ export const socialMedia = [
     alt: "instagram logo",
     title: "instagram sayfamıza bekleriz",
     link: "https://www.instagram.com/reyhancetinve",
+  },
+];
+
+export const digerReyhanlar = [
+  {
+    id: 1,
+    name: "Elif'in Babası",
+    bgcolour: "slate",
+    tcolour: "white",
+  },
+  {
+    id: 2,
+    name: "İnci'in Babası",
+    bgcolour: "slate",
+    tcolour: "white",
+  },
+  {
+    id: 3,
+    name: "Kaan'ın Babası",
+    bgcolour: "slate",
+    tcolour: "white",
+  },
+  {
+    id: 4,
+    name: "Babasının Oğlu",
+    bgcolour: "slate2",
+    tcolour: "white",
+  },
+  {
+    id: 5,
+    name: "Annesinin Oğlu",
+    bgcolour: "slate2",
+    tcolour: "white",
+  },
+  {
+    id: 6,
+    name: "Kardeşinin Abisi",
+    bgcolour: "pale-blue",
+    tcolour: "black",
+  },
+  // aktif kullanılmayan renkler gelmiyor, tailwind kaldırıyor bunları
+  {
+    id: 7,
+    name: "Dayısının Yeğeni",
+  },
+  {
+    id: 8,
+    name: "Eski Koca",
+  },
+  {
+    id: 9,
+    name: "İşletme Mezunu",
+  },
+  {
+    id: 10,
+    name: "Yazılımcı",
+  },
+  {
+    id: 11,
+    name: "Bigalı",
+  },
+  {
+    id: 12,
+    name: "Boğaziçili",
+  },
+  {
+    id: 13,
+    name: "Beşiktaşlı",
+  },
+  {
+    id: 14,
+    name: "Liberal",
+  },
+];
+
+export const ezoterikFelsefe = [
+  {
+    id: 1,
+    name: "Bilinç",
+  },
+  {
+    id: 2,
+    name: "Farkındalık",
+  },
+  {
+    id: 3,
+    name: "Çoğul Ben'likler",
+  },
+  {
+    id: 4,
+    name: "Yaratılış Işını",
+  },
+  {
+    id: 5,
+    name: "Bilinç Seviyeleri",
+  },
+  {
+    id: 6,
+    name: "Kendini Gözlem",
+  },
+  {
+    id: 7,
+    name: "Kendini Hatırlama",
+  },
+  {
+    id: 8,
+    name: "Mindfulness Meditasyonu",
+  },
+  {
+    id: 9,
+    name: "Gözlem Çalışmaları",
   },
 ];

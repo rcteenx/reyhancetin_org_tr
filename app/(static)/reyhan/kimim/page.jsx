@@ -1,13 +1,14 @@
 import PageTitle from "@/components/templates/pageTitle";
 import PageImage from "@/components/templates/pageImage";
 import PageContent from "@/components/templates/pageContent";
+
 import SubPages from "@/components/sections/common/sub-pages";
-import { StaticPages } from "@/content/data";
+import { digerReyhanlar } from "@/content/data";
 
 export default function ReyhanPage() {
   return (
     <>
-      <PageTitle>Reyhan Çetin - Merhaba</PageTitle>
+      <PageTitle>Reyhan Çetin - Özgeçmiş</PageTitle>
       <PageImage>Hoşgeldiniz</PageImage>
 
       <PageContent h2Title="Klasik Tanıtım">
@@ -35,10 +36,10 @@ export default function ReyhanPage() {
           Pandemiyle (2020) beraber <strong>vazgeçme</strong> dönemi başladı.
         </p>
         <p>Halen Çanakkale'nin Biga ilçesinde ikamet ediyor.</p>
-        <p>Evli ve 3 çocuk babası.</p>
+        <p>2 kız ve bir erkek çocuk babası.</p>
       </PageContent>
 
-      <section className="bg-[#f7f7f7] px-4 py-16 md:py-24">
+      {/* <section className="bg-[#f7f7f7] px-4 py-16 md:py-24">
         <div className="container-p">
           <h2 className="text-2xl md:text-4xl font-bold text-center">
             EZOTERİK BENLİKLER
@@ -74,63 +75,27 @@ export default function ReyhanPage() {
             <sup>*</sup>Yunus Emre'nin "Bir Ben Vardır Bende" şiirinden alıntı.
           </p>
         </div>
-      </section>
+      </section> */}
 
-      <section className="px-4 py-12 md:py-24">
+      <section className="px-4 py-4 md:py-8">
         <div className="container-p">
           <h2 className="text-2xl md:text-4xl font-bold text-center">
             DİĞER REYHANLAR
           </h2>
-          <div className="mt-12">
-            <ul className="flex flex-wrap justify-center  gap-4">
-              <li className=" w-64 border px-12 py-8 text-center transition ease-in hover:bg-gray-100">
-                Elif'in Babası
-              </li>
-              <li className=" w-64 border px-12 py-8 text-center transition ease-in hover:bg-gray-100">
-                İnci'nin Babası
-              </li>
-              <li className=" w-64 border px-12 py-8 text-center transition ease-in hover:bg-gray-100">
-                Kaan'ın Babası
-              </li>
-              <li className=" w-64 border px-12 py-8 text-center transition ease-in hover:bg-gray-100">
-                Babasının Oğlu
-              </li>
-              <li className=" w-64 border px-12 py-8 text-center transition ease-in hover:bg-gray-100">
-                Annesinin Oğlu
-              </li>
-              <li className=" w-64 border px-12 py-8 text-center transition ease-in hover:bg-gray-100">
-                Kardeşinin Abisi
-              </li>
-              <li className=" w-64 border px-12 py-8 text-center transition ease-in hover:bg-gray-100">
-                Dayısının Yeğeni
-              </li>
-              <li className=" w-64 border px-12 py-8 text-center transition ease-in hover:bg-gray-100">
-                Eski Koca
-              </li>
-              <li className=" w-64 border px-12 py-8 text-center transition ease-in hover:bg-gray-100">
-                İşletme Mezunu
-              </li>
-              <li className=" w-64 border px-12 py-8 text-center transition ease-in hover:bg-gray-100">
-                Yazılımcı
-              </li>
-              <li className=" w-64 border px-12 py-8 text-center transition ease-in hover:bg-gray-100">
-                Bigalı
-              </li>
-              <li className=" w-64 border px-12 py-8 text-center transition ease-in hover:bg-gray-100">
-                Boğaziçili
-              </li>
-              <li className=" w-64 border px-12 py-8 text-center transition ease-in hover:bg-gray-100">
-                Beşiktaşlı
-              </li>
-              <li className=" w-64 border px-12 py-8 text-center transition ease-in hover:bg-gray-100">
-                Liberal
-              </li>
+          <div className="mt-8">
+            <ul className="flex flex-wrap justify-center gap-4">
+              {digerReyhanlar.map((r) => (
+                <li
+                  key={r.id}
+                  className={` w-64 border py-4 text-sm text-center transition ease-in hover:bg-gray-100 hover:cursor-pointer bg-${r.bgcolour} text-${r.tcolour}`}
+                >
+                  {r.name}
+                </li>
+              ))}
             </ul>
           </div>
         </div>
       </section>
-
-      <SubPages subPage={StaticPages[0]} id="1" />
     </>
   );
 }

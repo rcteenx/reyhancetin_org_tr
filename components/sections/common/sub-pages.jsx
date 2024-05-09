@@ -3,7 +3,7 @@ import Link from "next/link";
 export default function SubPages({ subPage, id }) {
   return (
     <section className="p-4 md:py-8">
-      <div className="container-p border-t pt-12">
+      <div className="container-p pt-12">
         <h3 className="text-xl md:text-2xl font-bold text-center">
           İLGİLİ SAYFALAR
         </h3>

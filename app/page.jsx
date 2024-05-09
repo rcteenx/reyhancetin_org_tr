@@ -7,7 +7,6 @@ import {
   meetingTitle,
   meetingList,
   conditions,
-  socialMedia,
 } from "@/content/data";
 import { rcHero, rVideo } from "@/public/assets/images";
 
@@ -22,7 +21,7 @@ import AttendenceContitions from "@/components/sections/home/c-2-att-conditions"
 import Workshops from "@/components/sections/home/c-3-workshops";
 
 import Support from "@/components/sections/home/x6-support";
-import SocialMedia from "@/components/sections/home/z-1-social-media";
+import SocialMedia from "@/components/sections/common/z-social-media";
 
 export async function generateMetadata() {
   return {
@@ -44,7 +43,7 @@ export default function Home() {
       <Workshops />
 
       {/* <Support /> */}
-      <SocialMedia items={socialMedia} />
+      <SocialMedia />
     </>
   );
 }

@@ -18,9 +18,7 @@ export default function PageTitle({ bgColor, children, ...props }) {
   return (
     <section id="pageBand" className={cn(titleStyles({ bgColor }))}>
       <div className="mx-auto container px-4 md:p-0">
-        <h3 className="p-1 my-1 font-light text-white tracking-wider">
-          {children}
-        </h3>
+        <h3 className="p-1 my-1 font-light text-white">{children}</h3>
       </div>
     </section>
   );

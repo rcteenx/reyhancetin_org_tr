@@ -58,7 +58,7 @@ export const whatwegain = {
 };
 
 export const meetingTitle = {
-  h2: "HAFTALIK TOPLANTILAR",
+  h2: "DEVAMLI ÇALIŞMA: HAFTALIK TOPLANTILAR",
   p: 'Düzenli çalışmalarımıza, öncelikle temel niteliğinde olan "workshop"a katılan ve başarılı olanlar devam edebilir.',
 };
 
@@ -149,11 +149,11 @@ export const StaticPages = [
   },
   {
     id: 3,
-    title: "Çalışmalar",
-    link: "calismalar",
+    title: "Yol",
+    link: "yol",
     pages: [
-      { id: 1, title: "giriş atölyeleri", link: "giris" },
-      { id: 2, title: "sürekli çalışmalar", link: "surekli" },
+      { id: 1, title: "giriş atölyeleri", link: "atolye" },
+      { id: 2, title: "düzenli çalışma", link: "calisma" },
     ],
   },
   {

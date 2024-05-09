@@ -10,7 +10,7 @@ import { StaticPages } from "@/content/data";
 export default function FelsefePage() {
   return (
     <>
-      <PageTitle>Ezoretik Felsefe Araştırma Ve Uygulama</PageTitle>
+      <PageTitle>Ezoretik Felsefe Araştırma ve Uygulama Topluluğu</PageTitle>
       <PageImage bgImage="fMerhaba">Nerdesin?*</PageImage>
       <PageContent h2Title="Neden Ezoterik Felsefe?">
         <p>
@@ -89,7 +89,7 @@ export default function FelsefePage() {
         </div>
       </section> */}
 
-      <section className="px-4 py-4 md:py-8">
+      <section className="px-4 py-4 md:py-8 bg-[#f7f7f7]">
         <div className="container-p text-center">
           <h2 className="text-2xl md:text-4xl font-bold">
             EZOTERİK FELSEFE ÇALIŞMA ALANLARIMIZ
@@ -100,7 +100,7 @@ export default function FelsefePage() {
               {ezoterikFelsefe.map((f) => (
                 <li
                   key={f.id}
-                  className={` w-64 border py-4 text-sm text-center transition ease-in hover:bg-gray-100 hover:cursor-pointer `}
+                  className={` w-64 bg-white border py-4 text-sm text-center transition ease-in hover:bg-gray-100 hover:cursor-pointer `}
                 >
                   {f.name}
                 </li>

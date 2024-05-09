@@ -1,6 +1,8 @@
 import IconComponent from "@/components/ui/icons/icons";
 
-export default function SocialMedia({ items }) {
+import { socialMedia } from "@/content/data";
+
+export default function SocialMedia() {
   return (
     <section className="container mx-auto my-16 lg:my-24">
       <div className="px-8">
@@ -13,7 +15,7 @@ export default function SocialMedia({ items }) {
         </div>
       </div>
       <div className="grid grid-cols-2 gap-8 mt-8 max-w-4xl mx-auto px-8">
-        {items.map((i) => (
+        {socialMedia.map((i) => (
           <div key={i.id}>
             <a
               href={i.link}

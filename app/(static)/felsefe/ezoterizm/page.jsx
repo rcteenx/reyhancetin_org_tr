@@ -1,5 +1,5 @@
-import PageTitle from "@/components/templates/pageTitle";
-import PageImage from "@/components/templates/pageImage";
+import HeaderTitle from "@/components/templates/headerTitle";
+import HeaderImage from "@/components/templates/headerImage";
 import PageContent from "@/components/templates/pageContent";
 
 import SubPages from "@/components/sections/common/sub-pages";
@@ -8,8 +8,8 @@ import { StaticPages } from "@/content/data";
 export default function FelsefePage() {
   return (
     <>
-      <PageTitle>Ezoretik Felsefe Nedir</PageTitle>
-      <PageImage bgImage="fMerhaba">Sen Kimsin ya da NE?</PageImage>
+      <HeaderTitle>Ezoretik Felsefe Nedir</HeaderTitle>
+      <HeaderImage bgImage="fMerhaba">Sen Kimsin ya da NE?</HeaderImage>
       <PageContent h2Title="Neden Ezoterik Felsefe?">
         <p>...</p>
         <p>Sevgilerle...</p>

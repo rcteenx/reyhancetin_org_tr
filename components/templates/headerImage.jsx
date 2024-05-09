@@ -30,9 +30,9 @@ const h1Styles = cva("absolute -bottom-4 left-8 font-light ", {
   },
 });
 
-export default function PageTitle({ bgImage, h1Color, children, ...props }) {
+export default function HeaderTitle({ bgImage, h1Color, children, ...props }) {
   return (
-    <section className="mx-auto container-p my-8">
+    <section className="mx-auto container-p mt-8">
       <div className={cn(imageStyles({ bgImage }))}>
         <h1 className={cn(h1Styles({ h1Color }))}>{children}</h1>
       </div>

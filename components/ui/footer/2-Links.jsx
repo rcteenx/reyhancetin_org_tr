@@ -1,11 +1,12 @@
 import { StaticPages } from "@/content/data";
+import FooterInfo from "@/components/ui/footer/1-Info";
 
 const FooterLinks = () => {
   return (
-    <div className="flex flex-1 justify-between gap-8 flex-wrap">
+    <div className="flex flex-col md:flex-row justify-between md:items-start flex-1 gap-8">
       {StaticPages.map((pg) => (
         <div key={pg.title}>
-          <h4 className="mb-2 text-lg leading-normal font-medium text-white border-b">
+          <h4 className="mb-2 text-lg leading-normal font-medium text-white md:border-b">
             <a href={pg.link}>{pg.title}</a>
           </h4>
           <ul>

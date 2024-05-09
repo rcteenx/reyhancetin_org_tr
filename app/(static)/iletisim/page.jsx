@@ -1,5 +1,5 @@
-import PageTitle from "@/components/templates/pageTitle";
-import PageImage from "@/components/templates/pageImage";
+import HeaderTitle from "@/components/templates/headerTitle";
+import HeaderImage from "@/components/templates/headerImage";
 import PageContent from "@/components/templates/pageContent";
 
 import Support from "@/components/sections/home/x6-support";
@@ -8,8 +8,8 @@ import SocialMedia from "@/components/sections/common/z-social-media";
 export default function IletisimPage() {
   return (
     <>
-      <PageTitle>İletişim</PageTitle>
-      <PageImage bgImage="iMerhaba">Bize Ulaşın</PageImage>
+      <HeaderTitle>İletişim</HeaderTitle>
+      <HeaderImage bgImage="iMerhaba">Bize Ulaşın</HeaderImage>
 
       <PageContent h2Title="İletişim Bilgileri">
         <p>Bize aşağıdaki kanallardan ulaşabilirsiniz.</p>

@@ -149,11 +149,20 @@ export const StaticPages = [
   },
   {
     id: 3,
-    title: "Yol",
-    link: "yol",
+    title: "Çalışmalar",
+    link: "calismalar",
     pages: [
-      { id: 1, title: "giriş atölyeleri", link: "atolye" },
-      { id: 2, title: "düzenli çalışma", link: "calisma" },
+      { id: 1, title: "giriş atölyesi", link: "atolye" },
+      {
+        id: 2,
+        title: "haftalık çalışmalar",
+        link: "haftalik",
+        pages: [
+          { id: 1, title: "seminer", link: "seminer" },
+          { id: 2, title: "mindfulness", link: "mindfulness" },
+          { id: 3, title: "grup", link: "grup" },
+        ],
+      },
     ],
   },
   {
@@ -175,6 +184,7 @@ export const socialMedia = [
   {
     id: 1,
     svgIcon: "facebook",
+    name: "facebook",
     alt: "facebook logo",
     title: "facebook sayfamıza bekleriz",
     link: "https://www.facebook.com/reyhancetinve",
@@ -182,6 +192,7 @@ export const socialMedia = [
   {
     id: 2,
     svgIcon: "instagram",
+    name: "instagram",
     alt: "instagram logo",
     title: "instagram sayfamıza bekleriz",
     link: "https://www.instagram.com/reyhancetinve",
@@ -298,3 +309,23 @@ export const ezoterikFelsefe = [
     name: "Gözlem Çalışmaları",
   },
 ];
+
+export const haftalık = {
+  h3: "Online Toplantılarımız",
+  p: "Her bir çalışmamız yaklaşık 2 saat sürmekte ve zoom üzerinden yapılmaktadır.",
+  pf: "Temel atölye çalışmalarımızı başarıyla tamamlayanları, haftalık toplantılarımıza katılabilir.",
+  items: [
+    {
+      title: "Uygulama Sohbeti",
+      info: "Kendimize doğru olan bu bilinmeyen yolculukta, deneyim ve doğrulamaya dayalı “ezoterik bilgiler”in rehberliğinde ilerliyoruz.",
+    },
+    {
+      title: "Mindfulness Meditasyonu",
+      info: "Kendimize doğru olan mekanik ve rastlantısal yolculuğa, bilinç ve farkındalık pratikleri ile yön vermeme başlıyoruz.",
+    },
+    {
+      title: "Grup Çalışması",
+      info: "Kendimize doğru olan bu uzun ve belirsiz yolculukta, birbirimize destek ve göz/kulak olmak için çalışıyoruz.",
+    },
+  ],
+};

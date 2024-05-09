@@ -8,11 +8,12 @@ const Footer = () => {
   return (
     <footer
       id="footer"
-      className="container mx-auto container-p mt-16 bg-slate2 sm:rounded-t-2xl"
+      className="xl:container mx-auto container-p mt-16 bg-slate2 xl:rounded-t-2xl"
     >
-      <div className="px-2 pt-12 flex justify-between items-start gap-12 flex-wrap">
+      <div className="py-8 flex flex-col md:flex-row justify-between md:items-start gap-8 text-center md:text-left">
         <FooterLinks />
-        <div>
+        <FooterInfo />
+        {/* <div>
           <h4 className="mb-2 text-lg leading-normal font-medium text-white border-b">
             <a href="reyhan">Reyhan</a>
           </h4>
@@ -21,8 +22,8 @@ const Footer = () => {
               <a href="/reyhan/kimim">reyhan kim?</a>
             </li>
           </ul>
-        </div>
-        <FooterInfo />
+        </div> */}
+        {/* <FooterInfo /> */}
       </div>
 
       <FooterQuote />

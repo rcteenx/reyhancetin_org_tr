@@ -1,5 +1,5 @@
-import PageTitle from "@/components/templates/pageTitle";
-import PageImage from "@/components/templates/pageImage";
+import HeaderTitle from "@/components/templates/headerTitle";
+import HeaderImage from "@/components/templates/headerImage";
 import PageContent from "@/components/templates/pageContent";
 
 import SubPages from "@/components/sections/common/sub-pages";
@@ -8,8 +8,8 @@ import { digerReyhanlar } from "@/content/data";
 export default function ReyhanPage() {
   return (
     <>
-      <PageTitle>Reyhan Çetin - Özgeçmiş</PageTitle>
-      <PageImage>Hoşgeldiniz</PageImage>
+      <HeaderTitle>Reyhan Çetin - Özgeçmiş</HeaderTitle>
+      <HeaderImage>Hoşgeldiniz</HeaderImage>
 
       <PageContent h2Title="Klasik Tanıtım">
         <p>

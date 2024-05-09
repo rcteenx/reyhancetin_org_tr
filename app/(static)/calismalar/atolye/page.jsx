@@ -1,5 +1,5 @@
-import PageTitle from "@/components/templates/pageTitle";
-import PageImage from "@/components/templates/pageImage";
+import HeaderTitle from "@/components/templates/headerTitle";
+import HeaderImage from "@/components/templates/headerImage";
 import PageContent from "@/components/templates/pageContent";
 import SubPages from "@/components/sections/common/sub-pages";
 
@@ -8,8 +8,8 @@ import { StaticPages } from "@/content/data";
 export default function ToplulukPage() {
   return (
     <>
-      <PageTitle>Düzenli Çalışma</PageTitle>
-      <PageImage bgImage="yMerhaba">Yol Bizi Bekliyor</PageImage>
+      <HeaderTitle>Giriş Atölyeleri</HeaderTitle>
+      <HeaderImage bgImage="yMerhaba">Yol Bizi Bekliyor</HeaderImage>
       <PageContent h2Title="İçsel Yolculuk">
         <p>.</p>
         <p>..</p>
@@ -17,7 +17,7 @@ export default function ToplulukPage() {
         <p>Sevgilerle...</p>
       </PageContent>
 
-      <SubPages subPage={StaticPages[2]} id="2" />
+      <SubPages subPage={StaticPages[2]} id="1" />
     </>
   );
 }

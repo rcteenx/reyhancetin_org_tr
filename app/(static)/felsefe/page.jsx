@@ -1,5 +1,5 @@
-import PageTitle from "@/components/templates/pageTitle";
-import PageImage from "@/components/templates/pageImage";
+import HeaderTitle from "@/components/templates/headerTitle";
+import HeaderImage from "@/components/templates/headerImage";
 import PageContent from "@/components/templates/pageContent";
 
 import { ezoterikFelsefe } from "@/content/data";
@@ -10,8 +10,10 @@ import { StaticPages } from "@/content/data";
 export default function FelsefePage() {
   return (
     <>
-      <PageTitle>Ezoretik Felsefe Araştırma ve Uygulama Topluluğu</PageTitle>
-      <PageImage bgImage="fMerhaba">Nerdesin?*</PageImage>
+      <HeaderTitle>
+        Ezoretik Felsefe Araştırma ve Uygulama Topluluğu
+      </HeaderTitle>
+      <HeaderImage bgImage="fMerhaba">Nerdesin?*</HeaderImage>
       <PageContent h2Title="Neden Ezoterik Felsefe?">
         <p>
           Bildiğimiz haliyle insan, henüz tamamlanmamış bir varlık. Dahası, pek

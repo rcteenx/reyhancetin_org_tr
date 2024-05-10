@@ -11,7 +11,7 @@ export default function FelsefePage() {
   return (
     <>
       <HeaderTitle>
-        Ezoretik Felsefe Araştırma ve Uygulama Topluluğu
+        Ezoretik Felsefe Araştırma ve Uygulama Yolculuğu
       </HeaderTitle>
       <HeaderImage bgImage="fMerhaba">Nerdesin?*</HeaderImage>
       <PageContent h2Title="Neden Ezoterik Felsefe?">
@@ -66,7 +66,7 @@ export default function FelsefePage() {
 
       {/* <section className="bg-[#f7f7f7] px-4 py-16 md:py-24">
         <h2 className="text-2xl md:text-4xl font-bold text-center">
-          TOPLULUK ETKİNLİKLERİ
+          ÇALIŞMALAR
         </h2>
         <p className="text-center text-sm ">
           Her insanın fiziksel varoluşunun üzerinde, başka benlikler var.

@@ -1,6 +1,6 @@
 export const contHero = {
   h2a: "Reyhan Çetin ve Arkadaşları",
-  h2b: "Ezoterik Felsefe Araştırma ve Uygulama Topluluğu",
+  h2b: "Ezoterik Felsefe Araştırma ve Uygulama Yolculuğu",
   h1a: "YENİDEN TOPLANIYOR!",
   h1b: "Hazır mısınız?",
   desc: "Bilinç ve farkındalık konulu sohbet, meditasyon ve grup çalışmalarımızla içsel yolculuğumuz tekrar çevrim içi.",
@@ -10,7 +10,7 @@ export const contHero = {
 };
 
 export const barInfo = {
-  h2: "Hayatın İçinde Bilinç ve Farkındalık Çalışmaları",
+  h2: "Hayatın İçinde Bilinç ve Farkındalık Yolculuğu",
   items: [
     {
       title: "Çalışma",
@@ -138,13 +138,60 @@ export const StaticPages = [
   },
   {
     id: 2,
-    title: "Felsefe",
-    link: "felsefe",
+    title: "Yol",
+    link: "yol",
     pages: [
-      { id: 1, title: "ezoterizm", link: "ezoterizm" },
-      { id: 2, title: "wiki", link: "wiki" },
-      // { id: 3, title: "çalışmalar", link: "calismalar" },
-      // { id: 4, title: "sss", link: "sss" },
+      {
+        id: 0,
+        title: "hayat yolu",
+        link: "hayat",
+        // pages: [
+        //   { id: 1, title: "felsefe", link: "felsefe" },
+        //   { id: 2, title: "sorgulama", link: "sorgulama" },
+        // ],
+      },
+      {
+        id: 1,
+        title: "arayış yolu",
+        link: "arayis",
+        // pages: [
+        //   { id: 1, title: "felsefe", link: "felsefe" },
+        //   { id: 2, title: "sorgulama", link: "sorgulama" },
+        // ],
+      },
+      {
+        id: 2,
+        title: "bilgi yolu",
+        link: "bilgi",
+        // pages: [
+        //   { id: 1, title: "ezoterik felsefe", link: "felsefe" },
+        //   { id: 3, title: "wiki", link: "wiki" },
+        // ],
+      },
+      {
+        id: 3,
+        title: "bilinç yolu",
+        link: "bilinc",
+        pages: [
+          { id: 1, title: "seminer", link: "seminer" },
+          { id: 2, title: "meditasyon", link: "meditasyon" },
+        ],
+      },
+      {
+        id: 4,
+        title: "farkındalık yolu",
+        link: "farkındalık",
+        pages: [
+          { id: 1, title: "sohbet", link: "sohbet" },
+          { id: 2, title: "mindfulness", link: "mindfulness" },
+        ],
+      },
+      ,
+      {
+        id: 5,
+        title: "birlik & sevgi yolu",
+        link: "birlik",
+      },
     ],
   },
   {
@@ -155,13 +202,18 @@ export const StaticPages = [
       { id: 1, title: "giriş atölyesi", link: "atolye" },
       {
         id: 2,
-        title: "haftalık çalışmalar",
-        link: "haftalik",
-        pages: [
-          { id: 1, title: "seminer", link: "seminer" },
-          { id: 2, title: "mindfulness", link: "mindfulness" },
-          { id: 3, title: "grup", link: "grup" },
-        ],
+        title: "bilgi seminerleri",
+        link: "bilgi",
+      },
+      {
+        id: 3,
+        title: "mindfulness meditasyonu",
+        link: "mindfulness",
+      },
+      {
+        id: 3,
+        title: "grup çalışması",
+        link: "grup",
       },
     ],
   },

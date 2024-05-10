@@ -18,7 +18,7 @@ export default function SubPages({ subPage, id, sid }) {
                 >
                   {pg.title}
                 </Link>
-                {pg.pages && (
+                {/* {pg.pages && (
                   <ul>
                     {pg.pages.map((x) => (
                       <li key={x.id}>
@@ -34,7 +34,7 @@ ${sid == x.id ? "bg-gray-100" : "hover:bg-gray-200"} `}
                       </li>
                     ))}
                   </ul>
-                )}
+                )} */}
               </li>
             ))}
           </ul>

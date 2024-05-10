@@ -5,13 +5,12 @@ import SubPages from "@/components/sections/common/sub-pages";
 
 import { StaticPages } from "@/content/data";
 
-export default function ToplulukPage() {
+export default function YolPage() {
   return (
     <>
       <HeaderTitle>Reyhan Çetin ve Yol Çalışmaları</HeaderTitle>
       <HeaderImage bgImage="yMerhaba">Yol Bizi Bekliyor</HeaderImage>
-      <PageContent h2Title="Kaynağa Dönüş Çalışmaları">
-        <p>.</p>
+      <PageContent h2Title="Kaynağa Dönüş Yolculuğu">
         <p>
           Kendimizi tanıma yolculuğu, oldukça uzun bir süreç ve hayat şartları
           pek çoğumuzun devam etmesini güçleştiriyor.
@@ -80,7 +79,7 @@ export default function ToplulukPage() {
 
       {/* bg-[#f7f7f7] */}
 
-      <SubPages subPage={StaticPages[2]} />
+      <SubPages subPage={StaticPages[1]} />
     </>
   );
 }

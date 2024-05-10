@@ -5,7 +5,7 @@ import SubPages from "@/components/sections/common/sub-pages";
 
 import { StaticPages, haftalık } from "@/content/data";
 
-export default function ToplulukPage() {
+export default function YolPage() {
   return (
     <>
       <HeaderTitle>Haftalık Düzenli Çalışmalarımız</HeaderTitle>

@@ -5,7 +5,7 @@ import SubPages from "@/components/sections/common/sub-pages";
 
 import { StaticPages } from "@/content/data";
 
-export default function ToplulukPage() {
+export default function YolPage() {
   return (
     <>
       <HeaderTitle>Giriş Atölyeleri</HeaderTitle>

@@ -35,7 +35,7 @@ const Hero = ({ rVideo }) => {
             {contHero.btn1}
             <IconComponent name="arrowright" size={18} color="white" />
           </a>
-          <a href="#" className="btn-hero border-0">
+          <a href="/yol" className="btn-hero border-0">
             {/* className="pb-2 border-b-2 border-slate" */}
             <span>{contHero.btn2}</span>
           </a>

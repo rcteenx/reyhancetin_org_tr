@@ -38,7 +38,7 @@ export const whyweneed = {
 };
 
 export const whatwegain = {
-  h2: "Birlikte Yaptığımız Çalışmalar Ne Kazandırıyor",
+  h2: "Birlikte Yaptığımız Yol Çalışmaları Ne Kazandırıyor",
   p: "Pek çok kişi için böyle bir ihtiyaç yok: Ancak, pek az kişi, bambaşka sebeplerle ve doğal olarak kendi üzerlerinde çalışmaya başlıyor. ",
   p2: "Bu çalışma daveti, zaten kendisine doğru içsel bir yolculuğa başlamış olanlar için.",
   items: [
@@ -67,7 +67,7 @@ export const meetingList = [
     id: 1,
     title: "Sohbet",
     fulltitle: "Ezoterik Felsefe Araştırma ve Uygulama Sohbetleri",
-    time: "Pazar 21:00",
+    time: "Pazar 21:30",
     link: "sohbet",
     specs: [
       "Yaratılış Işını",
@@ -82,7 +82,7 @@ export const meetingList = [
     id: 2,
     title: "Meditasyon",
     fulltitle: "Bilinç ve Farkındalık Pratiği: Mindfulness Çalışmaları",
-    time: "Salı 21:00",
+    time: "Salı 21:30",
     link: "meditasyon",
     specs: [
       "Bilinç ve Farkındalık Ayrımı",
@@ -97,7 +97,7 @@ export const meetingList = [
     id: 3,
     title: "Grup Çalışması",
     fulltitle: "Olağan Hayatımızda Çalışma: Gözlem Paylaşımı",
-    time: "Perşembe 21:00",
+    time: "Perşembe 21:30",
     link: "grup",
     specs: [
       "Bizi Yöneten Benlikleri Fark Etmek",
@@ -129,6 +129,60 @@ export const conditions = {
   ],
 };
 
+export const yollar = [
+  {
+    id: 0,
+    title: "hayat yolu",
+    link: "hayat",
+    // pages: [
+    //   { id: 1, title: "felsefe", link: "felsefe" },
+    //   { id: 2, title: "sorgulama", link: "sorgulama" },
+    // ],
+  },
+  {
+    id: 1,
+    title: "arayış yolu",
+    link: "arayis",
+    // pages: [
+    //   { id: 1, title: "felsefe", link: "felsefe" },
+    //   { id: 2, title: "sorgulama", link: "sorgulama" },
+    // ],
+  },
+  {
+    id: 2,
+    title: "bilgi yolu",
+    link: "bilgi",
+    // pages: [
+    //   { id: 1, title: "ezoterik felsefe", link: "felsefe" },
+    //   { id: 3, title: "wiki", link: "wiki" },
+    // ],
+  },
+  {
+    id: 3,
+    title: "bilinç yolu",
+    link: "bilinc",
+    pages: [
+      { id: 1, title: "seminer", link: "seminer" },
+      { id: 2, title: "meditasyon", link: "meditasyon" },
+    ],
+  },
+  {
+    id: 4,
+    title: "farkındalık yolu",
+    link: "farkındalık",
+    pages: [
+      { id: 1, title: "sohbet", link: "sohbet" },
+      { id: 2, title: "mindfulness", link: "mindfulness" },
+    ],
+  },
+  ,
+  {
+    id: 5,
+    title: "birlik & sevgi yolu",
+    link: "birlik",
+  },
+];
+
 export const StaticPages = [
   {
     id: 1,
@@ -141,79 +195,29 @@ export const StaticPages = [
     title: "Yol",
     link: "yol",
     pages: [
-      {
-        id: 0,
-        title: "hayat yolu",
-        link: "hayat",
-        // pages: [
-        //   { id: 1, title: "felsefe", link: "felsefe" },
-        //   { id: 2, title: "sorgulama", link: "sorgulama" },
-        // ],
-      },
-      {
-        id: 1,
-        title: "arayış yolu",
-        link: "arayis",
-        // pages: [
-        //   { id: 1, title: "felsefe", link: "felsefe" },
-        //   { id: 2, title: "sorgulama", link: "sorgulama" },
-        // ],
-      },
+      { id: 1, title: "Bilinç Yolu", link: "bilinc" },
       {
         id: 2,
-        title: "bilgi yolu",
-        link: "bilgi",
-        // pages: [
-        //   { id: 1, title: "ezoterik felsefe", link: "felsefe" },
-        //   { id: 3, title: "wiki", link: "wiki" },
-        // ],
+        title: "Farkındalık Yolu",
+        link: "farkindalik",
       },
-      {
-        id: 3,
-        title: "bilinç yolu",
-        link: "bilinc",
-        pages: [
-          { id: 1, title: "seminer", link: "seminer" },
-          { id: 2, title: "meditasyon", link: "meditasyon" },
-        ],
-      },
-      {
-        id: 4,
-        title: "farkındalık yolu",
-        link: "farkındalık",
-        pages: [
-          { id: 1, title: "sohbet", link: "sohbet" },
-          { id: 2, title: "mindfulness", link: "mindfulness" },
-        ],
-      },
-      ,
-      {
-        id: 5,
-        title: "birlik & sevgi yolu",
-        link: "birlik",
-      },
+      // {
+      //   id: 3,
+      //   title: "Birlik & Sevgi Yolu",
+      //   link: "birlik",
+      // },
     ],
   },
   {
     id: 3,
-    title: "Çalışmalar",
-    link: "calismalar",
+    title: "Çalışma",
+    link: "calisma",
     pages: [
-      { id: 1, title: "giriş atölyesi", link: "atolye" },
+      { id: 1, title: "Temel Atölye", link: "atolye" },
       {
         id: 2,
-        title: "bilgi seminerleri",
-        link: "bilgi",
-      },
-      {
-        id: 3,
-        title: "mindfulness meditasyonu",
-        link: "mindfulness",
-      },
-      {
-        id: 3,
-        title: "grup çalışması",
-        link: "grup",
+        title: "Tanıtım Semineri",
+        link: "seminer",
       },
     ],
   },

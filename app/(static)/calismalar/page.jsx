@@ -5,7 +5,7 @@ import SubPages from "@/components/sections/common/sub-pages";
 
 import { StaticPages } from "@/content/data";
 
-export default function YolPage() {
+export default function Page() {
   return (
     <>
       <HeaderTitle>Reyhan Çetin ve Yol Çalışmaları</HeaderTitle>

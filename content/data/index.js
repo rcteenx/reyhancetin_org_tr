@@ -40,7 +40,6 @@ export const whyweneed = {
 export const whatwegain = {
   h2: "Birlikte Yaptığımız Yol Çalışmaları Ne Kazandırıyor",
   p: "Pek çok kişi için böyle bir ihtiyaç yok: Ancak, pek az kişi, bambaşka sebeplerle ve doğal olarak kendi üzerlerinde çalışmaya başlıyor. ",
-  p2: "Bu çalışma daveti, zaten kendisine doğru içsel bir yolculuğa başlamış olanlar için.",
   items: [
     {
       title: "Bilinç",

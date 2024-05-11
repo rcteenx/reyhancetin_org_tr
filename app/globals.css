@@ -75,3 +75,64 @@
       0 4px 20px 0 rgba(0, 0, 0, 0.19);
   }
 }
+
+.containerSvg {
+  display: inline-block;
+  position: relative;
+  width: 100%;
+  height: 320px;
+  overflow: hidden;
+}
+.svg {
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.redWave {
+  stroke: none;
+  fill: red;
+}
+
+.skewed {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #333366;
+  opacity: 0.5;
+  z-index: 0;
+  transform: skewY(-8deg);
+  transform-origin: top left;
+}
+.curved {
+  position: relative;
+  background: #333366;
+  opacity: 0.5;
+  width: 100%;
+  height: 100%;
+  border-bottom-left-radius: 50% 50%;
+  border-bottom-right-radius: 30% 100%;
+}
+
+.curvedR {
+  position: relative;
+  background: #fff;
+  width: 100%;
+  height: 100%;
+}
+
+.curvedR::after {
+  content: "";
+  border-top-left-radius: 50% 100%;
+  border-top-right-radius: 50% 100%;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background: #333366;
+  opacity: 0.5;
+}

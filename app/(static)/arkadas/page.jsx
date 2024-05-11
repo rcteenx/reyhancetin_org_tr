@@ -84,6 +84,33 @@ export default function StaticPage() {
         </p>
         <p>Sevgilerle...</p>
       </PageContent>
+
+      <section className="bg-[#f7f7f7] px-4 py-8 md:py-12  text-center">
+        <h2 className="text-2xl md:text-4xl font-bold ">İşte Hikayemiz</h2>
+        <p>
+          Hepimiz, saf farkındalığın kaynağı olan '<strong>öz benlik</strong>'
+          sayesinde bedenli ve bilinçli bir varlık olarak ortaya çıktık.
+        </p>
+        <p>
+          Kendimizi tekrar fark ettiğimizde, yolculuğun çoktan başladığını
+          gördük!
+        </p>
+        <h3>NEREYE GİDİYORUZ?</h3>
+        <hr className=" max-w-sm mx-auto my-4" />
+        <h3>Tüm yolculuğumuz bir kaynağa dönüş hikayesi</h3>
+        <p>
+          Bedenin, duyguların, zihnin ötesine, önce bilince ve sonra da saf
+          farkındalığa geri dönüş
+        </p>
+      </section>
+      <section className="bg-slate2 px-4 py-8 md:py-12  text-center text-white">
+        <h2 className="text-2xl md:text-4xl font-bold ">Misyonumuz</h2>
+        <p>
+          Kaynağa dönüş yolculuğumuzda öz benliklerimizin birbirine
+          kavuşmasıdır.
+        </p>
+      </section>
+      {/* bg-[#f7f7f7] */}
       <SubPages subPage={StaticPages[2]} />
     </>
   );

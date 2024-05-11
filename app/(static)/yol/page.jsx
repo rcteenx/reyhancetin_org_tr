@@ -4,6 +4,10 @@ import PageContent from "@/components/templates/pageContent";
 import SubPages from "@/components/sections/common/sub-pages";
 
 import { StaticPages } from "@/content/data";
+import { mekanikYollar, bilincliYollar } from "@/content/data/yol";
+
+import { bOncesi, bSonrasi } from "@/public/assets/images";
+import SvgCheck from "@/components/ui/svg/check";
 
 export default function StaticPage() {
   return (
@@ -45,10 +49,14 @@ export default function StaticPage() {
         </p>
         <ul>
           <li>
-            <h5 className="font-semibold">Bilinç Yolu</h5>
+            <h5 className="font-semibold">
+              <a href="#bl0">Bilinç Yolu</a>
+            </h5>
           </li>
           <li>
-            <h5 className="font-semibold">Farkındalık Yolu</h5>
+            <h5 className="font-semibold">
+              <a href="#bl1">Farkındalık Yolu</a>
+            </h5>
           </li>
         </ul>
         <div className="border border-slate/80 rounded-xl py-4 px-8">
@@ -72,32 +80,88 @@ export default function StaticPage() {
         </p>
         <p>Sevgilerle...</p>
       </PageContent>
-      <section className="bg-[#f7f7f7] px-4 py-8 md:py-12  text-center">
-        <h2 className="text-2xl md:text-4xl font-bold ">İşte Hikayemiz</h2>
-        <p>
-          Hepimiz, saf farkındalığın kaynağı olan '<strong>öz benlik</strong>'
-          sayesinde bedenli ve bilinçli bir varlık olarak ortaya çıktık.
-        </p>
-        <p>
-          Kendimizi tekrar fark ettiğimizde, yolculuğun çoktan başladığını
-          gördük!
-        </p>
-        <h3>NEREYE GİDİYORUZ?</h3>
-        <hr className=" max-w-sm mx-auto my-4" />
-        <h3>Tüm yolculuğumuz bir kaynağa dönüş hikayesi</h3>
-        <p>
-          Bedenin, duyguların, zihnin ötesine, önce bilince ve sonra da saf
-          farkındalığa geri dönüş
-        </p>
+
+      <section className="relative w-100 h-12 md:h-24">
+        {/* <div className="skewed"></div> */}
+        <div className="curvedR"></div>
       </section>
-      <section className="bg-slate2 px-4 py-8 md:py-12  text-center text-white">
-        <h2 className="text-2xl md:text-4xl font-bold ">Misyonumuz</h2>
-        <p>
-          Kaynağa dönüş yolculuğumuzda öz benliklerimizin birbirine
-          kavuşmasıdır.
-        </p>
+
+      <section id="mekanikYollar" className="bg-slate/50 py-10">
+        <div className="container mx-auto">
+          <div className="px-4 lg:p-0 text-left xl:text-center">
+            <h2>{mekanikYollar.h2}</h2>
+            <p>{mekanikYollar.p}</p>
+          </div>
+          <div className="grid grid-cols-1 xl:grid-cols-2 gap-8 lg:mt-4 items-center">
+            <div className="rounded-3xl">
+              <img
+                src={bOncesi.src}
+                alt="img colletion"
+                width="w-full"
+                height={480}
+                className=" rounded-xl"
+              />
+            </div>
+            <div className="p-4">
+              <h3>{mekanikYollar.h3}</h3>
+              <ul className="space-y-5">
+                {mekanikYollar.items.map((i, index) => (
+                  <li id={`mk${index}`} key={index} className="flex gap-2">
+                    <SvgCheck />
+                    <div>
+                      <dt className="font-semibold mt-1">{i.title}</dt>
+                      <dd className="-ml-7 mt-2 pb-2 border-b border-gray-200">
+                        {i.info}
+                      </dd>
+                    </div>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          </div>
+        </div>
       </section>
-      {/* bg-[#f7f7f7] */}
+
+      <section className="relative w-100 h-12 md:h-24">
+        {/* <div className="skewed"></div> */}
+        <div className="curved"></div>
+      </section>
+
+      <section id="bilincliYollar" className="bg-white py-10">
+        <div className="container mx-auto">
+          <div className="px-4 lg:p-0 text-left xl:text-center">
+            <h2>{bilincliYollar.h2}</h2>
+            <p>{bilincliYollar.p}</p>
+          </div>
+          <div className="grid grid-cols-1 xl:grid-cols-2 gap-8 lg:mt-4 items-center">
+            <div className="p-4">
+              <h3>{bilincliYollar.h3}</h3>
+              <ul className="space-y-5">
+                {bilincliYollar.items.map((i, index) => (
+                  <li id={`bl${index}`} key={index} className="flex gap-2">
+                    <SvgCheck />
+                    <div>
+                      <dt className="font-semibold mt-1">{i.title}</dt>
+                      <dd className="-ml-7 mt-2 pb-2 border-b border-gray-200">
+                        {i.info}
+                      </dd>
+                    </div>
+                  </li>
+                ))}
+              </ul>
+            </div>
+            <div className="rounded-3xl hidden xl:block">
+              <img
+                src={bSonrasi.src}
+                alt="img colletion"
+                width="w-full"
+                height={480}
+                className=" rounded-xl"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
       <SubPages subPage={StaticPages[1]} />
     </>
   );

@@ -5,19 +5,17 @@ import SubPages from "@/components/sections/common/sub-pages";
 
 import { StaticPages } from "@/content/data";
 
-export default function YolPage() {
+export default function StaticPage() {
   return (
     <>
-      <HeaderTitle>Giriş Atölyeleri</HeaderTitle>
-      <HeaderImage bgImage="yMerhaba">Yol Bizi Bekliyor</HeaderImage>
-      <PageContent h2Title="İçsel Yolculuk">
+      <HeaderTitle>Yol Çalışmalarına Giriş Atölyeleri</HeaderTitle>
+      <HeaderImage bgImage="aMerhaba">Yol Sizi Bekliyor</HeaderImage>
+      <PageContent h2Title="İçsel Yolculuğa Davet">
         <p>.</p>
         <p>..</p>
         <p>...</p>
         <p>Sevgilerle...</p>
       </PageContent>
-
-      <SubPages subPage={StaticPages[2]} id="1" />
     </>
   );
 }

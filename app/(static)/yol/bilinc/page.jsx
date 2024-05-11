@@ -5,10 +5,10 @@ import SubPages from "@/components/sections/common/sub-pages";
 
 import { StaticPages, haftalık } from "@/content/data";
 
-export default function YolPage() {
+export default function StaticPage() {
   return (
     <>
-      <HeaderTitle>Birlik & Sevgi Yolu</HeaderTitle>
+      <HeaderTitle>Bilinç Yolu</HeaderTitle>
       <HeaderImage bgImage="yMerhaba">Her şey bağlı</HeaderImage>
       <PageContent h2Title="Hazırlanıyor...">
         <div className="text-left">
@@ -18,7 +18,7 @@ export default function YolPage() {
         </div>
       </PageContent>
 
-      <SubPages subPage={StaticPages[2]} id="2" />
+      <SubPages subPage={StaticPages[1]} id="1" />
     </>
   );
 }

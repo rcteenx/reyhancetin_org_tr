@@ -210,15 +210,15 @@ export const StaticPages = [
   },
   {
     id: 3,
-    title: "Çalışma",
-    link: "calisma",
+    title: "Arkadaş",
+    link: "arkadas",
     pages: [
       { id: 1, title: "Temel Atölye", link: "atolye" },
-      {
-        id: 2,
-        title: "Tanıtım Semineri",
-        link: "seminer",
-      },
+      // {
+      //   id: 2,
+      //   title: "Tanıtım Semineri",
+      //   link: "seminer",
+      // },
     ],
   },
   {

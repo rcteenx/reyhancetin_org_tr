@@ -5,10 +5,10 @@ import SubPages from "@/components/sections/common/sub-pages";
 
 import { StaticPages } from "@/content/data";
 
-export default function YolPage() {
+export default function StaticPage() {
   return (
     <>
-      <HeaderTitle>Reyhan Çetin ve Yol Çalışmaları</HeaderTitle>
+      <HeaderTitle>Reyhan Çetin ve Kendini Tanıma Yolculuğu</HeaderTitle>
       <HeaderImage bgImage="yMerhaba">Yol Var... Gidersen!</HeaderImage>
       <PageContent h2Title="Uzun İnce bir Yoldayız">
         <p>
@@ -34,15 +34,14 @@ export default function YolPage() {
           hale geliyor.
         </p>
         <hr className="mb-4" />
-        <h3>Yol Çalışmalarımız</h3>
+        <h3>Düzenli Yol Çalışmalarımız</h3>
         <p>
-          Yol çalışmalarımızı haftada 2-3 akşam Zoom üzerinden
-          gerçekleştiriyoruz. Her biri farklı formatta olan bu buluşmalar
-          yaklaşık 2 saat sürmektedir.
+          Çalışmalarımız haftada 2-3 akşam Zoom ortamında yapılıyor. Her biri
+          farklı formatta olan bu toplantılar, yaklaşık 2 saat sürüyor.
         </p>
         <p>
-          Yürüdüğünüz yola bağlı olarak, aşağıdaki çalışma gruplarından birine
-          giriş atölyesini başarıyla tamamladıktan sonra katılabilirsiniz.
+          Giriş atölyemizi başarıyla tamamladıktan sonra, yürüdüğünüz yola bağlı
+          olarak, aşağıdaki çalışma gruplarımızdan birine katılabilirsiniz.
         </p>
         <ul>
           <li>
@@ -55,8 +54,8 @@ export default function YolPage() {
         <div className="border border-slate/80 rounded-xl py-4 px-8">
           <p>
             Düzenli çalışmalara uyum sağlamak ve temel hazırlık için bir atölye
-            çalışmamız bulunmaktadır. Bu atölye genellikle her ayın ilk hafta
-            sonunda düzenlenmektedir. Kayıt ve bilgi için:
+            çalışmamız bulunmaktadır. Bu atölye her ayın ilk hafta sonunda
+            düzenlenmektedir. Kayıt ve bilgi için:
           </p>
           <h5 className="group my-4">
             <a

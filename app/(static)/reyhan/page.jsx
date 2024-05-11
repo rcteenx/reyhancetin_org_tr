@@ -5,7 +5,7 @@ import PageContent from "@/components/templates/pageContent";
 import SubPages from "@/components/sections/common/sub-pages";
 import { StaticPages } from "@/content/data";
 
-export default function ReyhanPage() {
+export default function StaticPage() {
   return (
     <>
       <HeaderTitle>Reyhan Çetin ve Arkadaşları</HeaderTitle>

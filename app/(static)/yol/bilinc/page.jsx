@@ -9,7 +9,7 @@ export default function StaticPage() {
   return (
     <>
       <HeaderTitle>Bilinç Yolu</HeaderTitle>
-      <HeaderImage bgImage="yMerhaba">Her şey bağlı</HeaderImage>
+      <HeaderImage bgImage="yMerhaba">Yapabilme Gücü ve İradesi</HeaderImage>
       <PageContent h2Title="Hazırlanıyor...">
         <div className="text-left">
           <p>.</p>

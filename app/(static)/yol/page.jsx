@@ -93,13 +93,13 @@ export default function StaticPage() {
             <p>{mekanikYollar.p}</p>
           </div>
           <div className="grid grid-cols-1 xl:grid-cols-2 gap-8 lg:mt-4 items-center">
-            <div className="rounded-3xl">
+            <div className="px-0 sm:px-4 lg:p-0 rounded-3xl">
               <img
                 src={bOncesi.src}
                 alt="img colletion"
                 width="w-full"
                 height={480}
-                className=" rounded-xl"
+                className=" sm:rounded-xl"
               />
             </div>
             <div className="p-4">

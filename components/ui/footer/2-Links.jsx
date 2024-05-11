@@ -7,7 +7,7 @@ const FooterLinks = () => {
       {StaticPages.map((pg) => (
         <div key={pg.title}>
           <h4 className="mb-2 text-lg leading-normal font-medium text-white md:border-b">
-            <a href={pg.link}>{pg.title}</a>
+            <a href={"/" + pg.link}>{pg.title}</a>
           </h4>
           <ul>
             {pg.pages.map((sp) => (
@@ -15,7 +15,11 @@ const FooterLinks = () => {
                 key={sp.id}
                 className="mt-1 text-sm leading-normal text-white-400 hover:text-slate-gray"
               >
-                <a href={pg.id == 4 ? sp.link : "/" + pg.link + "/" + sp.link}>
+                <a
+                  href={
+                    "/" + pg.id == 4 ? sp.link : "/" + pg.link + "/" + sp.link
+                  }
+                >
                   {sp.title}
                 </a>
               </li>

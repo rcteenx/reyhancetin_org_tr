@@ -2,6 +2,7 @@ import HeaderTitle from "@/components/templates/headerTitle";
 import HeaderImage from "@/components/templates/headerImage";
 import PageContent from "@/components/templates/pageContent";
 import SubPages from "@/components/sections/common/sub-pages";
+import AdWorkshop from "@/components/ui/ad-workshop";
 
 import { StaticPages } from "@/content/data";
 import { mekanikYollar, bilincliYollar } from "@/content/data/yol";
@@ -43,6 +44,7 @@ export default function StaticPage() {
           Çalışmalarımız haftada 2-3 akşam Zoom ortamında yapılıyor. Her biri
           farklı formatta olan bu toplantılar, yaklaşık 2 saat sürüyor.
         </p>
+        <AdWorkshop />
         <p>
           Giriş atölyemizi başarıyla tamamladıktan sonra, yürüdüğünüz yola bağlı
           olarak, aşağıdaki çalışma gruplarımızdan birine katılabilirsiniz.
@@ -59,21 +61,6 @@ export default function StaticPage() {
             </h5>
           </li>
         </ul>
-        <div className="border border-slate/80 rounded-xl py-4 px-8">
-          <p>
-            Düzenli çalışmalara uyum sağlamak ve temel hazırlık için bir atölye
-            çalışmamız bulunmaktadır. Bu atölye her ayın ilk hafta sonunda
-            düzenlenmektedir. Kayıt ve bilgi için:
-          </p>
-          <h5 className="group my-4">
-            <a
-              href={StaticPages[2].link + "/" + StaticPages[2].pages[0].link}
-              className="px-4 py-2 group-hover:bg-gray-300 group-hover:text-black bg-slate rounded-xl text-white"
-            >
-              Çalışmalara Giriş: Temel Bilinç Atölyesi
-            </a>
-          </h5>
-        </div>
         <p>
           Ayrıca, belirli dönemlerde farklı şehirlerde hafta sonu buluşmaları ve
           şehir dışında inziva kampları düzenlemekteyiz.

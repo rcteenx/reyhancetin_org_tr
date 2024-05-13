@@ -3,13 +3,15 @@ import HeaderImage from "@/components/templates/headerImage";
 import PageContent from "@/components/templates/pageContent";
 import SubPages from "@/components/sections/common/sub-pages";
 
+import AdWorkshop from "@/components/ui/ad-workshop";
+
 import { StaticPages, haftalık } from "@/content/data";
 
 export default function StaticPage() {
   return (
     <>
       <HeaderTitle>Bilinç Yolu</HeaderTitle>
-      <HeaderImage bgImage="yMerhaba">Bilincini Gözlemliyor musun?</HeaderImage>
+      <HeaderImage bgImage="yMerhaba">Kendinin Bilincinde misin?</HeaderImage>
       <PageContent h2Title="Mekanik Bilinç">
         <p>
           Bir varlık çevresini algılıyor ve bu algıyı bir biçimde işleyip,
@@ -55,32 +57,7 @@ export default function StaticPage() {
           bilgi, deneyim, meditasyon, günlük hayatın içinde dikkat pratikleri ve
           grup çalışmaları yapıyoruz.
         </p>
-        <div className="border border-slate/80 rounded-xl py-4 px-8">
-          <h4 className="">
-            <a
-              href={StaticPages[2].link + "/" + StaticPages[2].pages[0].link}
-              className=""
-            >
-              Çalışmalara Giriş: Temel Bilinç Atölyesi
-            </a>
-          </h4>
-          <p>
-            Her ayın ilk hafta sonu yapılan bu atölye çalışmamıza katılmak için
-            bize ulaşabilirsiniz. Kayıt ve bilgi için:
-          </p>
-          <ul className="flex items-center justify-center gap-4">
-            <li className="px-4 py-2 bg-slate text-white hover:bg-slate/80 rounded-xl cursor-pointer">
-              <a href="https://wa.me/905443087402">Kayıt</a>
-            </li>
-            <li className="px-4 py-2 border hover:bg-gray-200 rounded-xl cursor-pointer">
-              <a
-                href={StaticPages[2].link + "/" + StaticPages[2].pages[0].link}
-              >
-                Bilgi
-              </a>
-            </li>
-          </ul>
-        </div>
+        <AdWorkshop />
         <p>
           Bilinç çalışmalarımız, ağırlıklı olarak Gurdjieff'in Dördüncü Yol
           Öğreti'sine dayanmaktadır.
@@ -97,7 +74,7 @@ export default function StaticPage() {
         </p>
         <p>
           Ne kadar iyi olursa olsun, bir programın ancak belli sınırlar içinde
-          doğru çalışabilir. Tüm bu uygulamaların ötesinde
+          doğru çalışabilir. Tüm bu uygulamaların ötesinde;
         </p>
         <h3>SEN KİMSİN ya da NE?</h3>
         <hr className=" max-w-sm mx-auto my-4" />
@@ -112,7 +89,7 @@ export default function StaticPage() {
         <h2 className="text-2xl md:text-4xl font-bold ">Serbest Dikkat</h2>
         <p>
           Herhangi bir an ve yerde, dikkatimizi nereye vereceğimizi ya da
-          vermeyeceğimizi seçebilme özgürlüğü
+          vermeyeceğimizi seçebilme özgürlüğü ister misiniz?
         </p>
       </section>
       {/* bg-[#f7f7f7] */}

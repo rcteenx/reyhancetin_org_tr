@@ -1,4 +1,5 @@
-import { contHero } from "@/content/data";
+import { contHero, StaticPages } from "@/content/data";
+
 import IconComponent from "@/components/ui/icons/icons";
 const Hero = ({ rVideo }) => {
   return (
@@ -35,7 +36,12 @@ const Hero = ({ rVideo }) => {
             {contHero.btn1}
             <IconComponent name="arrowright" size={18} color="white" />
           </a>
-          <a href="/yol" className="btn-hero border-0">
+          <a
+            href={
+              "/" + StaticPages[2].link + "/" + StaticPages[2].pages[0].link
+            }
+            className="btn-hero border-0"
+          >
             {/* className="pb-2 border-b-2 border-slate" */}
             <span>{contHero.btn2}</span>
           </a>

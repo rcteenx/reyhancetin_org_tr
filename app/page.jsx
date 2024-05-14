@@ -25,7 +25,7 @@ import SocialMedia from "@/components/sections/common/z-social-media";
 
 export async function generateMetadata() {
   return {
-    title: smd.title,
+    title: smd.title + " - Reyhan Çetin",
   };
 }
 

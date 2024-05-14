@@ -17,7 +17,7 @@ export default function AdWorkshop() {
       </p>
       <ul className="flex items-center justify-center gap-4">
         <li className="px-4 py-2 bg-slate text-white hover:bg-slate/80 rounded-xl cursor-pointer">
-          <a href="https://wa.me/905443087402">Kayıt</a>
+          <a href="https://wa.me/905443087402?text=bilgiBilinç Yolu: Güç, İrade & Yapabilme">Kayıt</a>
         </li>
         <li className="px-4 py-2 border hover:bg-gray-200 rounded-xl cursor-pointer">
           <a

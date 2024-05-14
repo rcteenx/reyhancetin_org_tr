@@ -13,17 +13,6 @@ const Footer = () => {
       <div className="py-8 flex flex-col md:flex-row justify-between md:items-start gap-8 text-center md:text-left">
         <FooterLinks />
         <FooterInfo />
-        {/* <div>
-          <h4 className="mb-2 text-lg leading-normal font-medium text-white border-b">
-            <a href="reyhan">Reyhan</a>
-          </h4>
-          <ul>
-            <li className="mt-1 text-sm leading-normal text-white-400 hover:text-slate-gray">
-              <a href="/reyhan/kimim">reyhan kim?</a>
-            </li>
-          </ul>
-        </div> */}
-        {/* <FooterInfo /> */}
       </div>
 
       <FooterQuote />

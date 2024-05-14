@@ -15,7 +15,7 @@ export default function Support() {
               sorgulamada bize ulaşabilirsiniz
             </p>
             <a
-              href="https://wa.me/905443087402?text=selam"
+              href="https://wa.me/905443087402?text=bilgi"
               className="mt-5 lg:mt-0 live-help-button lg:w-44 lg:h-44 rounded-full shadow-xl font-semibold uppercase lg:text-2xl bg-slate lg:border-white lg:border-4 text-black inline-flex lg:flex items-center justify-center text-center lg:absolute lg:-right-16 lg:top-1/2 lg:-translate-y-1/2 py-2 px-4 lg:py-0 lg:px-0 group"
             >
               <span className="absolute bg-slate/40 top-0 left-0 right-0 bottom-0 rounded-full scale-110 transition-all duration-300 animate-ping delay-300 z-10 hidden lg:block"></span>

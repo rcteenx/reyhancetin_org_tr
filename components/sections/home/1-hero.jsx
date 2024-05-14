@@ -30,18 +30,13 @@ const Hero = ({ rVideo }) => {
         </p>
         <div className="flex my-8 flex-row space-x-4 justify-center xl:justify-start">
           <a
-            href="https://wa.me/905443087402"
+            href="https://wa.me/905443087402?text=bilgi"
             className="btn-hero bg-slate text-white"
           >
             {contHero.btn1}
             <IconComponent name="arrowright" size={18} color="white" />
           </a>
-          <a
-            href={
-              "/" + StaticPages[2].link + "/" + StaticPages[2].pages[0].link
-            }
-            className="btn-hero border-0"
-          >
+          <a href={"/" + StaticPages[2].link} className="btn-hero border-0">
             {/* className="pb-2 border-b-2 border-slate" */}
             <span>{contHero.btn2}</span>
           </a>

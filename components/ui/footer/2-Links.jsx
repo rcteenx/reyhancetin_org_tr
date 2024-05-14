@@ -17,7 +17,9 @@ const FooterLinks = () => {
               >
                 <a
                   href={
-                    "/" + pg.id == 4 ? sp.link : "/" + pg.link + "/" + sp.link
+                    pg.id == 4 && sp.id < 3
+                      ? sp.link
+                      : "/" + pg.link + "/" + sp.link
                   }
                 >
                   {sp.title}

@@ -209,10 +209,10 @@ export const StaticPages = [
   },
   {
     id: 3,
-    title: "Arkadaş",
-    link: "arkadas",
+    title: "Davet",
+    link: "davet",
     pages: [
-      { id: 1, title: "Temel Atölye", link: "atolye" },
+      { id: 1, title: "Giriş Atölyesi", link: "atolye" },
       // {
       //   id: 2,
       //   title: "Tanıtım Semineri",
@@ -231,6 +231,8 @@ export const StaticPages = [
         link: "mailto:rhan.cetinx@gmail.com",
       },
       { id: 2, title: "+90 (544) 308 74 02", link: "tel:+905443087402" },
+      { id: 3, title: "Çerez Politikası", link: "cerez" },
+      { id: 4, title: "K.V.K.K.", link: "kvkk" },
     ],
   },
 ];
@@ -368,7 +370,7 @@ export const ezoterikFelsefe = [
 export const haftalık = {
   h3: "Online Toplantılarımız",
   p: "Her bir çalışmamız yaklaşık 2 saat sürmekte ve zoom üzerinden yapılmaktadır.",
-  pf: "Temel atölye çalışmalarımızı başarıyla tamamlayanları, haftalık toplantılarımıza katılabilir.",
+  pf: "Giriş atölyesi çalışmalarımızı başarıyla tamamlayanları, haftalık toplantılarımıza katılabilir.",
   items: [
     {
       title: "Uygulama Sohbeti",

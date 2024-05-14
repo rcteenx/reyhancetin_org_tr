@@ -1,15 +1,15 @@
 import HeaderTitle from "@/components/templates/headerTitle";
 import HeaderImage from "@/components/templates/headerImage";
 import PageContent from "@/components/templates/pageContent";
-import SubPages from "@/components/sections/common/sub-pages";
 import AdWorkshop from "@/components/ui/ad-workshop";
+import SubPages from "@/components/sections/common/sub-pages";
 
 import { StaticPages } from "@/content/data";
 
 export default function StaticPage() {
   return (
     <>
-      <HeaderTitle>Reyhan Çetin ve Çalışma Arkadaşlar</HeaderTitle>
+      <HeaderTitle>Reyhan Çetin ve Çalışma Arkadaşlığı Daveti</HeaderTitle>
       <HeaderImage bgImage="aMerhaba">Birlikte yürüyelim...</HeaderImage>
       <PageContent h2Title="Uzaklara Gitmek İçin">
         <p>
@@ -86,7 +86,7 @@ export default function StaticPage() {
           kavuşmasıdır.
         </p>
       </section>
-      {/* bg-[#f7f7f7] */}
+
       <SubPages subPage={StaticPages[2]} />
     </>
   );

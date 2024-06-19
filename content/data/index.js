@@ -11,7 +11,7 @@ export const contHero = {
 
 export const barInfo = {
   h2: "Bilinç ve Farkındalık Yolculuğu",
-  desc: "Hayatın içinde pratik çalışmalar.",
+  desc: "Hayatın içinde pratik bir çalışma",
   items: [
     {
       title: "Çalışma",
@@ -32,12 +32,6 @@ export const barInfo = {
   ],
 };
 
-export const whyweneed = {
-  h2: "Neden Kendimizi Tanımaya ve İçsel Yolculuğa İhtiyacımız var?",
-  p: "Pek çok kişi için böyle bir ihtiyaç yok: Ancak, pek az kişi, bambaşka sebeplerle ve doğal olarak kendi üzerlerinde çalışmaya başlıyor. ",
-  p2: "Bu çalışma daveti, zaten kendisine doğru içsel bir yolculuğa başlamış olanlar için.",
-};
-
 export const whatwegain = {
   h2: "Neden Toplanıyoruz?",
   p1: "Pandemi sürecinde ara verdiğimiz bilinç çalışmaları, sessizlikte gelişen spritüel farkındalıkla olgunlaştı.",
@@ -45,7 +39,7 @@ export const whatwegain = {
   items: [
     {
       title: "Bilinç",
-      info: "Kendimizi bilinçli varlıklar olarak görüyoruz, ama bilincimizin farkında mıyız? Bilinç bir anlamda rastgele içimizde beliriyor. Bilincinizi fark etmeyi ve bunu farkındalıkla yönetmeyi istemez misiniz?",
+      info: "Kendimizi bilinçli varlıklar olarak görüyoruz, ama bilincimizin farkında mıyız? Bilinç bir anlamda rastgele içimizde beliriyor. Bilincinizi fark etmeyi ve bunu farkındalıkla geliştirmeyi istemez misiniz?",
     },
     {
       title: "Farkındalık",
@@ -58,9 +52,15 @@ export const whatwegain = {
   ],
 };
 
+export const whyweneed = {
+  h2: "Neden Kendimizi Tanımaya ve İçsel Yolculuğa İhtiyacımız var?",
+  p: "Pek çok kişi için böyle bir ihtiyaç yok: Ancak, pek az kişi, bambaşka sebeplerle ve doğal olarak kendi üzerlerinde çalışmaya başlıyor. ",
+  p2: "Bu topluluk daveti, zaten kendisine doğru içsel bir yolculuğa başlamış olanlar için. Henüz yolculuğa başlatma çalışmamız bulunmuyor.",
+};
+
 export const meetingTitle = {
-  h2: "DEVAMLI ÇALIŞMA: HAFTALIK TOPLANTILAR",
-  p: 'Düzenli çalışmalarımıza, öncelikle temel niteliğinde olan "workshop"a katılan ve başarılı olanlar devam edebilir.',
+  h2: "YENİ ARKADAŞLAR - DÜZENLİ ÇALIŞMA",
+  p: 'Haftalık çalışmalarımız, temel niteliğinde olan "atölye"mize katılıp başarılı olan yeni arkadaşlar içindir.',
 };
 
 export const meetingList = [
@@ -68,8 +68,9 @@ export const meetingList = [
     id: 1,
     title: "Sohbet",
     fulltitle: "Ezoterik Felsefe Araştırma ve Uygulama Sohbetleri",
-    time: "Pazar 21:30",
+    time: "Pazartesi 21:30",
     link: "sohbet",
+    bg: "gradientPrimaryToWhite",
     specs: [
       "Yaratılış Işını",
       "Bilinç, Farkındalık ve Ötesi",
@@ -85,6 +86,7 @@ export const meetingList = [
     fulltitle: "Bilinç ve Farkındalık Pratiği: Mindfulness Çalışmaları",
     time: "Salı 21:30",
     link: "meditasyon",
+    bg: "gradientPrimaryToWhite",
     specs: [
       "Bilinç ve Farkındalık Ayrımı",
       "Duygu ve Düşüncenin Ötesinde",
@@ -98,8 +100,9 @@ export const meetingList = [
     id: 3,
     title: "Grup Çalışması",
     fulltitle: "Olağan Hayatımızda Çalışma: Gözlem Paylaşımı",
-    time: "Perşembe 21:30",
+    time: "Çarşamba 21:30",
     link: "grup",
+    bg: "gradientPrimaryToWhite",
     specs: [
       "Bizi Yöneten Benlikleri Fark Etmek",
       "Kendimize bir Kahya Oluşturmak",
@@ -112,20 +115,21 @@ export const meetingList = [
 ];
 
 export const conditions = {
-  h2: "Haftalık Düzenli Çalışmalarımıza Katılım Koşulları",
-  p: "Çalışmaların gerektirdiği ortak bir dil, belli bir varlık seviyesi ve deneyimin sağlayanması için atölye çalışmalarımıza davet ediyoruz.",
+  h2: "Atölye Çalışmaları",
+  p: "Düzenli çalışmaların gerektirdiği donanımların kazanımı için yeni arkadaşları öncelikle atölye çalışmalarımıza bekliyoruz.",
+  h3: "Katılım Koşulları",
   items: [
     {
       title: "Ortak Dil",
-      info: "Katılımcıların kelimelerle anlaşabilmek için, kelimelerin işaret ettiği kavramlar konusunda az çok aynı anlayışta olması gerekiyor. Bu bağlamda hepimiz ortak bir terminolojiyi öğreniyor ve çalışmalarda kullanıyoruz.",
+      info: "Kelimelerle anlaşabilmek için, işaret ettikleri şeyler konusunda az çok aynı anlayışta olmamız gerekiyor. Bu bağlamda hepimiz ortak bir terminolojiyi öğreniyor ve çalışmalarda kullanıyoruz.",
     },
     {
       title: "Varlık Seviyesi",
-      info: "Bilgi, ancak uygun bir varlık seviyesi ile deneyimlenince anlayışa dönüşebiliyor. Bu bağlamda, katılımcıların hem hayatsal hem de bilinç/farkındalık alanında belli bir varlık kazanmış olması gerekiyor.",
+      info: "Bilgi, ancak uygun bir varlık seviyesi ile deneyimlenince anlayışa dönüşebiliyor. Katılımcıların hem hayatın içinde hem de bilinç/farkındalık alanında belli bir varlık kazanmış olması gerekiyor.",
     },
     {
       title: "Deneyim",
-      info: "Bu çalışmalar kişilerin hayatla ilgili deneyimlerinin sorgulanmasına ve çalışılmasına dayanıyor. Bu bağlamda, katılımcıların belli bir yaş ve buna bağlı kazanılan deneyimlere sahip olması bekleniyor.",
+      info: "Bu çalışmalar kişilerin hayatla ilgili deneyimlerinin sorgulanmasına ve değerlendirilmesine dayanıyor. Katılımcıların belli bir yaş ve buna bağlı kazanılan deneyimlere sahip olması bekleniyor.",
     },
   ],
 };

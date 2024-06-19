@@ -1,6 +1,6 @@
 const FooterCopyRight = () => {
   return (
-    <div className="py-2 flex justify-between text-white-400 border-t">
+    <div className="py-2 flex justify-between border-t">
       <p className="text-xs">
         &copy; {new Date().getFullYear()} - Tüm hakları saklıdır.
       </p>

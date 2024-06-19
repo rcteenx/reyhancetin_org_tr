@@ -47,8 +47,20 @@
   .gradientIndigo {
     @apply bg-gradient-to-br from-indigo-light-3 via-indigo to-indigo-dark-3 text-white;
   }
-  .gradientGray {
-    @apply bg-gradient-to-br from-indigo-light-3 via-indigo to-indigo-dark-3 text-white;
+  .gradientPrimary {
+    @apply bg-gradient-to-br from-primary to-black text-white;
+  }
+  .gradientPrimaryToWhite {
+    @apply bg-gradient-to-b from-[#f7f7f7] to-primary;
+  }
+  .gradientAccent {
+    @apply bg-gradient-to-br from-accent to-black text-white;
+  }
+  .gradientAccentToWhite {
+    @apply bg-gradient-to-br from-accent to-white;
+  }
+  .gradientPurple {
+    @apply bg-gradient-to-br from-purple-300 to-white;
   }
   .gradientIndigoToWhite {
     @apply bg-gradient-to-br from-indigo to-white text-black;

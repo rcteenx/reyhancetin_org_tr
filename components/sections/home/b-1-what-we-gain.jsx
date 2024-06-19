@@ -2,7 +2,7 @@ import SvgCheck from "@/components/ui/svg/check";
 
 export default function WhatWeGain({ img, gain }) {
   return (
-    <div id="gain" className="bg-white py-16">
+    <div id="gain" className="bg-white py-12">
       <div className="container mx-auto">
         <div className="px-4 lg:p-0 text-left xl:text-center">
           <h2 className="md:text-3xl lg:text-6xl">{gain.h2}</h2>
@@ -10,7 +10,7 @@ export default function WhatWeGain({ img, gain }) {
           <p>{gain.p2}</p>
         </div>
         <div className="grid grid-cols-1 xl:grid-cols-2 gap-8 lg:mt-4 items-center">
-          <div className="rounded-3xl hidden xl:block">
+          <div className="hidden xl:block">
             <div className="p-4 shadow-xl rounded-b-xl">
               <img
                 src={img.src}
@@ -22,8 +22,8 @@ export default function WhatWeGain({ img, gain }) {
             </div>
           </div>
           <div className="p-4">
-            <h3>Bize Ne Katıyor?</h3>
-            <p>Kendi üzerimizdeki çalışmanın bazı kazanımları:</p>
+            <h3>Çalışma Ne Kazandırıyor?</h3>
+            <p>Kendi üzerimizdeki çalışmanın temel kazanımları:</p>
             <ul className="space-y-5">
               {gain.items.map((i, index) => (
                 <li key={index} className="flex gap-2">

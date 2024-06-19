@@ -6,14 +6,14 @@ const FooterLinks = () => {
     <div className="flex flex-col md:flex-row justify-between md:items-start flex-1 gap-8">
       {StaticPages.map((pg) => (
         <div key={pg.title}>
-          <h4 className="mb-2 text-lg leading-normal font-medium text-white md:border-b">
+          <h4 className="mb-2 text-lg leading-normal font-medium md:border-b border-indigo-light-5 hover:text-white-400">
             <a href={"/" + pg.link}>{pg.title}</a>
           </h4>
           <ul>
             {pg.pages.map((sp) => (
               <li
                 key={sp.id}
-                className="mt-1 text-sm leading-normal text-white-400 hover:text-indigo-gray"
+                className="mt-1 text-sm leading-normal hover:text-white-400 "
               >
                 <a
                   href={

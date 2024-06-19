@@ -1,7 +1,7 @@
 export default function WeeklyMeetings({ title, meetingList }) {
   return (
-    <section className="bg-[#f7f7f7] px-4 py-16">
-      <div className="container-p">
+    <section className="gradientPrimaryToWhite px-4 py-16">
+      <div className="container-p ">
         <h2 className="text-2xl md:text-4xl font-bold text-center">
           {title.h2}
         </h2>
@@ -11,7 +11,7 @@ export default function WeeklyMeetings({ title, meetingList }) {
             {meetingList.map((m) => (
               <div
                 key={m.id}
-                className="p-8 md:w-96 bg-white border border-purple-300 rounded-lg shadow hover:bg-purple-300"
+                className={`p-8 md:w-96 rounded-lg shadow-lg bg-white-400 `}
               >
                 <div className="flex justify-between">
                   <h3 className="text-xl font-bold">{m.title}</h3>

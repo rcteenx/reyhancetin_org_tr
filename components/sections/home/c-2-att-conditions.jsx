@@ -10,6 +10,7 @@ export default function AttendenceContitions({ img, con }) {
         </div>
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 mt-8 items-center">
           <div className="p-4">
+            <h3>{con.h3}</h3>
             <ul className="space-y-5">
               {con.items.map((i, index) => (
                 <li key={index} className="flex gap-2">
@@ -24,14 +25,16 @@ export default function AttendenceContitions({ img, con }) {
               ))}
             </ul>
           </div>
-          <div className="overflow-hidden rounded-3xl hidden lg:block">
-            <img
-              src={img.src}
-              alt="img colletion"
-              width="w-full"
-              height={400}
-              className=" rounded-xl"
-            />
+          <div className="p-4 hidden xl:block">
+            <div className="p-4 shadow-xl rounded-b-xl">
+              <img
+                src={img.src}
+                alt="img colletion"
+                width="w-full"
+                height={400}
+                className=" rounded-xl"
+              />
+            </div>
           </div>
         </div>
       </div>

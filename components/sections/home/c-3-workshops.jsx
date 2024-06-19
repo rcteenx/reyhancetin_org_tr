@@ -4,19 +4,21 @@ export default function Workshops() {
   return (
     <section id="atolye" className="">
       <div className="container mx-auto">
-        <div className="bg-indigo p-12 m-4 border rounded-2xl shadow-lg text-center text-white">
+        <div className="gradientIndigo p-12 m-4 border rounded-2xl shadow-lg text-center text-white">
           <h2>Birlikte İçsel Yolculuğa Uyum Atölyeleri</h2>
-          <p>
+          <p className="text-indigo-light-5">
             Haftalık düzenli çalışmalara uyumlanmak için tavsiye ettiğimiz temel
             atölye çalışması
           </p>
           <ul className="text-indigo text-base">
-            <li className="border p-4 my-4 rounded-md shadow-md bg-white hover:bg-gray-100">
+            <li className="border p-4 my-4 rounded-md shadow-md bg-white">
               Ezoterik Felsefe, Bilinç Seviyeleri ve Mindfulness Meditasyon
               Atölyesi
               <ul className="my-4 flex items-center justify-center gap-4  ">
-                <li className="px-4 py-2 bg-indigo text-white hover:bg-indigo/80 rounded-xl cursor-pointer">
-                  <a href="https://wa.me/905443087402?text=bilgi">Kayıt</a>
+                <li className="px-4 py-2 gradientAccent gradientTransition  rounded-xl cursor-pointer">
+                  <a href="https://wa.me/905443087402?text=at%C3%B6lye%20hakk%C4%B1nda%20bilgi%20alabilir%20miyim%3F%0A">
+                    Kayıt
+                  </a>
                 </li>
                 <li className="px-4 py-2 border hover:bg-gray-200 rounded-xl cursor-pointer">
                   <a

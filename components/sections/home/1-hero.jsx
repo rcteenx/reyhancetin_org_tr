@@ -30,19 +30,18 @@ const Hero = ({ rVideo }) => {
         </p>
         <div className="flex my-8 flex-row space-x-4 justify-center xl:justify-start">
           <a
-            href="https://wa.me/905443087402?text=bilgi"
-            className="btn-hero gradientIndigo text-white"
+            href="https://wa.me/905443087402?text=at%C3%B6lye%20hakk%C4%B1nda%20bilgi%20alabilir%20miyim%3F%0A"
+            className="btn-hero gradientIndigo gradientTransition"
           >
             {contHero.btn1}
             <IconComponent name="arrowright" size={18} color="white" />
           </a>
           <a href={"/" + StaticPages[2].link} className="btn-hero border-0">
-            {/* className="pb-2 border-b-2 border-indigo" */}
             <span>{contHero.btn2}</span>
           </a>
         </div>
       </div>
-      <div className="flex flex-col justify-end p-4 ">
+      <div className="p-4 flex flex-col justify-end">
         <div className="p-4 shadow-xl rounded-b-xl">
           <img
             src={rVideo.src}

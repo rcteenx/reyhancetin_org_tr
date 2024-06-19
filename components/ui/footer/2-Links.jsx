@@ -13,7 +13,7 @@ const FooterLinks = () => {
             {pg.pages.map((sp) => (
               <li
                 key={sp.id}
-                className="mt-1 text-sm leading-normal text-white-400 hover:text-slate-gray"
+                className="mt-1 text-sm leading-normal text-white-400 hover:text-indigo-gray"
               >
                 <a
                   href={

@@ -260,31 +260,31 @@ export const digerReyhanlar = [
   {
     id: 1,
     name: "Elif'in Babası",
-    bgcolour: "slate",
+    bgcolour: "indigo",
     tcolour: "white",
   },
   {
     id: 2,
     name: "İnci'in Babası",
-    bgcolour: "slate",
+    bgcolour: "indigo",
     tcolour: "white",
   },
   {
     id: 3,
     name: "Kaan'ın Babası",
-    bgcolour: "slate",
+    bgcolour: "indigo",
     tcolour: "white",
   },
   {
     id: 4,
     name: "Babasının Oğlu",
-    bgcolour: "slate2",
+    bgcolour: "indigo2",
     tcolour: "white",
   },
   {
     id: 5,
     name: "Annesinin Oğlu",
-    bgcolour: "slate2",
+    bgcolour: "indigo2",
     tcolour: "white",
   },
   {

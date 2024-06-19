@@ -85,7 +85,7 @@ export default function StaticPage() {
           geldiğinde, bilincin ötesinde, farkındalık yolu başlıyor.
         </p>
       </section>
-      <section className="bg-slate2 px-4 py-8 md:py-12  text-center text-white">
+      <section className="bg-indigo2 px-4 py-8 md:py-12  text-center text-white">
         <h2 className="text-2xl md:text-4xl font-bold ">Serbest Dikkat</h2>
         <p>
           Herhangi bir an ve yerde, dikkatimizi nereye vereceğimizi ya da

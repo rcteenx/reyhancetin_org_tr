@@ -79,7 +79,7 @@ export default function StaticPage() {
           farkındalığa geri dönüş
         </p>
       </section>
-      <section className="bg-slate2 px-4 py-8 md:py-12  text-center text-white">
+      <section className="bg-indigo2 px-4 py-8 md:py-12  text-center text-white">
         <h2 className="text-2xl md:text-4xl font-bold ">Misyonumuz</h2>
         <p>
           Kaynağa dönüş yolculuğumuzda öz benliklerimizin birbirine

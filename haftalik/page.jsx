@@ -33,7 +33,7 @@ export default function YolPage() {
               </li>
             ))}
           </ul>
-          <p className="mt-4 bg-slate/80 p-4 text-white rounded-2xl text-center">
+          <p className="mt-4 bg-indigo/80 p-4 text-white rounded-2xl text-center">
             {" "}
             {haftalık.pf}
           </p>

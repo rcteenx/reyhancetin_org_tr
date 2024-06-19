@@ -1,6 +1,6 @@
 export const contHero = {
   h2a: "Reyhan Çetin ve Arkadaşları",
-  h2b: "Ezoterik Felsefe Araştırma ve Uygulama Arkadaş Topluluğu",
+  h2b: "Ezoterik Felsefe Araştırma ve Uygulama Topluluğu",
   h1a: "YENİDEN TOPLANIYOR!",
   h1b: "Hazır mısınız?",
   desc: "Bilinç ve farkındalık konulu sohbet, meditasyon ve grup çalışmalarımızla içsel yolculuğumuz tekrar çevrim içi.",

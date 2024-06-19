@@ -49,7 +49,7 @@ const Hero = ({ rVideo }) => {
             alt="img colletion"
             width="w-full"
             height={400}
-            className="  rounded-xl"
+            className="rounded-xl"
           />
         </div>
       </div>

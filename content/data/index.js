@@ -39,8 +39,9 @@ export const whyweneed = {
 };
 
 export const whatwegain = {
-  h2: "Birlikte Yaptığımız Yol Çalışmaları Ne Kazandırıyor",
-  p: "Pek çok kişi için böyle bir ihtiyaç yok: Ancak, pek az kişi, bambaşka sebeplerle ve doğal olarak kendi üzerlerinde çalışmaya başlıyor. ",
+  h2: "Neden Toplanıyoruz?",
+  p1: "Pandemi sürecinde ara verdiğimiz bilinç çalışmaları, sessizlikte gelişen spritüel farkındalıkla olgunlaştı.",
+  p2: 'Bu yeni anlayışı, ihtiyaç duyanlara ulaştırmak ve "BİZ"e yolculuğumuza devam etmek için çaba harcayan arkadaşlarla bir topluluğa dönüşüyoruz.',
   items: [
     {
       title: "Bilinç",

@@ -37,6 +37,9 @@ module.exports = {
             5: "#000031",
           },
         },
+        accent: {
+          DEFAULT: "#FFD700",
+        },
         indigo2: "#5b5b84",
         gray40: "#666666",
         "coral-red": "#FF6452",

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gösterişli Çerçeve</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <style>
+      /* Gradient border için özel stil */
+      .gradient-border {
+        background: linear-gradient(45deg, #f3ec78, #af4261);
+        padding: 4px; /* Border width */
+        border-radius: 12px;
+      }
+      .gradient-border img {
+        border-radius: 8px;
+        background: white;
+        padding: 4px;
+      }
+    </style>
+  </head>
+  <body class="bg-gray-100 flex items-center justify-center min-h-screen">
+    <!-- Gösterişli Çerçeve -->
+    <div class="gradient-border">
+      <img
+        src="https://via.placeholder.com/300"
+        alt="Örnek Görsel"
+        class="shadow-2xl"
+      />
+    </div>
+
+    <!-- Daha Fazla Gösteriş İçin İç İçe Çerçeve -->
+    <div
+      class="relative p-6 bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 rounded-3xl shadow-2xl"
+    >
+      <div
+        class="relative bg-white p-4 border-8 border-dashed border-yellow-400 rounded-xl"
+      >
+        <img
+          src="https://via.placeholder.com/300"
+          alt="Örnek Görsel"
+          class="w-full h-auto rounded-lg shadow-lg"
+        />
+        <div
+          class="absolute inset-0 border-4 border-double border-indigo-600 rounded-2xl"
+        ></div>
+      </div>
+    </div>
+
+    <div
+      class="relative p-6 bg-gray-900 bg-opacity-50 rounded-3xl shadow-2xl backdrop-filter backdrop-blur-md"
+    >
+      <div
+        class="relative bg-white bg-opacity-20 p-4 border-4 border-solid border-white rounded-xl"
+      >
+        <img
+          src="https://via.placeholder.com/300"
+          alt="Örnek Görsel"
+          class="w-full h-auto rounded-lg shadow-lg backdrop-filter backdrop-blur-sm"
+        />
+      </div>
+    </div>
+  </body>
+</html>

@@ -3,14 +3,15 @@ export const contHero = {
   h2b: "Ezoterik Felsefe Araştırma ve Uygulama Topluluğu",
   h1a: "YENİDEN TOPLANIYOR!",
   h1b: "Hazır mısınız?",
-  desc: "Bilinç ve farkındalık konulu sohbet, meditasyon ve grup çalışmalarımızla içsel yolculuğumuz tekrar çevrim içi.",
+  desc: "Bilinç ve farkındalık sohbetleri, meditasyon ve grup çalışmalarımızla yolculuğu paylaşıyoruz.",
   btn1: "Katıl",
   btn2: "Bilgi",
   quote: "Kendimizi ne kadar anlıyor ve gerçekliğimizi yaşayabiliyoruz?",
 };
 
 export const barInfo = {
-  h2: "Hayatın İçinde Bilinç ve Farkındalık Yolculuğu",
+  h2: "Bilinç ve Farkındalık Yolculuğu",
+  desc: "Hayatın içinde pratik çalışmalar.",
   items: [
     {
       title: "Çalışma",

@@ -5,7 +5,7 @@ const Hero = ({ rVideo }) => {
   return (
     <section
       id="hero"
-      className="container mx-auto px-4 my-2 md:p-0 md:my-10 lg:mt-16 flex flex-col xl:flex-row justify-center gap-0"
+      className="md:container mx-auto my-4 md:my-10 lg:mt-16 flex flex-col xl:flex-row justify-center gap-0 "
     >
       <div className="xl:w-1/2 xl:pr-2 text-center xl:text-left">
         <h2 className="mb-4 font-light text-center xl:text-left md:text-lg lg:text-3xl text-primary">
@@ -17,7 +17,7 @@ const Hero = ({ rVideo }) => {
         </h2>
         <hr className="md:hidden" />
         <h1 className="text-3xl sm:text-4xl md:text-6xl lg:text-7xl font-bold text-indigo ">
-          <span className="xl:bg-white xl:whitespace-nowrap relative z-10 xl:pr-12 rounded-full">
+          <span className="xl:bg-white xl:whitespace-nowrap relative z-10 xl:pr-12 xl:rounded-r-full">
             {contHero.h1a}
           </span>
           <br />
@@ -42,14 +42,16 @@ const Hero = ({ rVideo }) => {
           </a>
         </div>
       </div>
-      <div className="flex flex-col justify-end items-center  bg-cover relative rounded-2xl">
-        <img
-          src={rVideo.src}
-          alt="img colletion"
-          width="w-full"
-          height={400}
-          className=" rounded-xl"
-        />
+      <div className="flex flex-col justify-end p-4 ">
+        <div className="p-4 shadow-xl rounded-b-xl">
+          <img
+            src={rVideo.src}
+            alt="img colletion"
+            width="w-full"
+            height={400}
+            className="  rounded-xl"
+          />
+        </div>
       </div>
     </section>
   );

@@ -47,6 +47,9 @@
   .gradientIndigo {
     @apply bg-gradient-to-br from-indigo-light-3 via-indigo to-indigo-dark-3 text-white;
   }
+  .gradientGray {
+    @apply bg-gradient-to-br from-indigo-light-3 via-indigo to-indigo-dark-3 text-white;
+  }
   .gradientIndigoToWhite {
     @apply bg-gradient-to-br from-indigo to-white text-black;
   }

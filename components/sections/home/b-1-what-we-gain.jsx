@@ -29,7 +29,7 @@ export default function WhatWeGain({ img, gain }) {
                 <li key={index} className="flex gap-2">
                   <SvgCheck />
                   <div>
-                    <dt className="font-semibold mt-1">{i.title}</dt>
+                    <dt className="font-bold text-lg">{i.title}</dt>
                     <dd className="-ml-7 mt-2 pb-2 border-b border-gray-200">
                       {i.info}
                     </dd>

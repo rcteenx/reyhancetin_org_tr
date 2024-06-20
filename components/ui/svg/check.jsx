@@ -2,8 +2,8 @@ export default function SvgCheck() {
   return (
     <svg
       className="shrink-0 mt-1"
-      width="22"
-      height="22"
+      width="18"
+      height="18"
       viewBox="0 0 22 22"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"

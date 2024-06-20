@@ -10,18 +10,16 @@ export default function WhatWeGain({ img, gain }) {
           <p>{gain.p2}</p>
         </div>
         <div className="grid grid-cols-1 xl:grid-cols-2 gap-8 lg:mt-4 items-center">
-          <div className="hidden xl:block">
-            <div className="p-4 shadow-xl rounded-b-xl">
-              <img
-                src={img.src}
-                alt="img colletion"
-                width="w-full"
-                height={400}
-                className="rounded-xl"
-              />
-            </div>
+          <div className="p-4 shadow-xl rounded-b-xl">
+            <img
+              src={img.src}
+              alt="img colletion"
+              width="w-full"
+              height={400}
+              className="rounded-xl"
+            />
           </div>
-          <div className="p-4">
+          <div className="px-4">
             <h3>Çalışma Ne Kazandırıyor?</h3>
             <p>Kendi üzerimizdeki çalışmanın temel kazanımları:</p>
             <ul className="space-y-5">

@@ -4,9 +4,9 @@ export default function Workshops() {
   return (
     <section id="atolye" className="">
       <div className="container mx-auto">
-        <div className="gradientIndigo p-12 m-4 border rounded-2xl shadow-lg text-center text-white">
-          <h2>Birlikte İçsel Yolculuğa Uyum Atölyeleri</h2>
-          <p className="text-indigo-light-5">
+        <div className="gradientAccent p-12 m-4 border rounded-2xl shadow-lg text-center text-white">
+          <h3>Bilinç Yolu'na Uyum Atölyesi</h3>
+          <p className="text-indigo-dark-5">
             Haftalık düzenli çalışmalara uyumlanmak için tavsiye ettiğimiz temel
             atölye çalışması
           </p>

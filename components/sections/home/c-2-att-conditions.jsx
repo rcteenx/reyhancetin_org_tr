@@ -1,4 +1,5 @@
 import SvgCheck from "@/components/ui/svg/check";
+import Workshops from "@/components/sections/home/c-3-workshops";
 
 export default function AttendenceContitions({ img, con }) {
   return (
@@ -8,8 +9,11 @@ export default function AttendenceContitions({ img, con }) {
           <h2>{con.h2}</h2>
           <p>{con.p}</p>
         </div>
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 mt-8 items-center">
-          <div className="p-4">
+
+        <Workshops />
+
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 md:mt-8 items-center">
+          <div className="px-4">
             <h3>{con.h3}</h3>
             <ul className="space-y-5">
               {con.items.map((i, index) => (
@@ -25,16 +29,14 @@ export default function AttendenceContitions({ img, con }) {
               ))}
             </ul>
           </div>
-          <div className="p-4 hidden xl:block">
-            <div className="p-4 shadow-xl rounded-b-xl">
-              <img
-                src={img.src}
-                alt="img colletion"
-                width="w-full"
-                height={400}
-                className=" rounded-xl"
-              />
-            </div>
+          <div className="p-4 shadow-xl rounded-b-xl">
+            <img
+              src={img.src}
+              alt="img colletion"
+              width="w-full"
+              height={400}
+              className=" rounded-xl"
+            />
           </div>
         </div>
       </div>

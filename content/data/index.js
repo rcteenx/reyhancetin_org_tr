@@ -59,8 +59,8 @@ export const whyweneed = {
 };
 
 export const meetingTitle = {
-  h2: "YENİ ARKADAŞLAR - DÜZENLİ ÇALIŞMA",
-  p: 'Haftalık çalışmalarımız, temel niteliğinde olan "atölye"mize katılıp başarılı olan yeni arkadaşlar içindir.',
+  h2: "HAFTALIK ÇALIŞMA PLANI",
+  p: 'Haftalık çalışmalarımız, temel niteliğinde olan "atölye"mize katılıp başarılı olan ve "bilinç yolu"nda ilerleyen arkadaşlar içindir.',
 };
 
 export const meetingList = [
@@ -117,7 +117,7 @@ export const meetingList = [
 export const conditions = {
   h2: "Atölye Çalışmaları",
   p: "Düzenli çalışmaların gerektirdiği donanımların kazanımı için yeni arkadaşları öncelikle atölye çalışmalarımıza bekliyoruz.",
-  h3: "Katılım Koşulları",
+  h3: "Atölye Kazanımları",
   items: [
     {
       title: "Ortak Dil",

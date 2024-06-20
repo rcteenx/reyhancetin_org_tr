@@ -1,6 +1,6 @@
 export default function WeeklyMeetings({ title, meetingList }) {
   return (
-    <section className="gradientPrimaryToWhite px-4 py-16">
+    <section className="gradientPrimaryToWhite md:px-4 py-16">
       <div className="container-p ">
         <h2 className="text-2xl md:text-4xl font-bold text-center">
           {title.h2}

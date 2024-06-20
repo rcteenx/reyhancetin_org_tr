@@ -23,7 +23,6 @@ import WhatWeGain from "@/components/sections/home/b-1-what-we-gain";
 
 import WeeklyMeetings from "@/components/sections/home/c-1-weekly-meetings";
 import AttendenceContitions from "@/components/sections/home/c-2-att-conditions";
-import Workshops from "@/components/sections/home/c-3-workshops";
 
 import Support from "@/components/sections/home/x6-support";
 import SocialMedia from "@/components/sections/common/z-social-media";
@@ -45,7 +44,6 @@ export default function Home() {
       <WeeklyMeetings title={meetingTitle} meetingList={meetingList} />
 
       <AttendenceContitions img={grupCalismasi} con={conditions} />
-      <Workshops />
 
       {/* <Support /> */}
       <SocialMedia />

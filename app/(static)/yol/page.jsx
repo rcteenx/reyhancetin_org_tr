@@ -13,20 +13,22 @@ import SvgCheck from "@/components/ui/svg/check";
 export default function StaticPage() {
   return (
     <>
-      <HeaderTitle>Reyhan Çetin ve Kendini Tanıma Yolculuğu</HeaderTitle>
+      <HeaderTitle>Kendini Tanıma Yolculuğu</HeaderTitle>
       <HeaderImage bgImage="yMerhaba">Yol Var... Gidersen!</HeaderImage>
       <PageContent h2Title="Uzun İnce bir Yoldayız">
         <p>
-          Aşık Veysel'in dediği gibi, 'Uzun ince bir yolda' ilerliyoruz. Ancak,
-          yol tek değil, birçok farklı yol da var. Üstelik, bir yol seçmeseniz
-          bile, zaman akıyor ve olduğumuz yerde bile süremiz bitiyor.
+          Aşık Veysel'in sözleriyle, 'Uzun ince bir yolda' ilerliyoruz. Ancak,
+          yol tek değil, birçok farklı yollar var. Üstelik, bir yol seçmeseniz
+          bile, zaman akıyor ve olduğumuz yerde bile gidiyoruz gündüz gece!
         </p>
         <p>
           Bazı yollar, mekanik bir şekilde sürünün, karanlığın ve hiçliğin
           ortasında ilerlerken, bazıları ise kendimizi keşfetmeye, bilinçli ve
-          farkında bir yaşam sürmeye hatta ötesine geçmeye doğru ilerliyor.
+          farkında bir yaşam sürmeye hatta ötesine doğru ilerliyor.
         </p>
-        <h3>Kendini Tanıma Yolculuğu</h3>
+        <h3 className=" gradientIndigo rounded-xl p-2">
+          Kendini Tanıma Yolculuğu
+        </h3>
         <p>
           Kendini tanıma yolculuğuna başlayan yolcular, çeşitli zorluklarla
           karşılaşıyorlar. Sahte bile olsa, eski ve tanıdık dünyaya ve sürüye
@@ -39,32 +41,22 @@ export default function StaticPage() {
           hale geliyor.
         </p>
         <hr className="mb-4" />
-        <h3>Düzenli Yol Çalışmalarımız</h3>
+        <h3 className=" gradientAccent rounded-xl p-2">
+          Düzenli Yol Çalışmalarımız
+        </h3>
         <p>
           Çalışmalarımız haftada 2-3 akşam Zoom ortamında yapılıyor. Her biri
           farklı formatta olan bu toplantılar, yaklaşık 2 saat sürüyor.
         </p>
         <AdWorkshop />
         <p>
-          Giriş atölyemizi başarıyla tamamladıktan sonra, yürüdüğünüz yola bağlı
-          olarak, aşağıdaki çalışma gruplarımızdan birine katılabilirsiniz.
+          Giriş atölyemizi başarıyla tamamlayan arkadaşları, haftalık
+          çalışmalarda aramızda görmeyi bekliyoruz.
         </p>
-        <ul>
-          <li>
-            <h5 className="font-semibold">
-              <a href="#bl0">Bilinç Yolu</a>
-            </h5>
-          </li>
-          <li>
-            <h5 className="font-semibold">
-              <a href="#bl1">Farkındalık Yolu</a>
-            </h5>
-          </li>
-        </ul>
-        <p>
+        {/* <p>
           Ayrıca, belirli dönemlerde farklı şehirlerde hafta sonu buluşmaları ve
-          şehir dışında inziva kampları düzenlemekteyiz.
-        </p>
+          şehir dışında inziva kampları düzenlenmektedir.
+        </p> */}
         <p>Sevgilerle...</p>
       </PageContent>
 

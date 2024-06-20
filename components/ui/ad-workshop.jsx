@@ -12,11 +12,11 @@ export default function AdWorkshop() {
         </a>
       </h4>
       <p>
-        Her ayın ilk hafta sonu yapılan bu atölye çalışmamıza katılmak için bize
-        ulaşabilirsiniz. Kayıt ve bilgi için:
+        Her ay son hafta sonu yapılan atölyemize yeni arkadaşları davet
+        ediyoruz.
       </p>
       <ul className="flex items-center justify-center gap-4">
-        <li className="px-4 py-2 bg-indigo text-white hover:bg-indigo/80 rounded-xl cursor-pointer">
+        <li className="px-4 py-2 gradientAccent gradientTransition text-white hover:bg-indigo/80 rounded-xl cursor-pointer">
           <a href="https://wa.me/905443087402?text=at%C3%B6lye%20hakk%C4%B1nda%20bilgi%20alabilir%20miyim%3F%0A">
             Kayıt
           </a>

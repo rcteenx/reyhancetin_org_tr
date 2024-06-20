@@ -11,7 +11,7 @@ export default function WeeklyMeetings({ title, meetingList }) {
             {meetingList.map((m) => (
               <div
                 key={m.id}
-                className={`p-8 md:w-96 rounded-lg shadow-lg bg-white-400 `}
+                className={`p-8 md:w-96 rounded-lg shadow-lg bg-white-400 ${m.bg}`}
               >
                 <div className="flex justify-between">
                   <h3 className="text-xl font-bold">{m.title}</h3>

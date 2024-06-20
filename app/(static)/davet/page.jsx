@@ -9,7 +9,7 @@ import { StaticPages } from "@/content/data";
 export default function StaticPage() {
   return (
     <>
-      <HeaderTitle>Reyhan Çetin ve Çalışma Arkadaşlığı Daveti</HeaderTitle>
+      <HeaderTitle>Çalışma Arkadaşlığı Daveti</HeaderTitle>
       <HeaderImage bgImage="aMerhaba">Birlikte yürüyelim...</HeaderImage>
       <PageContent h2Title="Uzaklara Gitmek İçin">
         <p>

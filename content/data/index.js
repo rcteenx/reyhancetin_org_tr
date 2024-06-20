@@ -70,7 +70,7 @@ export const meetingList = [
     fulltitle: "Ezoterik Felsefe Araştırma ve Uygulama Sohbetleri",
     time: "Pazartesi 21:30",
     link: "sohbet",
-    bg: "gradientPrimaryToWhite",
+    bg: "gradientIndigo",
     specs: [
       "Yaratılış Işını",
       "Bilinç, Farkındalık ve Ötesi",
@@ -86,7 +86,7 @@ export const meetingList = [
     fulltitle: "Bilinç ve Farkındalık Pratiği: Mindfulness Çalışmaları",
     time: "Salı 21:30",
     link: "meditasyon",
-    bg: "gradientPrimaryToWhite",
+    bg: "",
     specs: [
       "Bilinç ve Farkındalık Ayrımı",
       "Duygu ve Düşüncenin Ötesinde",
@@ -102,7 +102,7 @@ export const meetingList = [
     fulltitle: "Olağan Hayatımızda Çalışma: Gözlem Paylaşımı",
     time: "Çarşamba 21:30",
     link: "grup",
-    bg: "gradientPrimaryToWhite",
+    bg: "gradientAccent",
     specs: [
       "Bizi Yöneten Benlikleri Fark Etmek",
       "Kendimize bir Kahya Oluşturmak",

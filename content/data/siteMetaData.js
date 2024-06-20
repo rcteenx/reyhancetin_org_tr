@@ -9,7 +9,7 @@ const siteMetadata = {
     "Reyhan Çetin ve Arkadaşları Ezoterik Felsefe Araştırma ve Uygulama Topluluğu",
   language: "tr-TR",
   siteUrl: "https://reyhan.org.tr/",
-  siteLogo: "/logo-x.png",
+  siteLogo: "/logo-rc.png",
   email: "rhan.cetinx@gmail.com",
 };
 

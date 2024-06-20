@@ -10,7 +10,7 @@ export default function InfoBar({ info }) {
               <div className="text-lg lg:text-2xl text-indigo-light-3 ">
                 {i.title}
               </div>
-              <div className="text-4xl lg:text-6xl text-white font-extrabold lg:mt-2">
+              <div className="text-3xl lg:text-6xl text-white font-extrabold lg:mt-2">
                 {i.info} +
               </div>
             </div>

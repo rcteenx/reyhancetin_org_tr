@@ -62,8 +62,8 @@
   .gradientPurple {
     @apply bg-gradient-to-br from-purple-300 to-white;
   }
-  .gradientIndigoToWhite {
-    @apply bg-gradient-to-br from-indigo to-white text-black;
+  .gradientWhiteToIndigo {
+    @apply bg-gradient-to-br from-white to-indigo  text-black;
   }
   .gradientTransition {
     @apply hover:scale-110 transition duration-300 ease-out

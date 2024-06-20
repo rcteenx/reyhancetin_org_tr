@@ -2,7 +2,7 @@ import { cva } from "class-variance-authority";
 import { cn } from "@/lib/utils";
 
 const imageStyles = cva(
-  "mx-auto h-48 max-w-xl relative bg-no-repeat bg-center bg-gray-500 rounded-2xl shadow-2xl ",
+  "mx-auto h-48 max-w-xl relative bg-no-repeat bg-center md:rounded-2xl md:border-4 md:border-white ",
   {
     variants: {
       bgImage: {
@@ -36,7 +36,7 @@ const h1Styles = cva("absolute -bottom-4 left-8 font-light ", {
 
 export default function HeaderTitle({ bgImage, h1Color, children, ...props }) {
   return (
-    <section className="mx-auto container-p mt-8">
+    <section className="md:p-4 md:gradientWhiteToIndigo shadow-lg border-b-4 border-indigo-light-3">
       <div className={cn(imageStyles({ bgImage }))}>
         <h1 className={cn(h1Styles({ h1Color }))}>{children}</h1>
       </div>

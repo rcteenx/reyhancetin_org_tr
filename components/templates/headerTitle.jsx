@@ -4,7 +4,7 @@ import { cn } from "@/lib/utils";
 const titleStyles = cva(" ", {
   variants: {
     bgColor: {
-      default: "bg-indigo2",
+      default: "bg-indigo border-b-2 border-indigo-light-5 shadow-lg",
       secondary: "bg-indigo",
       danger: "bg-red-600",
     },
@@ -18,7 +18,7 @@ export default function HeaderTitle({ bgColor, children, ...props }) {
   return (
     <section id="headerBand" className={cn(titleStyles({ bgColor }))}>
       <div className="mx-auto container px-4 md:p-0">
-        <h3 className="p-1 my-1 font-light text-white">{children}</h3>
+        <h3 className="p-1 my-0 font-light text-white">{children}</h3>
       </div>
     </section>
   );

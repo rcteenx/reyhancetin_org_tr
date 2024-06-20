@@ -24,7 +24,9 @@ const h1Styles = cva("absolute -bottom-4 left-8 font-light ", {
   variants: {
     h1Color: {
       default: "text-white",
+      black: "text-black",
       gray800: "text-gray-800",
+      gray400: "text-gray-400",
     },
   },
   defaultVariants: {

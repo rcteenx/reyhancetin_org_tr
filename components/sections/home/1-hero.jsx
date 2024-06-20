@@ -16,7 +16,7 @@ const Hero = ({ rVideo }) => {
           </span>
         </h2>
         <h1 className="mt-8 mb-0 text-3xl sm:text-4xl md:text-6xl lg:text-7xl font-bold text-indigo">
-          <span className="px-8 xl:pr-12  xl:-ml-8 xl:bg-white xl:whitespace-nowrap relative z-10 xl:rounded-r-full shadow-lg ">
+          <span className="px-4 xl:pr-12  xl:-ml-4 xl:bg-white xl:whitespace-nowrap relative z-10 xl:rounded-r-full shadow-lg ">
             {contHero.h1a}
           </span>
           <br />

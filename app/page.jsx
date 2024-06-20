@@ -8,7 +8,12 @@ import {
   meetingList,
   conditions,
 } from "@/content/data";
-import { rcHero, rVideo } from "@/public/assets/images";
+import {
+  rcHero,
+  rVideo,
+  safFarkindalik,
+  grupCalismasi,
+} from "@/public/assets/images";
 
 import Hero from "@/components/sections/home/1-hero";
 import InfoBar from "@/components/sections/home/2-info-bar";
@@ -35,11 +40,11 @@ export default function Home() {
       <Hero rVideo={rVideo} />
       <InfoBar info={barInfo} />
 
-      <WhatWeGain img={rVideo} gain={whatwegain} />
+      <WhatWeGain img={safFarkindalik} gain={whatwegain} />
       <WhyWeNeed need={whyweneed} />
       <WeeklyMeetings title={meetingTitle} meetingList={meetingList} />
 
-      <AttendenceContitions img={rVideo} con={conditions} />
+      <AttendenceContitions img={grupCalismasi} con={conditions} />
       <Workshops />
 
       {/* <Support /> */}

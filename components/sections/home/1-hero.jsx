@@ -8,24 +8,23 @@ const Hero = ({ rVideo }) => {
       className="md:container mx-auto my-4 md:my-10 lg:mt-16 flex flex-col xl:flex-row justify-center gap-0 "
     >
       <div className="xl:w-1/2 xl:pr-2 text-center xl:text-left">
-        <h2 className="mb-4 font-light text-center xl:text-left md:text-lg lg:text-3xl text-primary">
-          {contHero.h2a}
+        <h2 className="mb-4 font-light text-center xl:text-left md:text-2xl lg:text-4xl text-primary">
+          <span className="border-b">{contHero.h2a}</span>
           <br />
           <span className="font-normal text-xs md:text-sm lg:text-xl">
             {contHero.h2b}
           </span>
         </h2>
-        <hr className="md:hidden" />
-        <h1 className="text-3xl sm:text-4xl md:text-6xl lg:text-7xl font-bold text-indigo ">
-          <span className="xl:bg-white xl:whitespace-nowrap relative z-10 xl:pr-12 xl:rounded-r-full">
+        <h1 className="mt-8 mb-0 text-3xl sm:text-4xl md:text-6xl lg:text-7xl font-bold text-indigo">
+          <span className="px-8 xl:pr-12  xl:-ml-8 xl:bg-white xl:whitespace-nowrap relative z-10 xl:rounded-r-full shadow-lg ">
             {contHero.h1a}
           </span>
           <br />
-          <span className="text-primary inline-block xl:my-4">
+          <span className="text-primary inline-block my-4 xl:my-8">
             {contHero.h1b}
           </span>
         </h1>
-        <p className="px-6 md:px-0 text-xs md:text-lg text-indigo-gray leading-4 ">
+        <p className="my-0 px-4 md:px-0 text-xs md:text-lg text-indigo-gray">
           {contHero.desc}
         </p>
         <div className="flex my-8 flex-row space-x-4 justify-center xl:justify-start">
@@ -36,7 +35,10 @@ const Hero = ({ rVideo }) => {
             {contHero.btn1}
             <IconComponent name="arrowright" size={18} color="white" />
           </a>
-          <a href={"/" + StaticPages[2].link} className="btn-hero border-0">
+          <a
+            href={"/" + StaticPages[2].link}
+            className="btn-hero border-0 hover:text-indigo-light-3"
+          >
             <span>{contHero.btn2}</span>
           </a>
         </div>

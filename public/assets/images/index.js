@@ -4,4 +4,17 @@ import footerReyhan from "./rcteenx.jpeg";
 import bOncesi from "./bilinc-oncesi.jpg";
 import bSonrasi from "./bilinc-sonrasi.jpg";
 
-export { rcHero, rVideo, footerReyhan, bOncesi, bSonrasi };
+import safFarkindalik from "./saf-farkindalik.jpg";
+import varolussalDonusum from "./varolussal-donusum.jpg";
+import grupCalismasi from "./grup-calismasi.jpg";
+
+export {
+  rcHero,
+  rVideo,
+  footerReyhan,
+  bOncesi,
+  bSonrasi,
+  safFarkindalik,
+  varolussalDonusum,
+  grupCalismasi,
+};

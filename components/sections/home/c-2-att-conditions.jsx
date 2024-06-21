@@ -3,7 +3,7 @@ import Workshops from "@/components/sections/home/c-3-workshops";
 
 export default function AttendenceContitions({ img, con }) {
   return (
-    <div id="con" className="bg-white py-10">
+    <div id="con" className="bg-white py-8 md:py-16">
       <div className="container mx-auto">
         <div className="px-4 lg:p-0 text-left xl:text-center">
           <h2>{con.h2}</h2>

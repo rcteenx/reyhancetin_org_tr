@@ -2,7 +2,7 @@ import SvgCheck from "@/components/ui/svg/check";
 
 export default function WhatWeGain({ img, gain }) {
   return (
-    <div id="gain" className="bg-white py-12">
+    <div id="gain" className="bg-white py-8 md:py-16">
       <div className="container mx-auto">
         <div className="px-4 lg:p-0 text-left xl:text-center">
           <h2 className="md:text-3xl lg:text-6xl">{gain.h2}</h2>

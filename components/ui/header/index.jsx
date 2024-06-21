@@ -5,7 +5,7 @@ import Contact from "@/components/ui/header/Contact";
 export default function HeaderStaticIndex() {
   return (
     // md:justify-between
-    <header className="mx-auto container-p py-2 flex items-center justify-between">
+    <header className="mx-auto md:container py-2 flex items-center justify-between">
       <HeaderLogo />
       <Nav />
       <Contact />

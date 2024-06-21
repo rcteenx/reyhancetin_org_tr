@@ -3,7 +3,7 @@ export default function Faq() {
     <section className=" border-b border-gray-200 faq--content" id="faq">
       <div className="mx-auto container py-12 px-4 sm:py-16 sm:px-6 lg:px-8">
         <h2 className="text-center font-bold tracking-tight text-gray-900 text-[26px]">
-          Sıkça Sorulan Sorular
+          SIKÇA SORULAN SORULAR
         </h2>
         <dl className="mt-6 space-y-6 divide-y divide-gray-200">
           <div className="pt-6 question">

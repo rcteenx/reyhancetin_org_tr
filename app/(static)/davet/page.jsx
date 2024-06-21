@@ -62,7 +62,7 @@ export default function StaticPage() {
       </PageContent>
 
       <section className="bg-[#f7f7f7] px-4 py-8 md:py-12  text-center">
-        <h2 className="text-2xl md:text-4xl font-bold ">İşte Hikayemiz</h2>
+        <h2 className="text-2xl md:text-4xl font-bold ">İŞTE HİKAYEMİZ</h2>
         <p>
           Hepimiz, saf farkındalığın kaynağı olan '<strong>öz benlik</strong>'
           sayesinde bedenli ve bilinçli bir varlık olarak ortaya çıktık.
@@ -80,7 +80,7 @@ export default function StaticPage() {
         </p>
       </section>
       <section className="bg-indigo2 px-4 py-8 md:py-12  text-center text-white">
-        <h2 className="text-2xl md:text-4xl font-bold ">Misyonumuz</h2>
+        <h2 className="text-2xl md:text-4xl font-bold ">MİSYONUMUZ</h2>
         <p>
           Kaynağa dönüş yolculuğumuzda öz benliklerimizin birbirine
           kavuşmasıdır.

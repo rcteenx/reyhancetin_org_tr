@@ -10,7 +10,7 @@ export const contHero = {
 };
 
 export const barInfo = {
-  h2: "Bilinç ve Farkındalık Yolculuğu",
+  h2: "BİLİNÇ ve FARKINDALIK YOLCULUĞU",
   desc: "Hayatın içinde pratik bir çalışma",
   items: [
     {
@@ -33,7 +33,7 @@ export const barInfo = {
 };
 
 export const whatwegain = {
-  h2: "Neden Toplanıyoruz?",
+  h2: "NEDEN TOPLANIYORUZ?",
   p1: "Pandemi sürecinde ara verdiğimiz bilinç çalışmaları, sessizlikte gelişen spritüel farkındalıkla olgunlaştı.",
   p2: 'Bu yeni anlayışı, ihtiyaç duyanlara ulaştırmak ve "BİZ"e yolculuğumuza devam etmek için çaba harcayan arkadaşlarla bir topluluğa dönüşüyoruz.',
   items: [
@@ -53,7 +53,7 @@ export const whatwegain = {
 };
 
 export const whyweneed = {
-  h2: "Kendini Tanıma",
+  h2: "KENDİNİ TANIMA",
   h4: "Neden Kendimizi Yolculuğuna ve Kendimizi Çalışmaya İhtiyacımız var?",
   p: "Pek çok kişi için böyle bir ihtiyaç yok: Ancak, pek az kişi, bambaşka sebeplerle ve doğal olarak kendi üzerlerinde çalışmaya başlıyor. ",
   p2: 'Bu topluluk daveti, halen kendisine doğru bir yolculuğa başlamış olanlar için. Henüz, "yolculuğa başlatma" çalışmamız bulunmuyor.',
@@ -116,7 +116,7 @@ export const meetingList = [
 ];
 
 export const conditions = {
-  h2: "Atölye Çalışmaları",
+  h2: "ATÖLYE ÇALIŞMALARI",
   p: "Düzenli çalışmaların gerektirdiği donanımların kazanımı için yeni arkadaşları öncelikle atölye çalışmalarımıza bekliyoruz.",
   h3: "Atölye Kazanımları",
   items: [

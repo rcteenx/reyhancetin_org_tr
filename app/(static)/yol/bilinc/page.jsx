@@ -66,7 +66,7 @@ export default function StaticPage() {
       </PageContent>
 
       <section className="bg-[#f7f7f7] px-4 py-8 md:py-12  text-center">
-        <h2 className="text-2xl md:text-4xl font-bold ">Bilincin Sınırları</h2>
+        <h2 className="text-2xl md:text-4xl font-bold ">BİLİNCİN SINIRLARI</h2>
         <p>
           Bilincimiz telefonunuza yüklenmiş uygulamalardan farklı değil. Her
           biri kendi alanında mükemmele yakın işlemler yapıyor. Ancak, hepsi
@@ -86,7 +86,7 @@ export default function StaticPage() {
         </p>
       </section>
       <section className="bg-indigo2 px-4 py-8 md:py-12  text-center text-white">
-        <h2 className="text-2xl md:text-4xl font-bold ">Serbest Dikkat</h2>
+        <h2 className="text-2xl md:text-4xl font-bold ">SERBEST DİKKAT</h2>
         <p>
           Herhangi bir an ve yerde, dikkatimizi nereye vereceğimizi ya da
           vermeyeceğimizi seçebilme özgürlüğü ister misiniz?

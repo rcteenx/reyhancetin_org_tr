@@ -68,7 +68,7 @@ export default function StaticPage() {
 
       <section className="px-4 pt-16 pb-4 max-w-4xl mx-auto text-center">
         <h2 className="text-2xl md:text-4xl font-bold ">
-          Atölye Kayıt Bilgileri
+          ATÖLYE KAYIT BİLGİLERİ
         </h2>
         <p>
           Bu etkileyici atölye, iki tam gün boyunca sizinle birlikte olacak ve

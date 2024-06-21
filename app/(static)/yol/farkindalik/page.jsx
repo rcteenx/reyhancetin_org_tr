@@ -70,7 +70,7 @@ export default function StaticPage() {
 
       <section className="bg-[#f7f7f7] px-4 py-8 md:py-12  text-center">
         <h2 className="text-2xl md:text-4xl font-bold ">
-          Farkındalığın Başlangıcı
+          FARKINDALIĞIN BAŞLANGICI
         </h2>
         <p>
           Saf farkındalık, ıssızlığın ortasında, sadece "ben" hissinin olduğu ve
@@ -93,7 +93,7 @@ export default function StaticPage() {
       </section>
       <section className="bg-indigo2 px-4 py-8 md:py-12  text-center text-white">
         <h2 className="text-2xl md:text-4xl font-bold ">
-          Birbirimizle "BEN" algısı ile bağlıyız.
+          BİRBİRİMİZE BAĞLIYIZ
         </h2>
         <p>
           Reyhan Çetin'in içinde "BEN" diye algılanan saf farkındalık ile senin,

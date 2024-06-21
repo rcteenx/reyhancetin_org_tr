@@ -1,5 +1,5 @@
 export const contHero = {
-  h2a: "Reyhan Çetin ve Arkadaşları",
+  h2a: "Reyhan Çetin & Arkadaşları",
   h2b: "Ezoterik Felsefe Araştırma ve Uygulama Topluluğu",
   h1a: "YENİDEN TOPLANIYOR!",
   h1b: "Hazır mısınız?",

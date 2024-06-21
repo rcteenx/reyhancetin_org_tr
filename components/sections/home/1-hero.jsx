@@ -5,7 +5,7 @@ const Hero = ({ rVideo }) => {
   return (
     <section
       id="hero"
-      className="md:container mx-auto my-4 md:my-8 flex flex-col xl:flex-row justify-center gap-0 "
+      className="md:container mx-auto xl:my-8 flex flex-col xl:flex-row justify-center gap-0 "
     >
       <div className="xl:w-1/2 xl:pr-2 text-center xl:text-left">
         <h2 className="mb-4 font-light text-center xl:text-left text-2xl lg:text-4xl xl:text-primary">

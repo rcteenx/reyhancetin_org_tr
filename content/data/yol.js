@@ -19,7 +19,7 @@ export const mekanikYollar = {
 };
 
 export const bilincliYollar = {
-  h2: "Bilinçli ve Ötesi",
+  h2: "Bilinç ve Ötesi",
   p: "Hayatımızın bilinçli dönemi başladıktan sonra, devam eden yol ve çalışmalarımız. Birlikte yaptığımız yol çalışmaları, bu aşamalarda ilerler.",
   h3: "Bilinçli Yollar",
   items: [

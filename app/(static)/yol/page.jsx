@@ -26,7 +26,7 @@ export default function StaticPage() {
           ortasında ilerlerken, bazıları ise kendimizi keşfetmeye, bilinçli ve
           farkında bir yaşam sürmeye hatta ötesine doğru ilerliyor.
         </p>
-        <h3 className=" gradientIndigo rounded-xl p-2">Kendini Tanıma</h3>
+        <h3 className="-mx-2 gradientIndigo rounded-xl p-2">Kendini Tanıma</h3>
         <p>
           Kendini tanıma yolculuğuna başlayan yolcular, çeşitli zorluklarla
           karşılaşıyorlar. Sahte bile olsa, eski ve tanıdık dünyaya ve sürüye
@@ -39,7 +39,9 @@ export default function StaticPage() {
           hale geliyor.
         </p>
         <hr className="mb-4" />
-        <h3 className=" gradientAccent rounded-xl p-2">Düzenli Çalışmalar</h3>
+        <h3 className="-mx-2 gradientAccent rounded-xl p-2">
+          Düzenli Çalışmalar
+        </h3>
         <p>
           Çalışmalarımız haftada 2-3 akşam Zoom ortamında yapılıyor. Her biri
           farklı formatta olan bu toplantılar, yaklaşık 2 saat sürüyor.
@@ -106,7 +108,9 @@ export default function StaticPage() {
       <section id="bilincliYollar" className="bg-white py-10">
         <div className="container mx-auto">
           <div className="px-4 lg:p-0 text-left xl:text-center">
-            <h2>{bilincliYollar.h2}</h2>
+            <h2 className="-mx-2 gradientIndigo rounded-xl p-2">
+              {bilincliYollar.h2}
+            </h2>
             <p>{bilincliYollar.p}</p>
           </div>
           <div className="grid grid-cols-1 xl:grid-cols-2 gap-8 lg:mt-4 items-center">

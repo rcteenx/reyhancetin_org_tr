@@ -15,7 +15,7 @@ export default function StaticPage() {
     <>
       <HeaderTitle>Kendini Tanıma Yolculuğu</HeaderTitle>
       <HeaderImage bgImage="yMerhaba">Yol Var... Gidersen!</HeaderImage>
-      <PageContent h2Title="Uzun İnce bir Yoldayız">
+      <PageContent h2Title="Uzun İnce bir Yol">
         <p>
           Aşık Veysel'in sözleriyle, 'Uzun ince bir yolda' ilerliyoruz. Ancak,
           yol tek değil, birçok farklı yollar var. Üstelik, bir yol seçmeseniz
@@ -26,9 +26,7 @@ export default function StaticPage() {
           ortasında ilerlerken, bazıları ise kendimizi keşfetmeye, bilinçli ve
           farkında bir yaşam sürmeye hatta ötesine doğru ilerliyor.
         </p>
-        <h3 className=" gradientIndigo rounded-xl p-2">
-          Kendini Tanıma Yolculuğu
-        </h3>
+        <h3 className=" gradientIndigo rounded-xl p-2">Kendini Tanıma</h3>
         <p>
           Kendini tanıma yolculuğuna başlayan yolcular, çeşitli zorluklarla
           karşılaşıyorlar. Sahte bile olsa, eski ve tanıdık dünyaya ve sürüye
@@ -41,9 +39,7 @@ export default function StaticPage() {
           hale geliyor.
         </p>
         <hr className="mb-4" />
-        <h3 className=" gradientAccent rounded-xl p-2">
-          Düzenli Yol Çalışmalarımız
-        </h3>
+        <h3 className=" gradientAccent rounded-xl p-2">Düzenli Çalışmalar</h3>
         <p>
           Çalışmalarımız haftada 2-3 akşam Zoom ortamında yapılıyor. Her biri
           farklı formatta olan bu toplantılar, yaklaşık 2 saat sürüyor.

@@ -1,5 +1,5 @@
 export const mekanikYollar = {
-  h2: "Bilinçli Çalışma Öncesi",
+  h2: "Çalışma Öncesi",
   p: "Kendi bilinç ışığımız yanmadan önce, bir anlamda henüz ruhsal gözlerimiz körken, karanlığın içinde yürüdüğümüz 3 temel yol.",
   h3: "Mekanik Yollar",
   items: [
@@ -19,9 +19,9 @@ export const mekanikYollar = {
 };
 
 export const bilincliYollar = {
-  h2: "Bilinçli Çalışma ve Ötesindeki Yollar",
+  h2: "Bilinçli ve Ötesi",
   p: "Hayatımızın bilinçli dönemi başladıktan sonra, devam eden yol ve çalışmalarımız. Birlikte yaptığımız yol çalışmaları, bu aşamalarda ilerler.",
-  h3: "Bilinç Ateşinden Sonraki Yollar",
+  h3: "Bilinçli Yollar",
   items: [
     {
       title: "Bilinç Yolu: Güç & İrade",

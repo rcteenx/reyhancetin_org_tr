@@ -11,7 +11,7 @@ export default function StaticPage() {
     <>
       <HeaderTitle>Çalışma Arkadaşlığı Daveti</HeaderTitle>
       <HeaderImage bgImage="aMerhaba">Birlikte yürüyelim...</HeaderImage>
-      <PageContent h2Title="Uzaklara Gitmek İçin">
+      <PageContent h2Title="Uzaklara Gitmek">
         <p>
           Bir Afrika Atasözü:{" "}
           <q>
@@ -25,7 +25,7 @@ export default function StaticPage() {
           Bu süreç boyunca, kendimizi ve yolu kaybetmemek için her türlü destek
           iyi oluyor.
         </p>
-        <h3>Yol Arkadaşlığı</h3>
+        <h3 className=" gradientIndigo rounded-xl p-2">Yol Arkadaşlığı</h3>
         <p>
           Kendi yolumuz ortaya çıktığında, ikinci olarak birlikte yürüyeceğimiz
           kişilere ulaşmaya çalışırız. Bu web sitesi ve tüm diğer çalışmalar,
@@ -45,7 +45,7 @@ export default function StaticPage() {
           Sonrasında, çalışma olmayan, başka bir çalışma ve yol ortaya çıktı.
         </p> */}
         <hr className="mb-4" />
-        <h3>Yol Arkadaşlığına Katılım</h3>
+        <h3 className=" gradientAccent rounded-xl p-2">Arkadaşlığa Katılım</h3>
         <p>
           Düzenli yol çalışmalarımıza dahil olmak için belirli konularda
           uyumlanmamız gerekiyor: Ortak bir dil, belirli bir varlık ve deneyim

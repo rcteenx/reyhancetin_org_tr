@@ -63,7 +63,7 @@ export default function StaticPage() {
         {/* <div className="skewed"></div> */}
         <div className="curvedR"></div>
       </section>
-      <section id="mekanikYollar" className="bg-indigo/50 py-10">
+      <section id="mekanikYollar" className="bg-indigo/50 py-8">
         <div className="container mx-auto">
           <div className="px-4 lg:p-0 text-left xl:text-center">
             <h2>{mekanikYollar.h2}</h2>
@@ -98,7 +98,6 @@ export default function StaticPage() {
           </div>
         </div>
       </section>
-      12
       <section className="relative w-100 h-12 md:h-24">
         <div className="curved"></div>
       </section>

@@ -1,7 +1,7 @@
 export const mekanikYollar = {
-  h2: "Bilinçli Çalışma Öncesi Yollar",
+  h2: "Bilinçli Çalışma Öncesi",
   p: "Kendi bilinç ışığımız yanmadan önce, bir anlamda henüz ruhsal gözlerimiz körken, karanlığın içinde yürüdüğümüz 3 temel yol.",
-  h3: "Bilinç Ateşinden Önceki Yollar",
+  h3: "Mekanik Yollar",
   items: [
     {
       title: "Hayat Yolu: Bitkisel",

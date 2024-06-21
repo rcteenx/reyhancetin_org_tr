@@ -55,7 +55,7 @@ export default function StaticPage() {
       </PageContent>
 
       <section className="bg-indigo2 px-4 py-8 md:py-12  text-center text-white">
-        <h2 className="text-2xl md:text-4xl font-bold ">KAYIT ve İLETİŞİM</h2>
+        <h3 className="text-2xl md:text-4xl font-bold ">Kayıt ve Mesaj</h3>
         <p>
           İçsel yolculuğumuza katılmak için kaydınızı şimdi yapın! Sınırlı
           kontenjanımız olduğunu unutmayın.

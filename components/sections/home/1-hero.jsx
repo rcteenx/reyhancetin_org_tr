@@ -29,17 +29,22 @@ const Hero = ({ rVideo }) => {
         <p className="my-0 px-4 md:px-0 text-xs md:text-lg text-indigo-gray">
           {contHero.desc}
         </p>
-        <div className="flex my-4 flex-row space-x-4 justify-center xl:justify-start">
-          <a
-            href="https://wa.me/905443087402?text=at%C3%B6lye%20hakk%C4%B1nda%20bilgi%20alabilir%20miyim%3F%0A"
-            className="btn-hero gradientIndigo gradientTransition"
-          >
-            {contHero.btn1}
-            <IconComponent name="arrowright" size={18} color="white" />
-          </a>
+        <div className="flex my-8 flex-row space-x-8 justify-center ">
+          <div className="relative inline-flex group">
+            <div className="absolute transitiona-all duration-1000 opacity-80 -inset-px gradientPurpleToBlack rounded-2xl blur-lg group-hover:opacity-100 group-hover:-inset-1 group-hover:duration-200 animate-tilt"></div>
+            <a
+              href="https://wa.me/905443087402?text=at%C3%B6lye%20hakk%C4%B1nda%20bilgi%20alabilir%20miyim%3F%0A"
+              title="WhatsApp Mesajı Gönderin"
+              className="relative inline-flex items-center justify-center px-8 py-4 text-lg font-bold text-white transition-all duration-200  font-pj focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-900 gradientIndigo gradientTransition btn-hero"
+              role="button"
+            >
+              {contHero.btn1}
+              <IconComponent name="arrowright" size={18} color="white" />
+            </a>
+          </div>
           <a
             href={"/" + StaticPages[2].link}
-            className="btn-hero border-0 hover:text-indigo-light-3"
+            className="btn-hero font-semibold text-lg border-0 hover:text-indigo-light-3"
           >
             <span>{contHero.btn2}</span>
           </a>

@@ -4,8 +4,8 @@ export const contHero = {
   h1a: "YENİDEN TOPLANIYOR!",
   h1b: "Hazır mısınız?",
   desc: "Bilinç ve farkındalık sohbetleri, meditasyon ve grup çalışmalarımızla yolculuğu paylaşıyoruz.",
-  btn1: "Katıl",
-  btn2: "Bilgi",
+  btn1: "Kayıt Ol",
+  btn2: "Bilgi Al",
   quote: "Kendimizi ne kadar anlıyor ve gerçekliğimizi yaşayabiliyoruz?",
 };
 

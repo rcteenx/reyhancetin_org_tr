@@ -9,7 +9,7 @@ export default function WhatWeGain({ img, gain }) {
           <p>{gain.p1}</p>
           <p>{gain.p2}</p>
         </div>
-        <div className="grid grid-cols-1 xl:grid-cols-2 gap-8 lg:mt-4 items-center">
+        <div className="grid grid-cols-1 xl:grid-cols-2 gap-4 lg:mt-4 items-center">
           <div className="p-4 shadow-xl rounded-b-xl">
             <img
               src={img.src}

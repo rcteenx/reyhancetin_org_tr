@@ -22,7 +22,7 @@ export default function Support() {
               <span className="absolute bg-indigo/40 top-0 left-0 right-0 bottom-0 rounded-full scale-150 hidden lg:block transition-all z-20 animate-ping duration-500 delay-500"></span>
               <span className="absolute bg-indigo/40 top-0 left-0 right-0 bottom-0 rounded-full scale-200 hidden lg:block transition-all z-20 animate-ping duration-1000 delay-1000"></span>
               <span className="absolute bg-indigo/40 top-0 left-0 right-0 bottom-0 rounded-full scale-[1.35] hidden lg:block transition-all z-30 border border-white/50 group-hover:border-white/50"></span>
-              <span className="relative z-30 text-white">Mesaj Gönder</span>
+              <span className="relative z-30 text-white">MESAJ GÖNDER</span>
             </a>
           </div>
         </div>

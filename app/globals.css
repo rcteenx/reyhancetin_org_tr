@@ -18,7 +18,7 @@
     @apply my-6 font-bold text-4xl md:text-5xl lg:text-6xl leading-tight tracking-normal;
   }
   h2 {
-    @apply my-4 font-bold text-3xl md:text-4xl lg:text-5xl;
+    @apply my-4 font-bold text-3xl md:text-4xl lg:text-5xl text-center;
   }
   h3 {
     @apply my-2 font-bold text-2xl md:text-3xl lg:text-4xl;
@@ -55,6 +55,9 @@
   }
   .gradientAccent {
     @apply bg-gradient-to-br from-accent to-black text-white;
+  }
+  .gradientPurpleToBlack {
+    @apply bg-gradient-to-r from-purple-300 to-purple-800 text-white;
   }
   .gradientAccentToWhite {
     @apply bg-gradient-to-br from-accent to-white;

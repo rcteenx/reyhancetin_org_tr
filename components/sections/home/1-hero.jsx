@@ -8,8 +8,10 @@ const Hero = ({ rVideo }) => {
       className="md:container mx-auto my-4 md:my-10 lg:mt-16 flex flex-col xl:flex-row justify-center gap-0 "
     >
       <div className="xl:w-1/2 xl:pr-2 text-center xl:text-left">
-        <h2 className="mb-4 font-light text-center xl:text-left md:text-2xl lg:text-4xl text-primary">
-          <span className="border-b">{contHero.h2a}</span>
+        <h2 className="mb-4 font-light text-center xl:text-left md:text-2xl lg:text-4xl md:text-primary">
+          <span className="border-b border-indigo md:border-primary">
+            {contHero.h2a}
+          </span>
           <br />
           <span className="font-normal text-xs md:text-sm lg:text-xl">
             {contHero.h2b}

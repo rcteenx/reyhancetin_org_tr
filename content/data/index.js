@@ -53,9 +53,10 @@ export const whatwegain = {
 };
 
 export const whyweneed = {
-  h2: "Neden Kendimizi Tanımaya ve İçsel Yolculuğa İhtiyacımız var?",
+  h2: "Kendini Tanıma",
+  h4: "Neden Kendimizi Yolculuğuna ve Kendimizi Çalışmaya İhtiyacımız var?",
   p: "Pek çok kişi için böyle bir ihtiyaç yok: Ancak, pek az kişi, bambaşka sebeplerle ve doğal olarak kendi üzerlerinde çalışmaya başlıyor. ",
-  p2: "Bu topluluk daveti, zaten kendisine doğru içsel bir yolculuğa başlamış olanlar için. Henüz yolculuğa başlatma çalışmamız bulunmuyor.",
+  p2: 'Bu topluluk daveti, halen kendisine doğru bir yolculuğa başlamış olanlar için. Henüz, "yolculuğa başlatma" çalışmamız bulunmuyor.',
 };
 
 export const meetingTitle = {

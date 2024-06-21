@@ -11,7 +11,7 @@ export default function StaticPage() {
     <>
       <HeaderTitle>Çalışma Arkadaşlığı Daveti</HeaderTitle>
       <HeaderImage bgImage="aMerhaba">Birlikte yürüyelim...</HeaderImage>
-      <PageContent h2Title="Uzaklara Gitmek">
+      <PageContent h2Title="Uzağa Gitmek">
         <p>
           Bir Afrika Atasözü:{" "}
           <q>

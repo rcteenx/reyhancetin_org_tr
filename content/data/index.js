@@ -33,9 +33,11 @@ export const barInfo = {
 };
 
 export const whatwegain = {
-  h2: "NEDEN TOPLANIYORUZ?",
+  h2: "KAYNAĞA YOLCULUK",
   p1: "Pandemi sürecinde ara verdiğimiz bilinç çalışmaları, sessizlikte gelişen spritüel farkındalıkla olgunlaştı.",
-  p2: 'Bu yeni anlayışı, ihtiyaç duyanlara ulaştırmak ve "BİZ"e yolculuğumuza devam etmek için çaba harcayan arkadaşlarla bir topluluğa dönüşüyoruz.',
+  p2: 'Bu yeni anlayışı, ihtiyaç duyanlara ulaştırmak ve "Kaynağa Yolculuğumuz"a devam etmek için çaba harcayan arkadaşlarla bir topluluğa dönüşüyoruz.',
+  h3: "Neden Çalışıyoruz?",
+  p3: "Kendi üzerimizdeki çalışmanın temel kazanımları:",
   items: [
     {
       title: "Bilinç",

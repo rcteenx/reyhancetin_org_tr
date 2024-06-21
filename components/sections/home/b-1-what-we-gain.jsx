@@ -20,8 +20,8 @@ export default function WhatWeGain({ img, gain }) {
             />
           </div>
           <div className="px-4">
-            <h3>Çalışma Ne Kazandırıyor?</h3>
-            <p>Kendi üzerimizdeki çalışmanın temel kazanımları:</p>
+            <h3>{gain.h3}</h3>
+            <p>{gain.p3}</p>
             <ul className="space-y-5">
               {gain.items.map((i, index) => (
                 <li key={index} className="flex gap-2">

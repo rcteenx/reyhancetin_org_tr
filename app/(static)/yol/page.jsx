@@ -82,12 +82,18 @@ export default function StaticPage() {
             <div className="p-4">
               <h3>{mekanikYollar.h3}</h3>
               <ul className="space-y-5">
-                {mekanikYollar.items.map((i, index) => (
+                {mekanikYollar.items.map((i, index, arr) => (
                   <li id={`mk${index}`} key={index} className="flex gap-2">
                     <SvgCheck />
                     <div>
                       <dt className="font-semibold text-lg">{i.title}</dt>
-                      <dd className="-ml-7 mt-2 pb-2 border-b border-gray-200">
+                      <dd
+                        className={`-ml-7 mt-2 pb-2 ${
+                          arr.length - 1 === index
+                            ? "xx"
+                            : index + " border-b border-gray-200"
+                        }`}
+                      >
                         {i.info}
                       </dd>
                     </div>

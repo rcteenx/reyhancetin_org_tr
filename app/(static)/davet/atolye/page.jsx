@@ -60,10 +60,19 @@ export default function StaticPage() {
           İçsel yolculuğumuza katılmak için kaydınızı şimdi yapın! Sınırlı
           kontenjanımız olduğunu unutmayın.
         </p>
-        <p>
-          Kayıt ve daha fazla bilgi için: 0 (544) 308 74 02 /
-          reyhancetin@yahoo.com
-        </p>
+        <p>Kayıt, daha fazla bilgi ve sorularınız için bize yazın.</p>
+        <ul className="my-4">
+          <li className="font-bold text-2xl text-green-600">WhatsApp</li>
+          <li class="mt-1 text-sm hover:text-white-400 ">
+            <a href="https://wa.me/905443087402?text=at%C3%B6lye%20hakk%C4%B1nda%20bilgi%20alabilir%20miyim%3F%0A">
+              0 (544) 308 74 02
+            </a>
+          </li>
+          <li className="font-bold text-2xl text-yellow-600 block">Email</li>
+          <li class="mt-1 text-sm hover:text-white-400 ">
+            <a href="mailto:rhan.cetinx@gmail.com">rhan.cetinx@gmail.com</a>
+          </li>
+        </ul>
       </section>
 
       <section className="px-4 pt-16 pb-4 max-w-4xl mx-auto text-center">

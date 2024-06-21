@@ -4,15 +4,15 @@ export const mekanikYollar = {
   h3: "Bilinç Ateşinden Önceki Yollar",
   items: [
     {
-      title: "Hayat Yolu: Bitkisel Oluş",
+      title: "Hayat Yolu: Bitkisel",
       info: "Bitkisel Oluş: Pek çok insan, saksı çiçeği gibi kendi kültürel şartları içinde bir tür hapis hayatı yaşar. Bu durumla ilgili genellikle büyük şikayetleri ya da arayışları yoktur.",
     },
     {
-      title: "Sorgulama & Arayış: Hayvani Faaliyet",
+      title: "Sorgulama & Arayış: Hayvani",
       info: "Bazıları, saksıda çiçek olmanın ötesini merak eder. Karanlıkta bir sorgulama dönemi başlar. Bulunduğu topraktan beslenemediğinde, hayatta kalmak için, bir hayvan gibi karanlığın içinde ve her yöne saldırmaya başlar. Felsefe, bu kutunun dışına çıkmanın başlangıcıdır.",
     },
     {
-      title: "Ezoterik Bilgi: İnsani Süreç",
+      title: "Ezoterik Bilgi: İnsani",
       info: "Sürüden ayrılıp arayışa çıkanların bir kısmı, ezoterik felsefi bilgilere yani saklı hazineye giden haritaya ulaşıyor. Ezoterik bilgiler, karanlık bir labirentte ilerlememize yardımcı olmak için teorik bilgi sağlar.",
     },
   ],
@@ -24,11 +24,11 @@ export const bilincliYollar = {
   h3: "Bilinç Ateşinden Sonraki Yollar",
   items: [
     {
-      title: "Bilinç Yolu: Güç, İrade & Yapabilme",
+      title: "Bilinç Yolu: Güç & İrade",
       info: "Küçük bir azınlığın, serbest dikkat ile kendimizi gözlemlemeye ve az da olsa mekanik süreçlere müdahale etmeye başlama aşaması. Hayat şartları içinde, kendi kendine ortaya çıkabileceği gibi, bir ekol çalışmasıyla da gelişebilir. Bilinçle oraya çıkan irade ve güç, farkındalıkla dengelenmezse olumsuz sonuçlar üretebilir.",
     },
     {
-      title: "Farkındalık Yolu: Olma Hali",
+      title: "Farkındalık Yolu: Oluş",
       info: "Saf farkındalık, tüm duyu, duygu ve düşüncelerin ötesinde asıl varlığımızın bulunduğu bir alan. Ancak bize yüklenen tanımlar ve programlar nedeniyle kendimizden oldukça uzakta yaşıyoruz.",
     },
     {

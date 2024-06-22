@@ -9,7 +9,8 @@ export default function StaticPage() {
     <>
       <HeaderTitle>Ezoterik Felsefeye Giriş Atölyesi</HeaderTitle>
       <HeaderImage bgImage="aMerhaba">Yol Bizi Bekliyor</HeaderImage>
-      <PageContent h2Title="Yolculuğa Davet: Bilinç Yolu">
+      <PageContent h2Title="Yolculuğa Davet">
+        <h3>Bilinç Yolu</h3>
         <p>
           Bilinçli içsel yolculuğumuz, kendimizi gözlemleyip bu gözlemlere bağlı
           olarak değiştirmekle başlar.

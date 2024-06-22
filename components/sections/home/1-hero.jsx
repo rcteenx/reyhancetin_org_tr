@@ -43,7 +43,9 @@ const Hero = ({ rVideo }) => {
             </a>
           </div>
           <a
-            href={"/" + StaticPages[2].link}
+            href={
+              "/" + StaticPages[2].link + "/" + StaticPages[2].pages[0].link
+            }
             className="btn-hero font-semibold text-lg border-0 hover:text-indigo-light-3"
           >
             <span>{contHero.btn2}</span>

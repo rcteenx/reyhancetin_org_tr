@@ -131,6 +131,7 @@ export default function StaticPage() {
             almaktayız. Ancak, internetin doğası gereği tamamen güvenli bir
             ortam sağlamanın mümkün olmadığını unutmamanız gerekir.
           </p>
+          <p>* Çerez politikası, ChatGPT desteği ile hazırlanmıştır.</p>
         </div>
       </PageContent>
     </>

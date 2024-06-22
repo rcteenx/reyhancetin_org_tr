@@ -81,7 +81,7 @@ export default function StaticPage() {
         <p>Kayıt, daha fazla bilgi ve sorularınız için bize yazın.</p>
         <ul className="mt-4 p-4 md:p-8 border-2 border-indigo-light-5 inline-block rounded-xl shadow-xl bg-indigo-light-3 text-indigo-dark-3">
           <li className="font-bold text-2xl text-green-600">WhatsApp</li>
-          <li class="text-sm hover:text-white-400 ">
+          <li className="text-sm hover:text-white-400 ">
             <a href="https://wa.me/905443087402?text=at%C3%B6lye%20hakk%C4%B1nda%20bilgi%20alabilir%20miyim%3F%0A">
               0 (544) 308 74 02
             </a>
@@ -89,7 +89,7 @@ export default function StaticPage() {
           <li className="mt-4 font-bold text-2xl text-yellow-600 block">
             Email
           </li>
-          <li class="text-sm hover:text-white-400 ">
+          <li className="text-sm hover:text-white-400 ">
             <a href="mailto:rhan.cetinx@gmail.com">rhan.cetinx@gmail.com</a>
           </li>
         </ul>

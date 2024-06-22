@@ -5,15 +5,15 @@ import { socialMedia } from "@/content/data";
 export default function SocialMedia() {
   return (
     <section className="mx-auto my-16 lg:my-24">
-      <div className="px-8">
-        <h2 className="border-b-2 inline-block">SOSYAL MEDYA</h2>
+      <div className="px-8 text-center">
+        <h2 className="mx-auto border-b-2 inline-block">SOSYAL MEDYA</h2>
 
-        <h3 className="text-center text-2xl lg:text-4xl">
+        <h3 className="text-2xl lg:text-4xl">
           İçsel yolculuğumuzu paylaşmak için "
           <span className="font-bold text-indigo-dark-5">sosyal medya</span>"
           dayız!
         </h3>
-        <h4 className="text-center mt-4 text-base md:text-xl text-indigo-light-5">
+        <h4 className="mt-4 text-base md:text-xl text-indigo-light-5">
           Karşılıklı etkileşim için sosyal medya sayfalarımıza bekliyoruz.
         </h4>
         <div className="grid grid-cols-2 gap-8 mt-8 max-w-4xl mx-auto px-8">

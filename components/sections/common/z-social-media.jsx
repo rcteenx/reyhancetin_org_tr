@@ -6,7 +6,7 @@ export default function SocialMedia() {
   return (
     <section className="mx-auto my-16 lg:my-24">
       <div className="px-8">
-        <h2>BİZE ULAŞIN</h2>
+        <h2 className="border-b-2 inline-block">SOSYAL MEDYA</h2>
 
         <h3 className="text-center text-2xl lg:text-4xl">
           İçsel yolculuğumuzu paylaşmak için "

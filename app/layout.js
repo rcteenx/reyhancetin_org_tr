@@ -2,6 +2,8 @@ import "./globals.css";
 
 import { Poppins } from "next/font/google";
 
+import GoogleAnalytics from "@/components/GoogleAnalytics";
+
 import smd from "@/content/data/siteMetaData";
 
 import Header from "@/components/ui/header";
@@ -26,6 +28,8 @@ export default function RootLayout({ children }) {
   return (
     <html lang={smd.language} className={`${base.variable} `}>
       <body>
+        <GoogleAnalytics />
+
         <Header />
         <main>{children}</main>
         <Footer />

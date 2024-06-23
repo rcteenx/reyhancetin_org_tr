@@ -27,7 +27,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang={smd.language} className={`${base.variable} `}>
-      <body>
+      <body className="relative">
         <GoogleAnalytics />
 
         <Header />

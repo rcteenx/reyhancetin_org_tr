@@ -6,7 +6,10 @@ export default function FooterQuote() {
     <div className="flex flex-col md:flex-row  justify-between items-end">
       <div className="flex items-center gap-2 mt-4">
         {socialMedia.map((icon) => (
-          <div className="flex justify-center items-center " key={icon.alt}>
+          <div
+            className="flex justify-center items-center hover:text-white-400"
+            key={icon.alt}
+          >
             <a href={icon.link} target="_blank" title={icon.title}>
               {icon.name}
             </a>

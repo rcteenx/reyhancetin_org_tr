@@ -6,7 +6,7 @@ import GoogleAnalytics from "@/components/GoogleAnalytics";
 
 import smd from "@/content/data/siteMetaData";
 
-import Header from "@/components/ui/header";
+import Header from "@/components/ui/Header";
 import Footer from "@/components/ui/footer/0-index";
 
 const base = Poppins({

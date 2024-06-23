@@ -9,7 +9,7 @@ import { StaticPages } from "@/content/data";
 import IconComponent from "@/components/ui/icons/icons";
 import { footerReyhan } from "@/public/assets/images";
 
-export default function HeaderStaticIndex() {
+export default function Header() {
   const [menuIcon, setIcon] = useState(false);
   const handleSmallerScreensNavigation = () => {
     setIcon(!menuIcon);
@@ -24,7 +24,7 @@ export default function HeaderStaticIndex() {
         id="platform"
         onClick={handleSmallerScreensNavigationClose}
         href="/"
-        className=""
+        className="gradientTransition"
       >
         <div className="w-10 md:w-16 xl:w-20">
           <img src={smd.siteLogo} alt={smd.title} className="p-0.5 " />
@@ -50,7 +50,7 @@ export default function HeaderStaticIndex() {
       </nav>
       <div
         onClick={handleSmallerScreensNavigation}
-        className="w-10 md:w-16 xl:w-20"
+        className=" gradientTransition"
       >
         {menuIcon ? (
           <IconComponent name="menuClose" size={24} color="FF0000" />
@@ -65,12 +65,12 @@ export default function HeaderStaticIndex() {
         }`}
       >
         {/* Smaller screen navbar */}
-        <div className="w-full py-24">
-          <ul className=" text-2xl text-center text-indigo-light-3">
+        <div className=" py-24">
+          <ul className="mx-auto w-24 text-2xl text-center text-indigo-light-3">
             {StaticPages.map((p) => (
               <li
                 key={p.id}
-                className={`py-2 hover:text-accent cursor-pointer`}
+                className={`py-2 hover:text-accent cursor-pointer border-b border-indigo-light-1`}
               >
                 <Link
                   onClick={handleSmallerScreensNavigation}
@@ -82,12 +82,12 @@ export default function HeaderStaticIndex() {
             ))}
           </ul>
           <div className="flex flex-col justify-center items-center mt-8 text-indigo-dark-3">
-            <a href="/">
+            <a href="/reyhan">
               <img
                 src={footerReyhan.src}
                 alt="reyhan çetin"
                 title="reyhan çetin"
-                className="m-0 p-2 h-28 w-28 border-2 border-indigo-light-1 rounded-full"
+                className="m-0 p-2 h-28 w-28 border-2 border-indigo-light-1 rounded-full gradientTransition"
               />
             </a>
             <h3 className="font-normal">Hoşgeldiniz</h3>

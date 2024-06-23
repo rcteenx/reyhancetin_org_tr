@@ -25,26 +25,14 @@ export default function StaticPage() {
           Bu süreç boyunca, kendimizi ve yolu kaybetmemek için her türlü destek
           iyi oluyor.
         </p>
-        <h3 className=" gradientIndigo rounded-xl p-2">Yol Arkadaşlığı</h3>
+        <h3>Yol Arkadaşlığı</h3>
         <p>
           Kendi yolumuz ortaya çıktığında, ikinci olarak birlikte yürüyeceğimiz
           kişilere ulaşmaya çalışırız. Bu web sitesi ve tüm diğer çalışmalar,
           size - yeni yol arkadaşları adaylarımıza - ulaşmak ve beraber devam
           edeceğimiz yolculuğa hazırlamak için.
         </p>
-        {/* <p>
-          Az gittik uz gittik. Dere tepe düz gittik. Bir de dönüp baktık ki bir
-          arpa boyu yol gitmişiz.
-        </p>
-        <p>
-          Uzun yıllar boyunca kendimize doğru çalışmalar yaptık, pek çoğunu da
-          modere ettik. Bir aşamada, tüm bu ilerlemenin bir arpa boyu olduğunu
-          görmek acı vericiydi.
-        </p>
-        <p>
-          Sonrasında, çalışma olmayan, başka bir çalışma ve yol ortaya çıktı.
-        </p> */}
-        <hr className="mb-4" />
+
         <h3 className=" gradientAccent rounded-xl p-2">Arkadaşlığa Katılım</h3>
         <p>
           Düzenli yol çalışmalarımıza dahil olmak için belirli konularda
@@ -62,7 +50,7 @@ export default function StaticPage() {
       </PageContent>
 
       <section className="bg-[#f7f7f7] px-4 py-8 md:py-12  text-center">
-        <h2 className="text-2xl md:text-4xl font-bold ">İŞTE HİKAYEMİZ</h2>
+        <h2 className="mx-auto border-b-2 inline-block">İŞTE HİKAYEMİZ</h2>
         <p>
           Hepimiz, saf farkındalığın kaynağı olan '<strong>öz benlik</strong>'
           sayesinde bedenli ve bilinçli bir varlık olarak ortaya çıktık.
@@ -71,16 +59,17 @@ export default function StaticPage() {
           Kendimizi tekrar fark ettiğimizde, yolculuğun çoktan başladığını
           gördük!
         </p>
-        <h3>NEREYE GİDİYORUZ?</h3>
-        <hr className=" max-w-sm mx-auto my-4" />
-        <h3>Tüm yolculuğumuz bir kaynağa dönüş hikayesi</h3>
-        <p>
-          Bedenin, duyguların, zihnin ötesine, önce bilince ve sonra da saf
-          farkındalığa geri dönüş
-        </p>
+        <div className="gradientAccent mx-auto mt-8 p-4 rounded-xl max-w-xl">
+          <h3 className="font-normal">Peki Nereye Gidiyoruz?</h3>
+          <p>Tüm yolculuğumuz bir kaynağa dönüş hikayesi</p>
+          <p>
+            Bedenin, duyguların, zihnin ötesine, önce bilince ve sonra da saf
+            farkındalığa geri dönüş
+          </p>
+        </div>
       </section>
       <section className="bg-indigo2 px-4 py-8 md:py-12  text-center text-white">
-        <h2 className="text-2xl md:text-4xl font-bold ">MİSYONUMUZ</h2>
+        <h2 className="mx-auto border-b-2 inline-block">MİSYONUMUZ</h2>
         <p>
           Kaynağa dönüş yolculuğumuzda öz benliklerimizin birbirine
           kavuşmasıdır.

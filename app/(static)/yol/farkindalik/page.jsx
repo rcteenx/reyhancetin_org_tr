@@ -12,39 +12,37 @@ export default function StaticPage() {
       <HeaderTitle>Farkındalık Yolu</HeaderTitle>
       <HeaderImage bgImage="yMerhaba">Bilincinin Farkında mısın?</HeaderImage>
       <PageContent h2Title="Bilincin Farkındalığı">
-        <div className="text-left">
-          <p>
-            Kendi bilincinizin, bir başka ifadeyle içinizde bir çeşit yapay zeka
-            ile donatılmış programların farkında mısınız?
-          </p>
-          <p>
-            Pek yakında, belki 3 yıl belki 20 yıl sonra, dijital yapay zeka
-            bizim bilinçli olduğumuz için yapabildiğimizi sandığımız pek çok
-            şeyi yapıyor olacak.
-          </p>
-          <p>Peki bu durumda, bilinciyle övünen insanlığın farkı ne?</p>
-          <h3>Bilincin Ötesinde</h3>
-          <p>
-            Kendimizi bilinç olarak tanımlamanın bir adım ötesine geçmemiz
-            gerekiyor - istemesek bile bu alanı dijital yapay zekalar yakında
-            dolduracak. Kendi bilincimize hayat veren, bilinci yaratan şey,
-            içimizdeki "saf farkındalık".
-          </p>
-          <h3>Saf Farkındalık</h3>
-          <p>
-            İç dünyanızda çalışan her türlü programın ve her türlü duyunun
-            ötesinde, karanlık bir boşluğun ortasında, kendimizi en saf
-            halimizle deneyimleyebiliriz.
-          </p>
-          <p>
-            Dünyaları yok eden ya da var eden güç, içimizdeki tanrı ya da
-            yaratıcı güç burada. Tüm bilincimizi çalıştıran ve dünyayı
-            anlamlandıran en temel şey bu saf farkındalık.
-          </p>
-        </div>
+        <p>
+          Kendi bilincinizin, bir başka ifadeyle içinizde bir çeşit yapay zeka
+          ile donatılmış programların farkında mısınız?
+        </p>
+        <p>
+          Pek yakında, belki 3 yıl belki 20 yıl sonra, dijital yapay zeka bizim
+          bilinçli olduğumuz için yapabildiğimizi sandığımız pek çok şeyi
+          yapıyor olacak.
+        </p>
+        <p>Peki bu durumda, bilinciyle övünen insanlığın farkı ne?</p>
+        <h3>Bilincin Ötesinde</h3>
+        <p>
+          Kendimizi bilinç olarak tanımlamanın bir adım ötesine geçmemiz
+          gerekiyor - istemesek bile bu alanı dijital yapay zekalar yakında
+          dolduracak. Kendi bilincimize hayat veren, bilinci yaratan şey,
+          içimizdeki "saf farkındalık".
+        </p>
+        <hr className="my-2" />
+        <h3>Saf Farkındalık</h3>
+        <p>
+          İç dünyanızda çalışan her türlü programın ve her türlü duyunun
+          ötesinde, karanlık bir boşluğun ortasında, kendimizi en saf halimizle
+          deneyimleyebiliriz.
+        </p>
+        <p>
+          Dünyaları yok eden ya da var eden güç, içimizdeki tanrı ya da yaratıcı
+          güç burada. Tüm bilincimizi çalıştıran ve dünyayı anlamlandıran en
+          temel şey bu saf farkındalık.
+        </p>
 
-        <hr className="mb-4" />
-        <h3>Nasıl Çalışıyoruz</h3>
+        <h3 className=" gradientAccent rounded-xl p-2">Nasıl Çalışıyoruz</h3>
         <p>
           Saf farkındalık yolu, bilincin belli bir aşamaya kadar gelişmesinden
           sonra yaptığımız bir çalışma. Kişinin az çok kendi içinde çalışan
@@ -69,7 +67,7 @@ export default function StaticPage() {
       </PageContent>
 
       <section className="bg-[#f7f7f7] px-4 py-8 md:py-12  text-center">
-        <h2 className="text-2xl md:text-4xl font-bold ">
+        <h2 className="mx-auto border-b-2 inline-block">
           FARKINDALIĞIN BAŞLANGICI
         </h2>
         <p>
@@ -81,25 +79,31 @@ export default function StaticPage() {
           Bilinen dünyanın ötesindeki bu boşluk, yolun sonu değil. Tam tersine,
           aslımıza dönüş yolculuğunun başlangıcı.
         </p>
-        <hr className=" max-w-sm mx-auto my-4" />
-        <h3>Birlik & Sevgi Yolu</h3>
-        <p>
-          Kendimizi, en saf halimizle uzun süre deneyimleyebilir ve bir anlamda
-          dış katmanlardaki yüklerimizden kurtulabilirsek, içimizdeki "ben"
-          hissiyle her şeyle bağlantıda olduğumuzu keşfedebiliriz. Böyle bir
-          durumda, diğer insanları kendimizden ayrı görmeyen doğal bir sevgi ve
-          hayret ile dolarız.
-        </p>
+        <div className="gradientAccent mx-auto mt-8 p-4 rounded-xl max-w-xl">
+          <h3>Birlik & Sevgi Yolu</h3>
+          <p>
+            Kendimizi, en saf halimizle uzun süre deneyimleyebilir ve bir
+            anlamda dış katmanlardaki yüklerimizden kurtulabilirsek, içimizdeki
+            "ben" hissiyle her şeyle bağlantıda olduğumuzu keşfedebiliriz. Böyle
+            bir durumda, diğer insanları kendimizden ayrı görmeyen doğal bir
+            sevgi ve hayret ile dolarız.
+          </p>
+        </div>
       </section>
       <section className="bg-indigo2 px-4 py-8 md:py-12  text-center text-white">
-        <h2 className="text-2xl md:text-4xl font-bold ">
-          BİRBİRİMİZE BAĞLIYIZ
-        </h2>
+        <h3 className="font-normal">BİRBİRİMİZE BAĞLIYIZ</h3>
         <p>
-          Reyhan Çetin'in içinde "BEN" diye algılanan saf farkındalık ile senin,
-          sokaktaki herhangi bir başka insanın, dalda öten kuşun ya da
-          miyavlayan kedinin içindeki "BEN" aynı: Ben Her yerdeyim Her şeyim!
+          Reyhan Çetin'in içinde "BEN" diye algılanan ile
+          <br />
+          senin, sokaktaki herhangi bir başka insanın,
+          <br />
+          dalda öten kuşun ya da miyavlayan kedinin
+          <br />
+          içindeki "BEN" aynı:
+          <br />
+          Ben her yerdeyim
         </p>
+        <h3 className="font-normal">Her şeyin içindeki "BEN"im!</h3>
       </section>
 
       <SubPages subPage={StaticPages[1]} id="2" />

@@ -14,12 +14,14 @@ export default function StaticPage() {
       <PageContent h2Title="Merhaba">
         <p>
           25 yıldır bilinç ve farkındalık çalışmaları yapıyor ve yönetiyorum.
-          Binlerce katılımcıya seminer verdim ve yüzlerce çalışmayı yönettim.
+          Binlerce katılımcıya seminer verdim. Yüzlerce arkadaşlar beraber
+          ilerledik.
         </p>
         <p>
-          Pandemi dönemi pek çok çalışmayı durdurmama sebep oldu. Sessizlik ve
-          uyku dönemi, kendim sandığım bilincin ötesine saf farkındalık ve
-          ötesine yeni kapılar açıldı.
+          Pandemi dönemi bilincin yolculuğunu aksattı ve sonra tamamen durdurdu.
+          Sessizlik ve vazgeçme dönemi, kendim sandığım bilincin ötesine yeni
+          açılımlara sebep oldu: Saf farkındalık, bütünlük ve sevgiye kapılar
+          açıldı.
         </p>
         <p>
           Şimdi kendimizi bulabileceğimiz ve kendimiz olabileceğimiz bir alan

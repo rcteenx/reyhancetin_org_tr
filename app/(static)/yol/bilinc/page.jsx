@@ -33,6 +33,7 @@ export default function StaticPage() {
           bir bilinç. Ancak, kendi kendisinin farkında değil. Dünyayı, kendi
           çerçevelediği kavramlar ve bakış açılarının içinden algılıyor.
         </p>
+        <hr className="my-2" />
         <h3>Kendini Gözlem</h3>
         <p>
           Olağan bilinç halinin ötesine geçebilmek için, kişinin kendi bilinç
@@ -50,8 +51,7 @@ export default function StaticPage() {
           Kendini gözlem ve dikkat çalışmaları, günlük olağan hayatımızda "şimdi
           ve burada" kalmamıza ve hayatımızı bilinçli yaşamaya destek oluyor.
         </p>
-        <hr className="mb-4" />
-        <h3>Nasıl Çalışıyoruz</h3>
+        <h3 className=" gradientAccent rounded-xl p-2">Nasıl Çalışıyoruz</h3>
         <p>
           Bilinç geliştirmek ve kendi bilincimizin farkında olmak için ezoterik
           bilgi, deneyim, meditasyon, günlük hayatın içinde dikkat pratikleri ve
@@ -66,7 +66,7 @@ export default function StaticPage() {
       </PageContent>
 
       <section className="bg-[#f7f7f7] px-4 py-8 md:py-12  text-center">
-        <h2 className="text-2xl md:text-4xl font-bold ">BİLİNCİN SINIRLARI</h2>
+        <h2 className="mx-auto border-b-2 inline-block">BİLİNCİN SINIRLARI</h2>
         <p>
           Bilincimiz telefonunuza yüklenmiş uygulamalardan farklı değil. Her
           biri kendi alanında mükemmele yakın işlemler yapıyor. Ancak, hepsi
@@ -74,16 +74,21 @@ export default function StaticPage() {
         </p>
         <p>
           Ne kadar iyi olursa olsun, bir programın ancak belli sınırlar içinde
-          doğru çalışabilir. Tüm bu uygulamaların ötesinde;
+          doğru çalışabilir.
         </p>
-        <h3>SEN KİMSİN ya da NE?</h3>
-        <hr className=" max-w-sm mx-auto my-4" />
-        <h3>İçimizde Çalışan Programların Farkında Olmak</h3>
-        <p>
-          Bilinç ya da 'yapay zeka' diyebileceğimiz, içimizde çalışan
-          programların ötesinde bir varlığımız daha var. Bilinç yolu bir aşamaya
-          geldiğinde, bilincin ötesinde, farkındalık yolu başlıyor.
-        </p>
+        <p>Tüm bu uygulamaların ötesinde, kendinize şunu sorun:</p>
+        <div className="gradientAccent mx-auto mt-8 p-4 rounded-xl max-w-xl">
+          <h3 className="font-normal">SEN KİMSİN ya da NE?</h3>
+          <h4>İçimizde Çalışan Programların Farkında Olmak</h4>
+          <p>
+            Bilinç ya da 'yapay zeka' diyebileceğimiz, içimizde çalışan
+            programların ötesinde, madde ötesi bir varlığımız daha var.
+          </p>
+          <p>
+            Bilinç yolu bir aşamaya geldiğinde, bilincin ötesinde, farkındalık
+            yolu başlıyor.
+          </p>
+        </div>
       </section>
       <section className="bg-indigo2 px-4 py-8 md:py-12  text-center text-white">
         <h2 className="text-2xl md:text-4xl font-bold ">SERBEST DİKKAT</h2>

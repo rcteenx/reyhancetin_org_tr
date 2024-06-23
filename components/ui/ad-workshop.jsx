@@ -2,7 +2,7 @@ import { StaticPages } from "@/content/data";
 
 export default function AdWorkshop() {
   return (
-    <div className="border border-indigo/80 rounded-xl py-4 px-8">
+    <div className="border border-indigo/80 rounded-xl py-4 px-8 text-center">
       <h4 className="">
         <a
           href={"/" + StaticPages[2].link + "/" + StaticPages[2].pages[0].link}

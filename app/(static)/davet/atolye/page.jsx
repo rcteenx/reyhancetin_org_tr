@@ -8,8 +8,8 @@ export default function StaticPage() {
   return (
     <>
       <HeaderTitle>Ezoterik Felsefeye Giriş Atölyesi</HeaderTitle>
-      <HeaderImage bgImage="aMerhaba">Yol Bizi Bekliyor</HeaderImage>
-      <PageContent h2Title="Yolculuğa Davet">
+      <HeaderImage bgImage="aMerhaba">Bilinç Çalışmaları</HeaderImage>
+      <PageContent h2Title="Temel Bilinç Atölyesi">
         <h3>Bilinç Yolu</h3>
         <p>
           Bilinçli içsel yolculuğumuz, kendimizi gözlemleyip bu gözlemlere bağlı

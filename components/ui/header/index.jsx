@@ -19,7 +19,6 @@ export default function HeaderStaticIndex() {
   };
   const menu = StaticPages.filter((m) => m.id < 4);
   return (
-    // md:justify-between
     <header className="mx-auto md:container px-4 lg:px-0 py-2 flex items-center justify-between">
       <Link
         id="platform"
@@ -61,13 +60,13 @@ export default function HeaderStaticIndex() {
       </div>
       {/*  */}
       <div
-        className={`absolute right-0 bottom-0 flex justify-center items-start w-full gradientIndigo border-t-4 ease-in duration-300 z-50  ${
+        className={`absolute right-0 bottom-[760px] md:bottom-72 flex justify-center items-start w-full gradientIndigo border-t-4 ease-in duration-300 z-30  ${
           menuIcon ? "top-24 left-0" : "top-12 left-[-100%]"
         }`}
       >
         {/* Smaller screen navbar */}
         <div className="w-full py-24">
-          <ul className=" text-2xl text-center">
+          <ul className=" text-2xl text-center text-indigo-light-3">
             {StaticPages.map((p) => (
               <li
                 key={p.id}
@@ -82,7 +81,7 @@ export default function HeaderStaticIndex() {
               </li>
             ))}
           </ul>
-          <div className="flex flex-col justify-center items-center mt-8">
+          <div className="flex flex-col justify-center items-center mt-8 text-indigo-dark-3">
             <a href="/">
               <img
                 src={footerReyhan.src}
@@ -91,7 +90,7 @@ export default function HeaderStaticIndex() {
                 className="m-0 p-2 h-28 w-28 border-2 border-indigo-light-1 rounded-full"
               />
             </a>
-            <h3 className="font-thin">Hoşgeldiniz</h3>
+            <h3 className="font-normal">Hoşgeldiniz</h3>
             <p>Sizin için ne yapabiliriz?</p>
           </div>
         </div>

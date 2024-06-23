@@ -3,10 +3,10 @@ import FooterInfo from "@/components/ui/footer/1-Info";
 
 const FooterLinks = () => {
   return (
-    <div className="flex flex-col md:flex-row justify-between md:items-start flex-1 gap-8">
+    <div className="flex flex-col md:flex-row mt-8 justify-between md:items-start flex-1 gap-4">
       {StaticPages.map((pg) => (
         <div key={pg.title}>
-          <h4 className="mb-2 text-lg leading-normal font-medium md:border-b border-indigo-light-5 hover:text-white-400">
+          <h4 className="mb-2 text-lg leading-normal font-medium md:border-b hover:text-white-400">
             <a href={"/" + pg.link}>{pg.title}</a>
           </h4>
           <ul>

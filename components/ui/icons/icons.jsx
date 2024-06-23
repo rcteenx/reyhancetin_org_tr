@@ -17,6 +17,8 @@ import {
   FaAlignLeft,
 } from "react-icons/fa";
 
+import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
+
 const iconTypes = {
   facebook: FaFacebook,
   instagram: FaInstagram,
@@ -34,6 +36,8 @@ const iconTypes = {
   mobilealt: FaMobileAlt,
   rev: FaRev,
   alignleft: FaAlignLeft,
+  menu: AiOutlineMenu,
+  menuClose: AiOutlineClose,
 };
 
 const IconComponent = ({ name, ...props }) => {

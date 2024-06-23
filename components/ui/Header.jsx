@@ -60,7 +60,7 @@ export default function Header() {
       </div>
       {/*  */}
       <div
-        className={`absolute right-0 bottom-[760px] md:bottom-72 flex justify-center items-start w-full gradientIndigo border-t-4 ease-in duration-300 z-30  ${
+        className={`absolute right-0 bottom-[720px] md:bottom-[320px] flex justify-center items-start w-full gradientIndigo border-t-4 ease-in duration-300 z-30  ${
           menuIcon ? "top-24 left-0" : "top-12 left-[-100%]"
         }`}
       >

@@ -5,8 +5,8 @@ const FooterLinks = () => {
   return (
     <div className="flex flex-col md:flex-row mt-8 justify-between md:items-start flex-1 gap-4">
       {StaticPages.map((pg) => (
-        <div key={pg.title}>
-          <h4 className="mb-2 text-lg leading-normal font-medium md:border-b hover:text-white-400">
+        <div key={pg.title} className="">
+          <h4 className="inline-block  text-lg leading-normal font-medium border-b border-indigo-dark-3 hover:text-indigo-dark-3 ">
             <a href={"/" + pg.link}>{pg.title}</a>
           </h4>
           <ul>

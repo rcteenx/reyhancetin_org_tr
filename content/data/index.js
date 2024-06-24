@@ -230,7 +230,24 @@ export const StaticPages = [
     ],
   },
   {
-    id: 4,
+    id: 6,
+    title: "Sohbet",
+    link: "sohbet",
+    pages: [
+      {
+        id: 1,
+        title: "Sohbet Kategorileri",
+        link: "konu",
+      },
+      {
+        id: 1,
+        title: "Sohbet Etiketleri",
+        link: "etiket",
+      },
+    ],
+  },
+  {
+    id: 9,
     title: "İletişim",
     link: "iletisim",
     pages: [

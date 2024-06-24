@@ -18,6 +18,7 @@ export default function Header() {
     setIcon(false);
   };
   const menu = StaticPages.filter((m) => m.id < 4);
+  const menu2 = StaticPages.filter((m) => m.id > 3);
   return (
     <header className="mx-auto md:container px-4 lg:px-0 py-2 flex items-center justify-between">
       <Link
@@ -64,7 +65,7 @@ export default function Header() {
         {/* Smaller screen navbar */}
         <div className=" py-24">
           <ul className="mx-auto w-24 text-2xl text-center text-indigo-light-3">
-            {StaticPages.map((p) => (
+            {menu2.map((p) => (
               <li
                 key={p.id}
                 className={`py-2 hover:text-accent cursor-pointer border-b border-indigo-light-1`}

@@ -24,10 +24,10 @@ export default function Header() {
         id="platform"
         onClick={handleSmallerScreensNavigationClose}
         href="/"
-        className="gradientTransition"
+        className="gradientTransition z-50"
       >
         <div className="w-10 md:w-16 xl:w-20">
-          <img src={smd.siteLogo} alt={smd.title} className="p-0.5 " />
+          <img src={smd.siteLogo} alt={smd.title} className="p-0.5" />
         </div>
       </Link>
       <nav className="fixed py-1 my-1 md:my-4 px-6 border border-solid border-dark rounded-full font-extralight text-sm md:text-base bg-white bg-opacity-40 top-2 right-1/2 translate-x-1/2 bg-light/60 backdrop-blur-sm z-50">
@@ -48,10 +48,7 @@ export default function Header() {
           ))}
         </ul>
       </nav>
-      <div
-        onClick={handleSmallerScreensNavigation}
-        className=" gradientTransition"
-      >
+      <div onClick={handleSmallerScreensNavigation} className=" z-50">
         {menuIcon ? (
           <IconComponent name="menuClose" size={24} color="FF0000" />
         ) : (
@@ -60,8 +57,8 @@ export default function Header() {
       </div>
       {/*  */}
       <div
-        className={`absolute right-0 bottom-[720px] md:bottom-[320px] flex justify-center items-start w-full gradientIndigo border-t-4 ease-in duration-300 z-30  ${
-          menuIcon ? "top-24 left-0" : "top-12 left-[-100%]"
+        className={` inset-0 flex justify-center items-start w-full gradientIndigo ease-out duration-300 z-30 overflow-ellipsis ${
+          menuIcon ? "left-0 fixed" : "absolute left-[-100%]"
         }`}
       >
         {/* Smaller screen navbar */}

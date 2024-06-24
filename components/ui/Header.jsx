@@ -48,7 +48,7 @@ export default function Header() {
           ))}
         </ul>
       </nav>
-      <div onClick={handleSmallerScreensNavigation} className=" z-50">
+      <div onClick={handleSmallerScreensNavigation} className="z-50">
         {menuIcon ? (
           <IconComponent name="menuClose" size={24} color="FF0000" />
         ) : (
@@ -57,7 +57,7 @@ export default function Header() {
       </div>
       {/*  */}
       <div
-        className={` inset-0 flex justify-center items-start w-full gradientIndigo ease-out duration-300 z-30 overflow-ellipsis ${
+        className={` inset-0 flex justify-center items-center w-full gradientIndigo ease-out duration-300 z-30 overflow-ellipsis ${
           menuIcon ? "left-0 fixed" : "absolute left-[-100%]"
         }`}
       >

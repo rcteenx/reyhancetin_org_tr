@@ -59,7 +59,7 @@ export default function Header() {
       {/*  */}
       <div
         className={` inset-0 flex justify-center items-center w-full gradientIndigo ease-out duration-300 z-30 overflow-ellipsis ${
-          menuIcon ? "left-0 fixed" : "absolute left-[-100%]"
+          menuIcon ? "left-0 fixed" : "absolute left-[-100%] "
         }`}
       >
         {/* Smaller screen navbar */}

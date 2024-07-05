@@ -35,43 +35,40 @@ export default function StaticPage() {
               method="post"
               id="mc-embedded-subscribe-form"
               name="mc-embedded-subscribe-form"
-              class="validate"
               target="_self"
-              novalidate=""
             >
               <div id="mc_embed_signup_scroll">
                 <h3>Mail Listemize Üye Olun</h3>
 
-                <div class="sm:flex items-center">
+                <div className="sm:flex  justify-center items-center">
                   <input
                     type="email"
                     name="EMAIL"
                     id="mce-EMAIL"
                     required="required"
-                    placeholder="Enter your email"
+                    placeholder="Email adresiniz"
                     aria-label="Email address"
-                    class="w-full px-5 py-3 text-base leading-6 transition duration-150 ease-in-out border-2 rounded-md appearance-none focus:outline-none sm:max-w-xs border-gray-200 text-gray-900 placeholder-gray-500 focus:placeholder-gray-400 bg-white"
+                    className="w-full px-4 py-2 text-base leading-6 transition duration-150 ease-in-out border-2 rounded-md appearance-none focus:outline-none sm:max-w-xs border-gray-200 placeholder-gray-500 text-indigo  focus:placeholder-gray-400 bg-white"
                   />
-                  <div class="mt-3 sm:mt-0 sm:ml-3 sm:flex-shrink-0">
+                  <div className="mt-3 sm:mt-0 sm:ml-3 sm:flex-shrink-0">
                     <input
                       type="submit"
                       name="subscribe"
                       id="mc-embedded-subscribe"
                       value="Subscribe"
-                      class="block px-5 py-3 text-white transition duration-100 ease-in-out bg-blue-500 border border-transparent rounded shadow-sm hover:bg-blue-600 focus:border-blue-500 focus:ring-2 focus:ring-blue-500 focus:outline-none focus:ring-opacity-50 disabled:opacity-50 disabled:cursor-not-allowed"
+                      className="block px-4 py-2 text-white/80 transition duration-100 ease-in-out bg-indigo border border-transparent rounded shadow-sm gradientIndigo focus:border-indigo focus:ring-2 focus:ring-indigo focus:outline-none focus:ring-opacity-50"
                     ></input>
                   </div>
                 </div>
               </div>
             </form>
-            <p class="mt-3 text-sm leading-5 text-gray-500">
+            <p className="mt-3 text-sm leading-5 text-gray-500 hidden">
               <a
                 href="http://eepurl.com/iTflO-"
                 title="Mailchimp - email marketing made easy and fun"
               >
                 <span>
                   <img
-                    class="refferal_badge"
                     src="https://digitalasset.intuit.com/render/content/dam/intuit/mc-fe/en_us/images/intuit-mc-rewards-text-dark.svg"
                     alt="Intuit Mailchimp"
                     className="w-48"

@@ -240,7 +240,7 @@ export const StaticPages = [
         link: "konu",
       },
       {
-        id: 1,
+        id: 2,
         title: "Sohbet Etiketleri",
         link: "etiket",
       },

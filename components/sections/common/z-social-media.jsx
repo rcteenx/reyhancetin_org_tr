@@ -1,4 +1,4 @@
-import IconComponent from "@/components/ui/icons/icons";
+import IconComponent from "@/components/ui/IconComponent";
 
 import { socialMedia } from "@/content/data";
 

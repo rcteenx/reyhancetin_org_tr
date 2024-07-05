@@ -1,6 +1,4 @@
 import { footerReyhan } from "@/public/assets/images";
-import { socialMedia } from "@/content/data";
-import IconComponent from "@/components/ui/icons/icons";
 
 const FooterInfo = () => {
   return (

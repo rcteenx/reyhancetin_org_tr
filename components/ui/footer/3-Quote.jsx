@@ -1,5 +1,5 @@
 import { socialMedia } from "@/content/data";
-import IconComponent from "@/components/ui/icons/icons";
+import IconComponent from "@/components/ui/IconComponent";
 
 export default function FooterQuote() {
   return (

@@ -1,6 +1,6 @@
 import { contHero, StaticPages } from "@/content/data";
 
-import IconComponent from "@/components/ui/icons/icons";
+import IconComponent from "@/components/ui/IconComponent";
 const Hero = ({ rVideo }) => {
   return (
     <section

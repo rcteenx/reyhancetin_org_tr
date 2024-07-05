@@ -6,7 +6,7 @@ import Link from "next/link";
 import smd from "@/content/data/siteMetaData";
 import { StaticPages } from "@/content/data";
 
-import IconComponent from "@/components/ui/icons/icons";
+import IconComponent from "@/components/ui/IconComponent";
 import { footerReyhan } from "@/public/assets/images";
 
 export default function Header() {
